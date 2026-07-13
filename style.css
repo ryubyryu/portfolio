@@ -158,6 +158,41 @@ body {
   padding: 1.5rem;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  max-width: 480px;
+  margin-top: 1.5rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-top: 0.6rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--text-color);
+  padding: 0.6rem 0.8rem;
+  font: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 1px;
+}
+
+.contact-form button {
+  align-self: flex-start;
+  margin-top: 1rem;
+  border: none;
+}
+
 .site-footer {
   text-align: center;
   padding: 2rem 1.5rem;
