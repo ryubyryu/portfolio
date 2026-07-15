@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getWorks, categories } from "@/lib/works";
+import { getCategories, getWorks } from "@/lib/works";
 import WorksGrid from "@/components/works-grid";
 
 export const metadata: Metadata = {
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 export default async function WorksPage() {
-  const works = await getWorks();
+  const [works, categories] = await Promise.all([getWorks(), getCategories()]);
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-16 sm:px-8">

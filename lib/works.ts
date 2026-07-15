@@ -1,3 +1,5 @@
+import { supabase } from "@/lib/supabase";
+
 export type Work = {
   slug: string;
   title: string;
@@ -7,11 +9,41 @@ export type Work = {
   client?: string;
   summary: string;
   description: string[];
+  coverImage?: string;
+  images?: string[];
 };
 
-// TODO: 실제 프로젝트로 교체. 추후 이 파일의 함수들을 Supabase 쿼리로 바꿔도
-// 반환 형태(Work[] / Work | undefined)는 그대로 유지되도록 설계했습니다.
-const works: Work[] = [
+type WorkRow = {
+  slug: string;
+  title: string;
+  category: string;
+  year: number;
+  role: string;
+  client: string | null;
+  summary: string;
+  description: string[];
+  cover_image: string | null;
+  images: string[];
+};
+
+function fromRow(row: WorkRow): Work {
+  return {
+    slug: row.slug,
+    title: row.title,
+    category: row.category,
+    year: row.year,
+    role: row.role,
+    client: row.client ?? undefined,
+    summary: row.summary,
+    description: row.description,
+    coverImage: row.cover_image ?? undefined,
+    images: row.images,
+  };
+}
+
+// Supabase 환경변수가 없을 때(로컬 개발 초기 등) 화면이 비지 않도록 쓰는
+// 목데이터. supabase/seed.sql과 내용을 맞춰뒀습니다.
+const fallbackWorks: Work[] = [
   {
     slug: "quiet-mark",
     title: "Quiet Mark",
@@ -86,16 +118,38 @@ const works: Work[] = [
   },
 ];
 
-export const categories = Array.from(
-  new Set(works.map((work) => work.category))
-).sort();
-
 export async function getWorks(): Promise<Work[]> {
-  return [...works].sort((a, b) => b.year - a.year);
+  if (!supabase) {
+    return [...fallbackWorks].sort((a, b) => b.year - a.year);
+  }
+
+  const { data, error } = await supabase
+    .from("works")
+    .select(
+      "slug, title, category, year, role, client, summary, description, cover_image, images"
+    )
+    .order("year", { ascending: false })
+    .order("sort_order", { ascending: true });
+
+  if (error) throw error;
+  return (data as WorkRow[]).map(fromRow);
 }
 
 export async function getWorkBySlug(slug: string): Promise<Work | undefined> {
-  return works.find((work) => work.slug === slug);
+  if (!supabase) {
+    return fallbackWorks.find((work) => work.slug === slug);
+  }
+
+  const { data, error } = await supabase
+    .from("works")
+    .select(
+      "slug, title, category, year, role, client, summary, description, cover_image, images"
+    )
+    .eq("slug", slug)
+    .maybeSingle();
+
+  if (error) throw error;
+  return data ? fromRow(data as WorkRow) : undefined;
 }
 
 export async function getAdjacentWorks(slug: string) {
@@ -105,4 +159,9 @@ export async function getAdjacentWorks(slug: string) {
     prev: index > 0 ? ordered[index - 1] : undefined,
     next: index >= 0 && index < ordered.length - 1 ? ordered[index + 1] : undefined,
   };
+}
+
+export async function getCategories(): Promise<string[]> {
+  const works = await getWorks();
+  return Array.from(new Set(works.map((work) => work.category))).sort();
 }
