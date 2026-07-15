@@ -18,10 +18,10 @@ const notoSansKr = Noto_Sans_KR({
 
 export const metadata: Metadata = {
   title: {
-    default: "Portfolio",
-    template: "%s · Portfolio",
+    default: "JEWON RYU",
+    template: "%s · JEWON RYU",
   },
-  description: "디자인 및 개발 포트폴리오",
+  description: "JEWON RYU — Brand Marketer / Content Director",
 };
 
 export default function RootLayout({
