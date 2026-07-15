@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f7f5f0;
+  --ink: #17181c;
+  --ink-soft: #3d3e42;
+  --indigo: #33415c;
+  --indigo-soft: #5a6a87;
+  --stone: #8a8579;
+  --line: #ddd8cc;
+  --card: #fffffe;
+  --tag-bg: #efebe1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #14151a;
+    --ink: #edebe3;
+    --ink-soft: #b7b4aa;
+    --indigo: #8ca0c8;
+    --indigo-soft: #6b7ea3;
+    --stone: #9b9587;
+    --line: #2c2e36;
+    --card: #1b1c22;
+    --tag-bg: #22242c;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-indigo: var(--indigo);
+  --color-indigo-soft: var(--indigo-soft);
+  --color-stone: var(--stone);
+  --color-line: var(--line);
+  --color-card: var(--card);
+  --color-tag-bg: var(--tag-bg);
+
+  --font-display: var(--font-noto-serif-kr), Georgia, "Iowan Old Style", serif;
+  --font-body: var(--font-noto-sans-kr), -apple-system, BlinkMacSystemFont,
+    "Malgun Gothic", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
