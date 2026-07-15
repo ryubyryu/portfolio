@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getWorks } from "@/lib/works";
 import { siteConfig } from "@/lib/site-config";
 import HeroBackground from "@/components/hero-background";
+import HeroNav from "@/components/hero-nav";
 
 export default async function Home() {
   const works = await getWorks();
@@ -11,29 +12,7 @@ export default async function Home() {
       <HeroBackground />
 
       <div className="relative flex min-h-screen flex-col justify-between px-6 py-6 sm:px-10 sm:py-8">
-        <div className="flex items-start justify-between">
-          <span className="font-display text-lg font-bold tracking-wide text-white">
-            {siteConfig.name}
-          </span>
-
-          <nav className="grid grid-cols-[auto_auto] gap-x-10 gap-y-1.5 text-sm text-white/90">
-            <Link href="/works" className="col-start-1 row-start-1 transition-colors hover:text-white">
-              Works
-            </Link>
-            <Link
-              href="/contact"
-              className="col-start-2 row-start-1 justify-self-end transition-colors hover:text-white"
-            >
-              Contact
-            </Link>
-            <Link href="/projects" className="col-start-1 row-start-2 transition-colors hover:text-white">
-              Projects
-            </Link>
-            <Link href="/about" className="col-start-1 row-start-3 transition-colors hover:text-white">
-              About
-            </Link>
-          </nav>
-        </div>
+        <HeroNav name={siteConfig.name} />
 
         <div className="max-w-sm text-sm leading-relaxed text-white/85">
           {works.map((work) => (
