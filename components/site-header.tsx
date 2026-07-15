@@ -7,7 +7,7 @@ export default function SiteHeader() {
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-5 sm:px-8">
         <Link
           href="/"
-          className="font-display text-lg tracking-tight text-ink"
+          className="font-display text-lg tracking-wide text-ink"
         >
           {siteConfig.name}
         </Link>

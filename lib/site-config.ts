@@ -1,11 +1,10 @@
 export const siteConfig = {
-  name: "Your Name",
-  role: "Designer / Developer",
+  name: "JEWON RYU",
+  role: "Brand Marketer / Content Director",
   tagline: "만든 것과 만드는 과정을 기록합니다.",
-  email: "hello@example.com",
+  email: "ryubyryu@naver.com",
   social: [
-    { label: "Instagram", href: "https://instagram.com/" },
-    { label: "GitHub", href: "https://github.com/" },
+    { label: "Instagram", href: "https://www.instagram.com/ryutsby/" },
   ],
   nav: [
     { label: "Works", href: "/works" },
