@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import { Noto_Serif_KR, Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
-import SiteHeader from "@/components/site-header";
 import SiteFooter from "@/components/site-footer";
 
 const notoSerifKr = Noto_Serif_KR({
   variable: "--font-noto-serif-kr",
   subsets: ["latin"],
-  weight: ["400", "500"],
+  weight: ["400", "500", "700"],
 });
 
 const notoSansKr = Noto_Sans_KR({
@@ -35,8 +34,7 @@ export default function RootLayout({
       className={`${notoSerifKr.variable} ${notoSansKr.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-paper text-ink font-body">
-        <SiteHeader />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 flex flex-col">{children}</main>
         <SiteFooter />
       </body>
     </html>
