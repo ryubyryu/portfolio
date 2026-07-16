@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Serif_KR, Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
-import SiteFooter from "@/components/site-footer";
 
 const notoSerifKr = Noto_Serif_KR({
   variable: "--font-noto-serif-kr",
@@ -35,7 +34,6 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-paper text-ink font-body">
         <main className="flex-1 flex flex-col">{children}</main>
-        <SiteFooter />
       </body>
     </html>
   );
