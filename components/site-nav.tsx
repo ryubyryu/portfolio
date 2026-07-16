@@ -34,7 +34,7 @@ export default function SiteNav({
       <div className="relative z-50 flex items-start justify-between">
         <Link
           href="/"
-          className={`font-display text-lg font-bold tracking-wide transition-colors ${wordmarkColor}`}
+          className={`font-body text-lg font-bold transition-colors ${wordmarkColor}`}
         >
           {name}
         </Link>
