@@ -5,45 +5,47 @@ export const metadata: Metadata = {
   title: "Contact",
 };
 
+const channels = [
+  {
+    label: "Email",
+    value: siteConfig.email,
+    href: `mailto:${siteConfig.email}`,
+  },
+  ...siteConfig.social.map((item) => ({
+    label: item.label,
+    value: item.href,
+    href: item.href,
+  })),
+];
+
 export default function ContactPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-16 sm:px-8">
-      <h1 className="mb-8 font-display text-3xl text-ink">Contact</h1>
-      <p className="mb-10 max-w-[65ch] text-lg leading-relaxed text-ink-soft">
-        새로운 작업 제안이나 협업 문의는 아래 채널로 연락 주세요.
-      </p>
+    <div className="px-6 py-16 sm:px-10 sm:py-20">
+      <section className="max-w-4xl">
+        <h1 className="mb-8 font-body text-lg font-bold text-ink">Contact</h1>
 
-      <ul className="space-y-4 border-t border-line pt-8">
-        <li className="flex items-baseline justify-between border-b border-line pb-4">
-          <span className="font-mono text-xs uppercase tracking-widest text-stone">
-            Email
-          </span>
-          <a
-            href={`mailto:${siteConfig.email}`}
-            className="text-ink hover:text-indigo"
-          >
-            {siteConfig.email}
-          </a>
-        </li>
-        {siteConfig.social.map((item) => (
-          <li
-            key={item.href}
-            className="flex items-baseline justify-between border-b border-line pb-4"
-          >
-            <span className="font-mono text-xs uppercase tracking-widest text-stone">
-              {item.label}
-            </span>
-            <a
-              href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-ink hover:text-indigo"
-            >
-              {item.href}
-            </a>
-          </li>
-        ))}
-      </ul>
+        <ul className="space-y-2 text-xs tracking-tight">
+          {channels.map((item) => (
+            <li key={item.label} className="flex items-baseline gap-x-3">
+              <span className="w-16 shrink-0 font-mono text-stone">
+                {item.label}
+              </span>
+              <a
+                href={item.href}
+                target={item.href.startsWith("http") ? "_blank" : undefined}
+                rel={
+                  item.href.startsWith("http")
+                    ? "noopener noreferrer"
+                    : undefined
+                }
+                className="flex-1 text-ink-soft underline decoration-transparent underline-offset-2 transition-colors hover:text-ink hover:decoration-current"
+              >
+                {item.value}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 }
