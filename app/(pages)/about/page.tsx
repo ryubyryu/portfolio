@@ -42,16 +42,18 @@ const awards = [
 
 export default function AboutPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-16 sm:px-8">
-      <section>
+    <div className="px-6 py-16 sm:px-10 sm:py-20">
+      <section className="max-w-xl">
         <p className="mb-2 font-mono text-xs uppercase tracking-widest text-stone">
           {siteConfig.role}
         </p>
-        <h1 className="mb-8 font-display text-3xl text-ink">{siteConfig.name}</h1>
+        <h1 className="mb-8 font-body text-2xl font-bold text-ink">
+          {siteConfig.name}
+        </h1>
 
-        <ul className="space-y-3">
+        <ul className="space-y-2 tracking-tight">
           {career.map((item) => (
-            <li key={item.title} className="flex items-baseline gap-x-4">
+            <li key={item.title} className="flex items-baseline gap-x-3">
               <span className="w-20 shrink-0 font-mono text-xs text-stone">
                 {item.period}
               </span>
@@ -60,16 +62,16 @@ export default function AboutPage() {
           ))}
         </ul>
 
-        <p className="mt-6 text-ink-soft">서울 기반으로 활동 중.</p>
+        <p className="mt-6 tracking-tight text-ink-soft">서울 기반으로 활동 중.</p>
       </section>
 
-      <section className="mt-14 border-t border-line pt-10">
+      <section className="mt-14 max-w-xl border-t border-line pt-10">
         <h2 className="mb-5 font-mono text-xs uppercase tracking-widest text-stone">
           Awards
         </h2>
-        <ul className="space-y-3">
+        <ul className="space-y-2 tracking-tight">
           {awards.map((item, i) => (
-            <li key={i} className="flex items-baseline gap-x-4">
+            <li key={i} className="flex items-baseline gap-x-3">
               <span className="w-20 shrink-0 font-mono text-xs text-stone">
                 {item.period}
               </span>
