@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getWorks } from "@/lib/works";
 import { siteConfig } from "@/lib/site-config";
 import HeroBackground from "@/components/hero-background";
-import HeroNav from "@/components/hero-nav";
+import SiteNav from "@/components/site-nav";
 
 export default async function Home() {
   const works = await getWorks();
@@ -12,7 +12,7 @@ export default async function Home() {
       <HeroBackground />
 
       <div className="relative flex min-h-screen flex-col justify-between px-6 py-6 sm:px-10 sm:py-8">
-        <HeroNav name={siteConfig.name} />
+        <SiteNav name={siteConfig.name} theme="dark" />
 
         <div className="max-w-sm text-sm leading-relaxed text-white/85">
           {works.map((work) => (
