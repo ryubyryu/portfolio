@@ -29,7 +29,7 @@ const awards = [
   },
   {
     period: "2023",
-    title: "앤어워드 Grand Prix & Winner — 카카오 기업PR 캠페인〈1㎠ 속 보이지 않는 카카오의 노력〉",
+    title: "앤어워드 Grand Prix & Winner — 카카오 〈1㎠ 속 보이지 않는 카카오의 노력〉 기업PR 캠페인",
   },
   {
     period: "2022",
