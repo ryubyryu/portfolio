@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 const career = [
   {
     period: "2016",
-    title: "일본 규슈 아사히 방송 주식회사(KBC)〈TV 제작팀〉인턴",
+    title: "일본 규슈 아사히 방송 주식회사〈TV 제작팀〉인턴",
   },
   { period: "2019", title: "광고 프로덕션〈파파가 준 카메라〉프로듀서" },
   { period: "2021", title: "광고 프로덕션〈꾸욱꾸욱〉프로듀서" },
@@ -43,7 +43,7 @@ export default function AboutPage() {
   return (
     <div className="px-6 py-16 sm:px-10 sm:py-20">
       <section className="max-w-4xl">
-        <h1 className="mb-8 font-body text-2xl font-bold text-ink">류제원</h1>
+        <h1 className="mb-8 font-body text-xl font-bold text-ink">류제원</h1>
 
         <ul className="space-y-2 tracking-tight">
           {career.map((item) => (
@@ -51,13 +51,13 @@ export default function AboutPage() {
               <span className="w-20 shrink-0 font-mono text-xs text-stone">
                 {item.period}
               </span>
-              <span className="flex-1 text-lg text-ink">{item.title}</span>
+              <span className="flex-1 text-ink">{item.title}</span>
             </li>
           ))}
         </ul>
       </section>
 
-      <section className="mt-14 max-w-4xl border-t border-line pt-10">
+      <section className="mt-14 max-w-4xl">
         <h2 className="mb-5 font-mono text-xs uppercase tracking-widest text-stone">
           Awards
         </h2>
@@ -67,7 +67,7 @@ export default function AboutPage() {
               <span className="w-20 shrink-0 font-mono text-xs text-stone">
                 {item.period}
               </span>
-              <span className="flex-1 text-lg text-ink-soft">{item.title}</span>
+              <span className="flex-1 text-ink-soft">{item.title}</span>
             </li>
           ))}
         </ul>
