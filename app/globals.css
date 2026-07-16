@@ -2,6 +2,7 @@
 
 html {
   scrollbar-gutter: stable;
+  background: var(--paper);
 }
 
 :root {
@@ -34,7 +35,6 @@ html {
 }
 
 body {
-  background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body);
 }
