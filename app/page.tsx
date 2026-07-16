@@ -11,7 +11,7 @@ export default async function Home() {
     <section className="relative min-h-screen w-full overflow-hidden">
       <HeroBackground />
 
-      <div className="relative flex min-h-screen flex-col justify-between px-6 py-6 sm:px-10 sm:py-8">
+      <div className="relative flex min-h-screen flex-col justify-between px-6 py-5 sm:px-8 sm:py-5">
         <SiteNav name={siteConfig.name} theme="dark" />
 
         <div className="max-w-sm text-sm leading-relaxed text-white/85">
