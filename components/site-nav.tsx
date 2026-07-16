@@ -40,7 +40,7 @@ export default function SiteNav({
         </Link>
 
         <nav
-          className={`hidden grid-cols-[auto_auto] gap-x-20 gap-y-1.5 text-sm sm:grid ${navTextColor}`}
+          className={`hidden grid-cols-[auto_auto] gap-x-20 gap-y-1.5 text-sm font-bold sm:grid ${navTextColor}`}
         >
           <Link
             href="/works"
