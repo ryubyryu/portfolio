@@ -12,20 +12,6 @@
   --tag-bg: #efebe1;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #14151a;
-    --ink: #edebe3;
-    --ink-soft: #b7b4aa;
-    --indigo: #8ca0c8;
-    --indigo-soft: #6b7ea3;
-    --stone: #9b9587;
-    --line: #2c2e36;
-    --card: #1b1c22;
-    --tag-bg: #22242c;
-  }
-}
-
 @theme inline {
   --color-paper: var(--paper);
   --color-ink: var(--ink);
