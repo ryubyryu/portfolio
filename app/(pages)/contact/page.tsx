@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
-import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "Contact",
 };
 
-const channels = [
+const info = [
+  { label: "Location", value: "Seoul, Republic of Korea" },
   {
-    label: "Email",
-    value: siteConfig.email,
-    href: `mailto:${siteConfig.email}`,
+    label: "Email (KOR)",
+    value: "ryutsby@gmail.com",
+    href: "mailto:ryutsby@gmail.com",
   },
-  ...siteConfig.social.map((item) => ({
-    label: item.label,
-    value: item.href,
-    href: item.href,
-  })),
+  {
+    label: "Email (JPN)",
+    value: "hellokanmiru@gmail.com",
+    href: "mailto:hellokanmiru@gmail.com",
+  },
 ];
 
 export default function ContactPage() {
@@ -25,23 +25,21 @@ export default function ContactPage() {
         <h1 className="mb-8 font-body text-lg font-bold text-ink">Contact</h1>
 
         <ul className="space-y-2 text-xs tracking-tight">
-          {channels.map((item) => (
+          {info.map((item) => (
             <li key={item.label} className="flex items-baseline gap-x-3">
-              <span className="w-16 shrink-0 font-mono text-stone">
+              <span className="w-28 shrink-0 font-mono text-stone">
                 {item.label}
               </span>
-              <a
-                href={item.href}
-                target={item.href.startsWith("http") ? "_blank" : undefined}
-                rel={
-                  item.href.startsWith("http")
-                    ? "noopener noreferrer"
-                    : undefined
-                }
-                className="flex-1 text-ink-soft underline decoration-transparent underline-offset-2 transition-colors hover:text-ink hover:decoration-current"
-              >
-                {item.value}
-              </a>
+              {item.href ? (
+                <a
+                  href={item.href}
+                  className="flex-1 text-ink-soft underline decoration-transparent underline-offset-2 transition-colors hover:text-ink hover:decoration-current"
+                >
+                  {item.value}
+                </a>
+              ) : (
+                <span className="flex-1 text-ink">{item.value}</span>
+              )}
             </li>
           ))}
         </ul>
