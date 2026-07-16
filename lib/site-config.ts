@@ -6,9 +6,4 @@ export const siteConfig = {
   social: [
     { label: "Instagram", href: "https://www.instagram.com/ryutsby/" },
   ],
-  nav: [
-    { label: "Works", href: "/works" },
-    { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" },
-  ],
 };
