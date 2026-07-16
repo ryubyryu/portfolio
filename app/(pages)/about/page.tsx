@@ -29,7 +29,7 @@ const awards = [
   },
   {
     period: "2023",
-    title: "앤어워드 Grand Prix & Winner — 카카오 〈1㎠ 속 보이지 않는 카카오의 노력〉 기업PR 캠페인",
+    title: "앤어워드 Grand Prix & Winner — 카카오〈1㎠ 속 보이지 않는 카카오의 노력〉기업PR 캠페인",
   },
   {
     period: "2022",
@@ -43,12 +43,12 @@ export default function AboutPage() {
   return (
     <div className="px-6 py-16 sm:px-10 sm:py-20">
       <section className="max-w-4xl">
-        <h1 className="mb-8 font-body text-xl font-bold text-ink">류제원</h1>
+        <h1 className="mb-8 font-body text-lg font-bold text-ink">류제원</h1>
 
-        <ul className="space-y-2 tracking-tight">
+        <ul className="space-y-2 text-sm tracking-tight">
           {career.map((item) => (
             <li key={item.title} className="flex items-baseline gap-x-3">
-              <span className="w-20 shrink-0 font-mono text-xs text-stone">
+              <span className="w-16 shrink-0 font-mono text-xs text-stone">
                 {item.period}
               </span>
               <span className="flex-1 text-ink">{item.title}</span>
@@ -61,10 +61,10 @@ export default function AboutPage() {
         <h2 className="mb-5 font-mono text-xs uppercase tracking-widest text-stone">
           Awards
         </h2>
-        <ul className="space-y-2 tracking-tight">
+        <ul className="space-y-2 text-sm tracking-tight">
           {awards.map((item, i) => (
             <li key={i} className="flex items-baseline gap-x-3">
-              <span className="w-20 shrink-0 font-mono text-xs text-stone">
+              <span className="w-16 shrink-0 font-mono text-xs text-stone">
                 {item.period}
               </span>
               <span className="flex-1 text-ink-soft">{item.title}</span>
