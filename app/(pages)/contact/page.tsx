@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -6,16 +7,13 @@ export const metadata: Metadata = {
 
 const info = [
   { label: "Location", value: "Seoul, Republic of Korea" },
-  {
-    label: "Email (KOR)",
-    value: "ryutsby@gmail.com",
-    href: "mailto:ryutsby@gmail.com",
-  },
-  {
-    label: "Email (JPN)",
-    value: "hellokanmiru@gmail.com",
-    href: "mailto:hellokanmiru@gmail.com",
-  },
+  { label: "Email (KOR)", value: "ryutsby@gmail.com" },
+  { label: "Email (JPN)", value: "hellokanmiru@gmail.com" },
+];
+
+const social = [
+  { label: "X（Twitter）", href: "https://x.com/" },
+  { label: "Instagram", href: "https://www.instagram.com/ryutsby/" },
 ];
 
 export default function ContactPage() {
@@ -30,19 +28,28 @@ export default function ContactPage() {
               <span className="w-28 shrink-0 font-mono text-stone">
                 {item.label}
               </span>
-              {item.href ? (
-                <a
-                  href={item.href}
-                  className="flex-1 text-ink-soft underline decoration-transparent underline-offset-2 transition-colors hover:text-ink hover:decoration-current"
-                >
-                  {item.value}
-                </a>
-              ) : (
-                <span className="flex-1 text-ink">{item.value}</span>
-              )}
+              <span className="flex-1 text-ink">{item.value}</span>
             </li>
           ))}
         </ul>
+      </section>
+
+      <section className="mt-14 max-w-4xl">
+        <div className="flex items-center gap-x-4 text-xs font-bold tracking-tight">
+          {social.map((item, i) => (
+            <Fragment key={item.label}>
+              {i > 0 && <span className="text-stone">/</span>}
+              <a
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ink transition-colors hover:text-ink-soft"
+              >
+                {item.label}
+              </a>
+            </Fragment>
+          ))}
+        </div>
       </section>
     </div>
   );
