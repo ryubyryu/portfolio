@@ -45,19 +45,6 @@ function fromRow(row: WorkRow): Work {
 // 목데이터. supabase/seed.sql과 내용을 맞춰뒀습니다.
 const fallbackWorks: Work[] = [
   {
-    slug: "quiet-mark",
-    title: "Quiet Mark",
-    category: "Campaign",
-    year: 2025,
-    role: "Brand Identity",
-    client: "Quiet Mark Studio",
-    summary: "절제된 타이포그래피를 중심으로 한 스튜디오 브랜드 아이덴티티.",
-    description: [
-      "로고, 타이포그래피 시스템, 명함/봉투 등 기본 응용 세트를 설계했습니다.",
-      "브랜드의 절제된 톤을 유지하기 위해 컬러는 흑백 두 가지로 제한했습니다.",
-    ],
-  },
-  {
     slug: "paper-house",
     title: "Paper House",
     category: "Production",
@@ -71,41 +58,6 @@ const fallbackWorks: Work[] = [
     ],
   },
   {
-    slug: "field-notes",
-    title: "Field Notes",
-    category: "Content",
-    year: 2024,
-    role: "Editorial Design",
-    summary: "여행 저널 매거진의 지면 레이아웃 디자인.",
-    description: [
-      "이미지와 텍스트의 비율을 페이지마다 다르게 구성해 리듬을 만들었습니다.",
-      "그리드는 12컬럼을 기본으로 하되 필요한 곳에서만 깨뜨렸습니다.",
-    ],
-  },
-  {
-    slug: "low-tide",
-    title: "Low Tide",
-    category: "Content",
-    year: 2024,
-    role: "Photography",
-    summary: "해안 마을을 기록한 개인 사진 시리즈.",
-    description: [
-      "이른 아침과 늦은 오후, 빛이 낮게 깔리는 시간대만 골라 촬영했습니다.",
-    ],
-  },
-  {
-    slug: "index-type",
-    title: "Index Type",
-    category: "Campaign",
-    year: 2023,
-    role: "Type Design & Identity",
-    client: "Index",
-    summary: "커스텀 서체를 기반으로 한 편집 스튜디오 아이덴티티.",
-    description: [
-      "숫자와 라벨이 많은 편집 작업 특성에 맞춰 고정폭 유틸리티 서체를 함께 설계했습니다.",
-    ],
-  },
-  {
     slug: "still-room",
     title: "Still Room",
     category: "Production",
@@ -115,170 +67,6 @@ const fallbackWorks: Work[] = [
     description: [
       "제품 하나하나를 큰 이미지로 보여주는 데 집중한 미니멀 커머스 페이지입니다.",
     ],
-  },
-  // TODO: 아래는 그리드/페이지네이션 레이아웃 확인용 임시 목업 항목입니다.
-  // 실제 작업물이 준비되면 교체하세요.
-  {
-    slug: "placeholder-07",
-    title: "Placeholder Work 07",
-    category: "Campaign",
-    year: 2022,
-    role: "Brand Identity",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-09",
-    title: "Placeholder Work 09",
-    category: "Content",
-    year: 2021,
-    role: "Editorial Design",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-10",
-    title: "Placeholder Work 10",
-    category: "Content",
-    year: 2021,
-    role: "Photography",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-11",
-    title: "Placeholder Work 11",
-    category: "Campaign",
-    year: 2021,
-    role: "Brand Identity",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-13",
-    title: "Placeholder Work 13",
-    category: "Content",
-    year: 2020,
-    role: "Editorial Design",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-14",
-    title: "Placeholder Work 14",
-    category: "Content",
-    year: 2020,
-    role: "Photography",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-15",
-    title: "Placeholder Work 15",
-    category: "Campaign",
-    year: 2019,
-    role: "Brand Identity",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-17",
-    title: "Placeholder Work 17",
-    category: "Content",
-    year: 2019,
-    role: "Editorial Design",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-18",
-    title: "Placeholder Work 18",
-    category: "Content",
-    year: 2019,
-    role: "Photography",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-19",
-    title: "Placeholder Work 19",
-    category: "Campaign",
-    year: 2018,
-    role: "Brand Identity",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-21",
-    title: "Placeholder Work 21",
-    category: "Content",
-    year: 2018,
-    role: "Editorial Design",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-22",
-    title: "Placeholder Work 22",
-    category: "Content",
-    year: 2018,
-    role: "Photography",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-23",
-    title: "Placeholder Work 23",
-    category: "Campaign",
-    year: 2017,
-    role: "Brand Identity",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-25",
-    title: "Placeholder Work 25",
-    category: "Content",
-    year: 2017,
-    role: "Editorial Design",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-26",
-    title: "Placeholder Work 26",
-    category: "Content",
-    year: 2017,
-    role: "Photography",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-27",
-    title: "Placeholder Work 27",
-    category: "Campaign",
-    year: 2016,
-    role: "Brand Identity",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-29",
-    title: "Placeholder Work 29",
-    category: "Content",
-    year: 2016,
-    role: "Editorial Design",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
-  },
-  {
-    slug: "placeholder-30",
-    title: "Placeholder Work 30",
-    category: "Content",
-    year: 2016,
-    role: "Photography",
-    summary: "임시로 추가된 목업 콘텐츠입니다.",
-    description: ["실제 작업물로 교체될 예정입니다."],
   },
   // 아래는 TVCF 포트폴리오(star.tvcf.co.kr) 기준 2018.10.12 ~ 2021.10.06
   // Production 실제 경력입니다. 캠페인 단위로 묶었습니다.
@@ -673,7 +461,7 @@ const fallbackWorks: Work[] = [
 
 export async function getWorks(): Promise<Work[]> {
   if (!supabase) {
-    return [...fallbackWorks].sort((a, b) => a.year - b.year);
+    return [...fallbackWorks].reverse().sort((a, b) => b.year - a.year);
   }
 
   const { data, error } = await supabase
@@ -681,8 +469,8 @@ export async function getWorks(): Promise<Work[]> {
     .select(
       "slug, title, category, year, role, client, summary, description, cover_image, images"
     )
-    .order("year", { ascending: true })
-    .order("sort_order", { ascending: true });
+    .order("year", { ascending: false })
+    .order("sort_order", { ascending: false });
 
   if (error) throw error;
   return (data as WorkRow[]).map(fromRow);
