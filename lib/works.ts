@@ -642,7 +642,7 @@ const fallbackWorks: Work[] = [
 
 export async function getWorks(): Promise<Work[]> {
   if (!supabase) {
-    return [...fallbackWorks].sort((a, b) => b.year - a.year);
+    return [...fallbackWorks].sort((a, b) => a.year - b.year);
   }
 
   const { data, error } = await supabase
@@ -650,7 +650,7 @@ export async function getWorks(): Promise<Work[]> {
     .select(
       "slug, title, category, year, role, client, summary, description, cover_image, images"
     )
-    .order("year", { ascending: false })
+    .order("year", { ascending: true })
     .order("sort_order", { ascending: true });
 
   if (error) throw error;
