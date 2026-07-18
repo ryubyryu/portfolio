@@ -5,7 +5,7 @@ import Link from "next/link";
 import type { Work } from "@/lib/works";
 import WorkThumb from "@/components/work-thumb";
 
-const PAGE_SIZE = 12;
+const PAGE_SIZE = 20;
 
 export default function WorksGrid({
   works,
@@ -51,7 +51,7 @@ export default function WorksGrid({
         ))}
       </div>
 
-      <div className="grid gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-6">
+      <div className="grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10">
         {paged.map((work) => (
           <Link key={work.slug} href={`/works/${work.slug}`} className="group">
             <WorkThumb
