@@ -51,13 +51,13 @@ export default function WorksGrid({
         ))}
       </div>
 
-      <div className="grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10">
+      <div className="grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {paged.map((work) => (
           <Link key={work.slug} href={`/works/${work.slug}`} className="group">
             <WorkThumb
               slug={work.slug}
               title={work.title}
-              className="aspect-[4/5] transition-opacity group-hover:opacity-90"
+              className="aspect-[1.91/1] transition-opacity group-hover:opacity-90"
             />
             <div className="mt-3">
               <div className="text-sm text-ink">{work.title}</div>
