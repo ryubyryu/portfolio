@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const GRADIENTS = [
   "linear-gradient(135deg, #33415c, #8ca0c8)",
   "linear-gradient(135deg, #8a8579, #ddd8cc)",
@@ -12,16 +14,31 @@ function gradientFor(slug: string) {
   return GRADIENTS[index];
 }
 
-// TODO: 실제 썸네일 이미지가 준비되면 next/image로 교체
 export default function WorkThumb({
   slug,
   title,
+  coverImage,
   className = "",
 }: {
   slug: string;
   title: string;
+  coverImage?: string;
   className?: string;
 }) {
+  if (coverImage) {
+    return (
+      <div className={`relative overflow-hidden ${className}`}>
+        <Image
+          src={coverImage}
+          alt={title}
+          fill
+          sizes="(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 50vw"
+          className="object-cover"
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       className={`flex items-end p-4 ${className}`}
