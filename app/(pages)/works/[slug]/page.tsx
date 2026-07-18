@@ -64,18 +64,40 @@ export default async function WorkDetailPage({
         </dl>
       </div>
 
-      <WorkThumb
-        slug={work.slug}
-        title={work.title}
-        coverImage={work.coverImage}
-        className="aspect-video"
-      />
+      {work.images && work.images.length > 0 ? (
+        <div className="grid gap-8 sm:grid-cols-2">
+          {work.images.map((url, i) => (
+            <div key={url}>
+              <div className="aspect-video overflow-hidden bg-ink/5">
+                <iframe
+                  src={url}
+                  title={work.description[i] ?? work.title}
+                  className="h-full w-full border-0"
+                  allow="fullscreen"
+                  loading="lazy"
+                />
+              </div>
+              {work.description[i] && (
+                <p className="mt-2 font-mono text-xs text-stone">
+                  {work.description[i]}
+                </p>
+              )}
+            </div>
+          ))}
+        </div>
+      ) : (
+        <WorkThumb
+          slug={work.slug}
+          title={work.title}
+          coverImage={work.coverImage}
+          className="aspect-video"
+        />
+      )}
 
       <div className="mt-10 max-w-2xl space-y-4 text-ink-soft">
         <p className="text-lg text-ink">{work.summary}</p>
-        {work.description.map((paragraph, i) => (
-          <p key={i}>{paragraph}</p>
-        ))}
+        {!work.images?.length &&
+          work.description.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
       </div>
 
       <div className="mt-16 flex justify-between border-t border-line pt-8 font-mono text-xs uppercase tracking-widest text-stone">
