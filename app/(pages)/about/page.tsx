@@ -17,6 +17,19 @@ const career = [
   },
 ];
 
+const careerEn = [
+  {
+    period: "2016",
+    title: "Kyushu Asahi Broadcasting Co., Japan — TV Production Team Intern",
+  },
+  { period: "2019", title: "Ad Production PAPA'CA — Producer" },
+  { period: "2020", title: "Ad Production GOOGGOOG — Producer" },
+  {
+    period: "2022–2026",
+    title: "Digital Creative Agency DCR8 — Copywriter",
+  },
+];
+
 // TODO: 영문/일문 병기 여부 추후 결정
 const awards = [
   {
@@ -51,6 +64,23 @@ export default function AboutPage() {
 
         <ul className="space-y-2 text-xs tracking-tight">
           {career.map((item) => (
+            <li key={item.title} className="flex items-baseline gap-x-3">
+              <span className="w-16 shrink-0 font-mono text-stone">
+                {item.period}
+              </span>
+              <span className="flex-1 text-ink">{item.title}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mt-14 max-w-4xl">
+        <h2 className="mb-8 font-body text-lg font-bold text-ink">
+          Jeown Ryu
+        </h2>
+
+        <ul className="space-y-2 text-xs tracking-tight">
+          {careerEn.map((item) => (
             <li key={item.title} className="flex items-baseline gap-x-3">
               <span className="w-16 shrink-0 font-mono text-stone">
                 {item.period}
