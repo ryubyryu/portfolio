@@ -3,14 +3,16 @@ import { getWorks } from "@/lib/works";
 import { siteConfig } from "@/lib/site-config";
 import HeroBackground from "@/components/hero-background";
 import SiteNav from "@/components/site-nav";
+import FullBleedGutter from "@/components/full-bleed-gutter";
 
 export const revalidate = 60;
 
 export default async function Home() {
-  const works = await getWorks();
+  const works = (await getWorks()).slice(0, 6);
 
   return (
     <section className="relative min-h-screen w-full overflow-hidden">
+      <FullBleedGutter />
       <HeroBackground />
 
       <div className="relative flex min-h-screen flex-col justify-between px-6 py-5 sm:px-8 sm:py-5">
