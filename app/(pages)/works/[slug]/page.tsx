@@ -64,7 +64,12 @@ export default async function WorkDetailPage({
         </dl>
       </div>
 
-      <WorkThumb slug={work.slug} title={work.title} className="aspect-video" />
+      <WorkThumb
+        slug={work.slug}
+        title={work.title}
+        coverImage={work.coverImage}
+        className="aspect-video"
+      />
 
       <div className="mt-10 max-w-2xl space-y-4 text-ink-soft">
         <p className="text-lg text-ink">{work.summary}</p>
