@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   title: "Works",
 };
 
+export const revalidate = 60;
+
 export default async function WorksPage() {
   const [works, categories] = await Promise.all([getWorks(), getCategories()]);
 
