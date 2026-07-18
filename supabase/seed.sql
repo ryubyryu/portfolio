@@ -54,5 +54,79 @@ values
       '제품 하나하나를 큰 이미지로 보여주는 데 집중한 미니멀 커머스 페이지입니다.'
     ],
     5
+  ),
+  -- 아래는 그리드/페이지네이션 레이아웃 확인용 임시 목업 항목입니다.
+  -- 실제 작업물이 준비되면 Table Editor에서 값을 바꾸거나 삭제하세요.
+  (
+    'placeholder-07', 'Placeholder Work 07', 'Branding', 2022, 'Brand Identity', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    6
+  ),
+  (
+    'placeholder-08', 'Placeholder Work 08', 'Web', 2022, 'Web Design & Development', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    7
+  ),
+  (
+    'placeholder-09', 'Placeholder Work 09', 'Editorial', 2021, 'Editorial Design', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    8
+  ),
+  (
+    'placeholder-10', 'Placeholder Work 10', 'Photography', 2021, 'Photography', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    9
+  ),
+  (
+    'placeholder-11', 'Placeholder Work 11', 'Branding', 2021, 'Brand Identity', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    10
+  ),
+  (
+    'placeholder-12', 'Placeholder Work 12', 'Web', 2020, 'Web Design & Development', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    11
+  ),
+  (
+    'placeholder-13', 'Placeholder Work 13', 'Editorial', 2020, 'Editorial Design', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    12
+  ),
+  (
+    'placeholder-14', 'Placeholder Work 14', 'Photography', 2020, 'Photography', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    13
+  ),
+  (
+    'placeholder-15', 'Placeholder Work 15', 'Branding', 2019, 'Brand Identity', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    14
+  ),
+  (
+    'placeholder-16', 'Placeholder Work 16', 'Web', 2019, 'Web Design & Development', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    15
+  ),
+  (
+    'placeholder-17', 'Placeholder Work 17', 'Editorial', 2019, 'Editorial Design', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    16
+  ),
+  (
+    'placeholder-18', 'Placeholder Work 18', 'Photography', 2019, 'Photography', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    17
   )
 on conflict (slug) do nothing;
