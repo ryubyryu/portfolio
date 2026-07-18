@@ -22,8 +22,8 @@ const careerEn = [
     period: "2016",
     title: "Kyushu Asahi Broadcasting, Japan — TV Production Team Intern",
   },
-  { period: "2019", title: "AD Production PAPA'CA — Producer" },
-  { period: "2020", title: "AD Production GOOGGOOG — Producer" },
+  { period: "2019", title: "Film & Producing Company PAPA'CA — Producer" },
+  { period: "2020", title: "Film & Producing Company GOOGGOOG — Producer" },
   {
     period: "2022–2026",
     title: "Digital Creative Agency DCR8 — Copywriter",
