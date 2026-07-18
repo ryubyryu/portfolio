@@ -140,5 +140,65 @@ values
     '임시로 추가된 목업 콘텐츠입니다.',
     array['실제 작업물로 교체될 예정입니다.'],
     19
+  ),
+  (
+    'placeholder-21', 'Placeholder Work 21', 'Editorial', 2018, 'Editorial Design', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    20
+  ),
+  (
+    'placeholder-22', 'Placeholder Work 22', 'Photography', 2018, 'Photography', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    21
+  ),
+  (
+    'placeholder-23', 'Placeholder Work 23', 'Branding', 2017, 'Brand Identity', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    22
+  ),
+  (
+    'placeholder-24', 'Placeholder Work 24', 'Web', 2017, 'Web Design & Development', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    23
+  ),
+  (
+    'placeholder-25', 'Placeholder Work 25', 'Editorial', 2017, 'Editorial Design', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    24
+  ),
+  (
+    'placeholder-26', 'Placeholder Work 26', 'Photography', 2017, 'Photography', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    25
+  ),
+  (
+    'placeholder-27', 'Placeholder Work 27', 'Branding', 2016, 'Brand Identity', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    26
+  ),
+  (
+    'placeholder-28', 'Placeholder Work 28', 'Web', 2016, 'Web Design & Development', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    27
+  ),
+  (
+    'placeholder-29', 'Placeholder Work 29', 'Editorial', 2016, 'Editorial Design', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    28
+  ),
+  (
+    'placeholder-30', 'Placeholder Work 30', 'Photography', 2016, 'Photography', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    29
   )
 on conflict (slug) do nothing;
