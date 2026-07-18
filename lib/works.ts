@@ -226,6 +226,24 @@ const fallbackWorks: Work[] = [
     summary: "임시로 추가된 목업 콘텐츠입니다.",
     description: ["실제 작업물로 교체될 예정입니다."],
   },
+  {
+    slug: "placeholder-19",
+    title: "Placeholder Work 19",
+    category: "Branding",
+    year: 2018,
+    role: "Brand Identity",
+    summary: "임시로 추가된 목업 콘텐츠입니다.",
+    description: ["실제 작업물로 교체될 예정입니다."],
+  },
+  {
+    slug: "placeholder-20",
+    title: "Placeholder Work 20",
+    category: "Web",
+    year: 2018,
+    role: "Web Design & Development",
+    summary: "임시로 추가된 목업 콘텐츠입니다.",
+    description: ["실제 작업물로 교체될 예정입니다."],
+  },
 ];
 
 export async function getWorks(): Promise<Work[]> {

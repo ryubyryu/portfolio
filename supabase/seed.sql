@@ -128,5 +128,17 @@ values
     '임시로 추가된 목업 콘텐츠입니다.',
     array['실제 작업물로 교체될 예정입니다.'],
     17
+  ),
+  (
+    'placeholder-19', 'Placeholder Work 19', 'Branding', 2018, 'Brand Identity', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    18
+  ),
+  (
+    'placeholder-20', 'Placeholder Work 20', 'Web', 2018, 'Web Design & Development', null,
+    '임시로 추가된 목업 콘텐츠입니다.',
+    array['실제 작업물로 교체될 예정입니다.'],
+    19
   )
 on conflict (slug) do nothing;
