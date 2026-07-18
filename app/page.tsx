@@ -4,6 +4,8 @@ import { siteConfig } from "@/lib/site-config";
 import HeroBackground from "@/components/hero-background";
 import SiteNav from "@/components/site-nav";
 
+export const revalidate = 60;
+
 export default async function Home() {
   const works = await getWorks();
 

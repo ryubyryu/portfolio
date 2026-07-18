@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { getAdjacentWorks, getWorkBySlug, getWorks } from "@/lib/works";
 import WorkThumb from "@/components/work-thumb";
 
+export const revalidate = 60;
+
 export async function generateStaticParams() {
   const works = await getWorks();
   return works.map((work) => ({ slug: work.slug }));
