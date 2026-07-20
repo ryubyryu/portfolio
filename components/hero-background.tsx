@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroBackground() {
   return (
-    <div className="fixed inset-0 -z-10">
+    <div className="fixed inset-y-0 left-0 -z-10 w-screen">
       <Image
         src="/images/home-hero.jpg"
         alt=""
