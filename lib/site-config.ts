@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "JEWON RYU",
+  name: "RYUBYRYU",
   role: "Brand Marketer / Content Director",
   tagline: "만든 것과 만드는 과정을 기록합니다.",
 };
