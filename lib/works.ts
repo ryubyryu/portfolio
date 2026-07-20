@@ -132,7 +132,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "lotte-himart-20th",
-    title: "롯데하이마트",
+    title: "롯데 하이마트",
     category: "Production",
     year: 2020,
     role: "Producer",
