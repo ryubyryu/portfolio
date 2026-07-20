@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAdjacentWorks, getWorkBySlug, getWorks } from "@/lib/works";
@@ -95,6 +96,22 @@ export default async function WorkDetailPage({
                 재생 ↗
               </span>
             </a>
+          ))}
+        </div>
+      )}
+
+      {work.gallery && work.gallery.length > 0 && (
+        <div className="mt-10 space-y-6">
+          {work.gallery.map((image) => (
+            <Image
+              key={image.url}
+              src={image.url}
+              alt={work.title}
+              width={image.width}
+              height={image.height}
+              sizes="(min-width: 1024px) 1024px, 100vw"
+              className="h-auto w-full"
+            />
           ))}
         </div>
       )}
