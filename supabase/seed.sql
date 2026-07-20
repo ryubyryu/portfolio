@@ -386,13 +386,13 @@ update works set links = '[
   {"label":"그램VI법08_쿨하게 무릎 책상 쓰기","url":"https://tvcf.co.kr/play/ah04686-972852"}
 ]'::jsonb where slug = 'lg-gram-vi-beop';
 update works set links = '[
-  {"label":"TVCF 영상 컷 1 보기","url":"https://tvcf.co.kr/play/ah11083-975012"},
-  {"label":"TVCF 영상 컷 2 보기","url":"https://tvcf.co.kr/play/bh11174-975013"},
-  {"label":"TVCF 영상 컷 3 보기","url":"https://tvcf.co.kr/play/ah11265-975014"}
+  {"label":"잇츠 오케이의 그램VI법 01_애로우? 루나? CPU 뭐가 다르지?","url":"https://tvcf.co.kr/play/ah11083-975012"},
+  {"label":"잇츠 오케이의 그램VI법 02_프로들을 위한 멀티태스킹","url":"https://tvcf.co.kr/play/bh11174-975013"},
+  {"label":"잇츠 오케이의 그램VI법 03_4K 편집 가능한 그램 Pro 외장그래픽","url":"https://tvcf.co.kr/play/ah11265-975014"}
 ]'::jsonb where slug = 'lg-gram-vi-beop-class';
 update works set links = '[
-  {"label":"TVCF 영상 컷 1 보기","url":"https://tvcf.co.kr/play/ah1548-979206"},
-  {"label":"TVCF 영상 컷 2 보기","url":"https://tvcf.co.kr/play/ah1366-979204"}
+  {"label":"G-SHOCK : ICONIC STYLES : LEE SEUNG HYUB 가로편","url":"https://tvcf.co.kr/play/ah1548-979206"},
+  {"label":"G-SHOCK : ICONIC STYLES : LEE SEUNG HYUB 세로편","url":"https://tvcf.co.kr/play/ah1366-979204"}
 ]'::jsonb where slug = 'gshock-iconic-styles';
 
 -- TVCF 개별 영상 재생 URL을 images에 반영합니다 (description과 같은 순서).

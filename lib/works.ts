@@ -687,9 +687,9 @@ const fallbackWorks: Work[] = [
       "구독자 20.7만의 테크 유튜버 '잇츠 오케이 민성'이 새로워진 LG 그램 Pro의 CPU 특징, 멀티태스킹 비법, 4K 영상 편집법을 누구나 이해하기 쉽도록 재미있게 소개하다.",
     ],
     links: [
-      { label: "TVCF 영상 컷 1 보기", url: "https://tvcf.co.kr/play/ah11083-975012" },
-      { label: "TVCF 영상 컷 2 보기", url: "https://tvcf.co.kr/play/bh11174-975013" },
-      { label: "TVCF 영상 컷 3 보기", url: "https://tvcf.co.kr/play/ah11265-975014" },
+      { label: "잇츠 오케이의 그램VI법 01_애로우? 루나? CPU 뭐가 다르지?", url: "https://tvcf.co.kr/play/ah11083-975012" },
+      { label: "잇츠 오케이의 그램VI법 02_프로들을 위한 멀티태스킹", url: "https://tvcf.co.kr/play/bh11174-975013" },
+      { label: "잇츠 오케이의 그램VI법 03_4K 편집 가능한 그램 Pro 외장그래픽", url: "https://tvcf.co.kr/play/ah11265-975014" },
     ],
   },
   {
@@ -708,8 +708,8 @@ const fallbackWorks: Work[] = [
       "G-Shock과 함께하는 그의 일상을 담아내며 오랜 시간 사랑받은 아이코닉 스타일처럼 시대를 뛰어넘어 사랑받는 아티스트가 되기 위해 노력하는 그만의 스토리로 도전 그리고 스타일에 대한 영감을 주다.",
     ],
     links: [
-      { label: "TVCF 영상 컷 1 보기", url: "https://tvcf.co.kr/play/ah1548-979206" },
-      { label: "TVCF 영상 컷 2 보기", url: "https://tvcf.co.kr/play/ah1366-979204" },
+      { label: "G-SHOCK : ICONIC STYLES : LEE SEUNG HYUB 가로편", url: "https://tvcf.co.kr/play/ah1548-979206" },
+      { label: "G-SHOCK : ICONIC STYLES : LEE SEUNG HYUB 세로편", url: "https://tvcf.co.kr/play/ah1366-979204" },
     ],
   },
 ];
