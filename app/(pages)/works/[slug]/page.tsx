@@ -104,7 +104,7 @@ export default async function WorkDetailPage({
         <dl className="mt-10 grid max-w-2xl grid-cols-2 gap-x-4 gap-y-2 font-mono text-xs text-stone sm:grid-cols-[auto_1fr]">
           {work.stats.map((stat) => (
             <Fragment key={stat.label}>
-              <dt className="uppercase tracking-widest">{stat.label}</dt>
+              <dt className="tracking-widest">{stat.label}</dt>
               <dd className="text-ink">{stat.value}</dd>
             </Fragment>
           ))}
@@ -116,7 +116,7 @@ export default async function WorkDetailPage({
           {work.gallery.map((group, groupIndex) => (
             <div key={groupIndex} className="space-y-4">
               {group.heading && (
-                <h2 className="font-mono text-xs uppercase tracking-widest text-stone">
+                <h2 className="font-mono text-xs tracking-widest text-stone">
                   ▼ {group.heading}
                 </h2>
               )}
