@@ -7,61 +7,61 @@ values
   -- 아래는 TVCF 포트폴리오(star.tvcf.co.kr) 기준 2018.10.12 ~ 2021.10.06
   -- Production 실제 경력입니다. 캠페인 단위로 묶었습니다.
   (
-    'lg-prael', 'LG 프라엘', 'Production', 2018, 'Producer', 'LG',
+    'lg-prael', 'LG 프라엘', 'Production', 2018, 'Producer', 'LG전자',
     '맑은피부, 동안피부를 소구한 뷰티 디바이스 런칭 캠페인.',
     array['맑은피부', '동안피부'],
     30
   ),
   (
-    'ohui-first-genature', '오휘 더 퍼스트 제너츄어', 'Production', 2018, 'Producer', '오휘',
+    'ohui-first-genature', '오휘 더 퍼스트 제너츄어', 'Production', 2018, 'Producer', 'LG생활건강',
     '피부감도를 소구한 스킨케어 캠페인.',
     array['피부감도'],
     31
   ),
   (
-    'lg-hwisen-thinq', 'LG 휘센 인공지능 스스로에어컨 ThinQ', 'Production', 2018, 'Producer', 'LG',
+    'lg-hwisen-thinq', 'LG 휘센 인공지능 스스로에어컨 ThinQ', 'Production', 2018, 'Producer', 'LG전자',
     '제습·냉방·난방·공기청정 4종 컷으로 구성된 에어컨 캠페인.',
     array['제습', '냉방', '난방', '공기청정'],
     32
   ),
   (
-    'whoo-cheongidan', '후 천기단 화현 에센스 쿠션', 'Production', 2018, 'Producer', '후(Whoo)',
+    'whoo-cheongidan', '후 천기단 화현 에센스 쿠션', 'Production', 2018, 'Producer', 'LG생활건강',
     '"세상 위에 빛나다"를 콘셉트로 한 쿠션 캠페인.',
     array['세상 위에 빛나다'],
     33
   ),
   (
-    'benz-service', '메르세데스 벤츠 서비스', 'Production', 2019, 'Producer', 'Mercedes-Benz',
+    'benz-service', '메르세데스 벤츠 서비스', 'Production', 2019, 'Producer', '메르세데스 벤츠코리아',
     '"동행(Go Together)"을 콘셉트로 한 서비스 캠페인.',
     array['동행(Go Together)'],
     34
   ),
   (
-    'whoo-bichup', '후 비첩 순환 에센스', 'Production', 2019, 'Producer', '후(Whoo)',
+    'whoo-bichup', '후 비첩 순환 에센스', 'Production', 2019, 'Producer', 'LG생활건강',
     '"순환의 힘"을 소구한 에센스 캠페인.',
     array['순환의 힘'],
     35
   ),
   (
-    'ohui-first-ample', '오휘 더 퍼스트 앰플', 'Production', 2019, 'Producer', '오휘',
+    'ohui-first-ample', '오휘 더 퍼스트 앰플', 'Production', 2019, 'Producer', 'LG생활건강',
     '"빛의 시그니처"를 콘셉트로 한 앰플 캠페인.',
     array['빛의 시그니처'],
     36
   ),
   (
-    'lotte-himart-20th', '롯데하이마트', 'Production', 2020, 'Producer', '롯데하이마트',
+    'lotte-himart-20th', '롯데하이마트', 'Production', 2020, 'Producer', '롯데 하이마트',
     '창립 20주년 세일 캠페인.',
     array['창립 20주년 세일 20년만의 기회'],
     37
   ),
   (
-    'dongwon-tuna', '동원참치', 'Production', 2020, 'Producer', '동원참치',
+    'dongwon-tuna', '동원참치', 'Production', 2020, 'Producer', '동원 F&B',
     '"캔을 따"를 콘셉트로 한 브랜드 캠페인.',
     array['캔을 따', '캔을 따 Full', '캔을 따 인터뷰', '동원이도 캔을 따!'],
     38
   ),
   (
-    'kanu-vanilla-latte', '카누 바닐라 라떼', 'Production', 2020, 'Producer', '카누',
+    'kanu-vanilla-latte', '카누 바닐라 라떼', 'Production', 2020, 'Producer', '동서식품',
     '"음~ 왜 이제 왔어요"를 콘셉트로 한 신제품 캠페인.',
     array['음~ 왜 이제 왔어요'],
     39
@@ -73,7 +73,7 @@ values
     40
   ),
   (
-    'porsche-911-timeless-machine', '포르쉐 911 Timeless Machine', 'Production', 2020, 'Producer', 'Porsche',
+    'porsche-911-timeless-machine', '포르쉐 911 Timeless Machine', 'Production', 2020, 'Producer', '포르쉐코리아',
     '오너들의 이야기를 담은 오너 스토리 시리즈.',
     array[
       '오너 스토리 종합', '오너 스토리 티저', '오너 스토리 신태윤',
@@ -82,7 +82,7 @@ values
     41
   ),
   (
-    'kanu-signature', '카누 시그니처', 'Production', 2020, 'Producer', '카누',
+    'kanu-signature', '카누 시그니처', 'Production', 2020, 'Producer', '동서식품',
     '프리미엄 라인 런칭 캠페인 (가치·언박싱·범퍼 컷).',
     array['가치', '언박싱 디자인', '언박싱 맛', '범퍼A', '범퍼B', '범퍼C'],
     42
@@ -94,7 +94,7 @@ values
     43
   ),
   (
-    'samsung-bespoke-dishwasher', '삼성 비스포크 식기세척기', 'Production', 2020, 'Producer', 'Samsung',
+    'samsung-bespoke-dishwasher', '삼성 비스포크 식기세척기', 'Production', 2020, 'Producer', '삼성전자',
     '"당신이 바라던 식기세척기"를 소구한 런칭 캠페인.',
     array['당신이 바라던 식기세척기 - TVC', '당신이 바라던 식기세척기 - 디지털'],
     44
@@ -106,37 +106,37 @@ values
     45
   ),
   (
-    'jungkwanjang-2020', '정관장', 'Production', 2020, 'Producer', '정관장',
+    'jungkwanjang-2020', '정관장', 'Production', 2020, 'Producer', '한국인삼공사',
     '안성기, 유지태가 출연한 홍삼 브랜드 캠페인.',
     array['종합', '안성기', '유지태'],
     46
   ),
   (
-    'sos-state-of-survival', 'S.O.S : 스테이트 오브 서바이벌', 'Production', 2020, 'Producer', 'State of Survival',
+    'sos-state-of-survival', 'S.O.S : 스테이트 오브 서바이벌', 'Production', 2020, 'Producer', '킹스그룹홀딩스',
     '혜리, 정우성이 출연한 모바일 게임 광고.',
     array['티저', '티저 - 혜리', '티저 - 정우성', '혜리', '정우성'],
     48
   ),
   (
-    'richam', '리챔', 'Production', 2020, 'Producer', '리챔',
+    'richam', '리챔', 'Production', 2020, 'Producer', '동원 F&B',
     '"햄맛챔피온리챔"과 "건강 총동원" 선물세트를 함께 소구한 캠페인.',
     array['햄맛챔피온리챔 15초', '햄맛챔피온리챔 30초', '건강 총동원'],
     49
   ),
   (
-    'denmark-pocket-cheese', '덴마크 인 포켓치즈', 'Production', 2020, 'Producer', '덴마크',
+    'denmark-pocket-cheese', '덴마크 인 포켓치즈', 'Production', 2020, 'Producer', '동원 F&B',
     '"10초면 찢기에 충분해"를 소구한 신제품 캠페인.',
     array['10초면 찢기에 충분해 (15s_A)'],
     50
   ),
   (
-    'samsung-bespoke-induction', '삼성 비스포크 인덕션', 'Production', 2020, 'Producer', 'Samsung',
+    'samsung-bespoke-induction', '삼성 비스포크 인덕션', 'Production', 2020, 'Producer', '삼성전자',
     '김이나가 출연한 "Kitchen for You" 캠페인.',
     array['김이나의 Kitchen for You'],
     51
   ),
   (
-    'maxim-white-gold', '맥심 화이트골드', 'Production', 2020, 'Producer', '맥심',
+    'maxim-white-gold', '맥심 화이트골드', 'Production', 2020, 'Producer', '동서식품',
     '"나에게 부드러워지는 시간"을 콘셉트로 한 캠페인.',
     array['나에게 부드러워지는 시간'],
     52
@@ -148,25 +148,25 @@ values
     53
   ),
   (
-    'yogiyo-express', '요기요', 'Production', 2020, 'Producer', '요기요',
+    'yogiyo-express', '요기요', 'Production', 2020, 'Producer', '딜리버리히어로코리아',
     '"익스프레스" 배달 서비스 캠페인.',
     array['익스프레스 라이더', '익스프레스 속도'],
     54
   ),
   (
-    'porsche-taycan', '포르쉐 더 뉴 타이칸', 'Production', 2020, 'Producer', 'Porsche',
+    'porsche-taycan', '포르쉐 더 뉴 타이칸', 'Production', 2020, 'Producer', '포르쉐코리아',
     '"Seoul, Electrified"를 콘셉트로 한 타이칸 런칭 캠페인.',
     array['더 뉴 타이칸 : Seoul, Electrified', 'Seoul, electrified : 티저', '영혼의 전율'],
     55
   ),
   (
-    'jungkwanjang-2021', '정관장', 'Production', 2021, 'Producer', '정관장',
+    'jungkwanjang-2021', '정관장', 'Production', 2021, 'Producer', '한국인삼공사',
     '한석규, 김성령이 출연한 "제자리" 캠페인.',
     array['제자리:한석규', '제자리:김성령', '정관장몰:정몰'],
     56
   ),
   (
-    'nature-made', '네이처 메이드', 'Production', 2021, 'Producer', 'Nature Made',
+    'nature-made', '네이처 메이드', 'Production', 2021, 'Producer', '한국오츠카제약',
     '"홈트", "배달음식" 등 일상 속 건강 캠페인.',
     array['홈트', '배달음식'],
     57
@@ -178,7 +178,7 @@ values
     58
   ),
   (
-    'myallri', '마이올리', 'Production', 2021, 'Producer', '마이올리',
+    'myallri', '마이올리', 'Production', 2021, 'Producer', '다원에이치앤비',
     '건강기능식품 라인업 캠페인 (알티지 오메가3, 루테인, 비타민B, 프로바이오틱스 외).',
     array[
       '나를 위한 케어레시피', '골든루트 밀크시슬(feat.간건강)',
@@ -189,7 +189,7 @@ values
     59
   ),
   (
-    'woongjin-bookclub', '웅진북클럽', 'Production', 2021, 'Producer', '웅진북클럽',
+    'woongjin-bookclub', '웅진북클럽', 'Production', 2021, 'Producer', '웅진씽크빅',
     '"독서의 기준"을 콘셉트로 한 브랜드 캠페인.',
     array['독서의 기준'],
     60

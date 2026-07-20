@@ -71,11 +71,13 @@ export default async function WorkDetailPage({
         className="aspect-video"
       />
 
-      <div className="mt-10 max-w-2xl space-y-2 text-xs tracking-tight text-ink-soft">
-        <p className="text-ink">{work.summary}</p>
-        {!work.images?.length &&
-          work.description.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
-      </div>
+      {!work.images?.length && (
+        <div className="mt-10 max-w-2xl space-y-2 text-xs tracking-tight text-ink-soft">
+          {work.description.map((paragraph, i) => (
+            <p key={i}>{paragraph}</p>
+          ))}
+        </div>
+      )}
 
       {work.images && work.images.length > 0 && (
         <div className="mt-10 max-w-2xl divide-y divide-line border-y border-line text-xs tracking-tight">
