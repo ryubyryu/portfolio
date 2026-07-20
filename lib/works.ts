@@ -10,6 +10,12 @@ export type WorkStat = {
   value: string;
 };
 
+export type WorkGalleryImage = {
+  url: string;
+  width: number;
+  height: number;
+};
+
 export type Work = {
   slug: string;
   title: string;
@@ -23,6 +29,7 @@ export type Work = {
   images?: string[];
   links?: WorkLink[];
   stats?: WorkStat[];
+  gallery?: WorkGalleryImage[];
 };
 
 type WorkRow = {
@@ -38,6 +45,7 @@ type WorkRow = {
   images: string[];
   links: WorkLink[] | null;
   stats: WorkStat[] | null;
+  gallery: WorkGalleryImage[] | null;
 };
 
 function fromRow(row: WorkRow): Work {
@@ -54,6 +62,7 @@ function fromRow(row: WorkRow): Work {
     images: row.images,
     links: row.links && row.links.length > 0 ? row.links : undefined,
     stats: row.stats && row.stats.length > 0 ? row.stats : undefined,
+    gallery: row.gallery && row.gallery.length > 0 ? row.gallery : undefined,
   };
 }
 
@@ -492,6 +501,33 @@ const fallbackWorks: Work[] = [
       { label: "Participants", value: "10K+" },
       { label: "Award", value: "A.N.D. AWARD GRAND PRIX 2022 (디지털 광고 캠페인 부문 이벤트 분야)" },
     ],
+    gallery: [
+      {
+        url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/1.avif",
+        width: 1300,
+        height: 590,
+      },
+      {
+        url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/2.avif",
+        width: 1314,
+        height: 594,
+      },
+      {
+        url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/4.avif",
+        width: 1206,
+        height: 1752,
+      },
+      {
+        url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery.avif",
+        width: 1214,
+        height: 714,
+      },
+      {
+        url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery2.avif",
+        width: 676,
+        height: 676,
+      },
+    ],
     links: [
       { label: "노루페인트 '포스터챌린지' 리캡 영상", url: "https://www.youtube.com/watch?v=Uzo8pRUjMHk" },
     ],
@@ -735,7 +771,7 @@ export async function getWorks(): Promise<Work[]> {
   const { data, error } = await supabase
     .from("works")
     .select(
-      "slug, title, category, year, role, client, summary, description, cover_image, images, links, stats"
+      "slug, title, category, year, role, client, summary, description, cover_image, images, links, stats, gallery"
     )
     .order("year", { ascending: false })
     .order("sort_order", { ascending: false });
@@ -752,7 +788,7 @@ export async function getWorkBySlug(slug: string): Promise<Work | undefined> {
   const { data, error } = await supabase
     .from("works")
     .select(
-      "slug, title, category, year, role, client, summary, description, cover_image, images, links, stats"
+      "slug, title, category, year, role, client, summary, description, cover_image, images, links, stats, gallery"
     )
     .eq("slug", slug)
     .maybeSingle();
