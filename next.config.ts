@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "nmedia.tvcf.co.kr",
       },
+      {
+        protocol: "https",
+        hostname: "llwbqewucexzruxdgveq.supabase.co",
+      },
     ],
   },
 };
