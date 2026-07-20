@@ -72,7 +72,7 @@ export default async function WorkDetailPage({
       />
 
       {!work.images?.length && (
-        <div className="mt-10 max-w-2xl space-y-2 text-xs tracking-tight text-ink-soft">
+        <div className="mt-10 max-w-2xl space-y-3 text-xs tracking-tight text-ink-soft">
           {work.description.map((paragraph, i) => (
             <p key={i}>{paragraph}</p>
           ))}
@@ -93,6 +93,22 @@ export default async function WorkDetailPage({
               <span className="font-mono text-xs uppercase tracking-widest text-stone">
                 재생 ↗
               </span>
+            </a>
+          ))}
+        </div>
+      )}
+
+      {work.links && work.links.length > 0 && (
+        <div className="mt-6 max-w-2xl divide-y divide-line border-y border-line text-xs tracking-tight">
+          {work.links.map((link) => (
+            <a
+              key={link.url}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-between py-4 text-ink transition-colors hover:text-stone"
+            >
+              <span>{link.label}</span>
             </a>
           ))}
         </div>
