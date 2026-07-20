@@ -63,7 +63,7 @@ export default function WorksGrid({
             <div className="mt-3">
               <div className="text-sm text-ink">{work.title}</div>
               <div className="font-mono text-xs text-stone">
-                {work.category} · {work.year}
+                {work.category}｜{work.year}
               </div>
             </div>
           </Link>
