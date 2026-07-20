@@ -417,7 +417,7 @@ update works set links = '[
   {"label":"G-SHOCK : ICONIC STYLES : LEE SEUNG HYUB 가로편","url":"https://tvcf.co.kr/play/ah1548-979206"},
   {"label":"G-SHOCK : ICONIC STYLES : LEE SEUNG HYUB 세로편","url":"https://tvcf.co.kr/play/ah1366-979204"}
 ]'::jsonb where slug = 'gshock-iconic-styles';
-update works set links = '[{"label":"EVENT MICROSITE 바로가기","url":"https://class101.net/ko/products/638f178f86a5d10015f627cc"}]'::jsonb where slug = 'lg-gram-class101';
+update works set links = '[{"label":"LG그램 360 클래스 바로가기","url":"https://class101.net/ko/products/638f178f86a5d10015f627cc"}]'::jsonb where slug = 'lg-gram-class101';
 
 update works set gallery = '[
   {
