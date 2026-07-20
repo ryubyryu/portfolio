@@ -49,7 +49,7 @@ values
     36
   ),
   (
-    'lotte-himart-20th', '롯데하이마트', 'Production', 2020, 'Producer', '롯데 하이마트',
+    'lotte-himart-20th', '롯데 하이마트', 'Production', 2020, 'Producer', '롯데 하이마트',
     '창립 20주년 세일 캠페인.',
     array['창립 20주년 세일 20년만의 기회'],
     37
