@@ -18,6 +18,7 @@ export type WorkGalleryImage = {
 
 export type WorkGalleryGroup = {
   heading?: string;
+  columns?: number;
   images: WorkGalleryImage[];
 };
 
@@ -564,6 +565,32 @@ const fallbackWorks: Work[] = [
       "온라인 강좌 플랫폼 클래스101을 활용하여 다채로운 색감으로 사랑받는 작가 '누아'와 함께 그램 360 클래스로 제품의 특장점을 전달하다.",
     description: [
       "온라인 강좌 플랫폼 클래스101을 활용하여 다채로운 색감으로 사랑받는 작가 '누아'와 함께 그램 360 클래스로 제품의 특장점을 전달하다.",
+    ],
+    gallery: [
+      {
+        heading: "LG gram 360 x CLASS101 feat. Libere_Nuage",
+        columns: 3,
+        images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/1.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/2.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/3.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/4.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/5.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/6.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/7.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/8.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/9.avif", width: 1713, height: 964 },
+        ],
+      },
+      {
+        heading: "Event Microsite",
+        images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/sub1.avif", width: 1112, height: 506 },
+        ],
+      },
+    ],
+    links: [
+      { label: "EVENT MICROSITE 바로가기", url: "https://class101.net/ko/products/638f178f86a5d10015f627cc" },
     ],
   },
   {

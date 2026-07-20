@@ -120,24 +120,47 @@ export default async function WorkDetailPage({
                   ▼ {group.heading}
                 </h2>
               )}
-              <div className="flex flex-wrap gap-4">
-                {group.images.map((image) => (
-                  <div
-                    key={image.url}
-                    className="min-w-[240px]"
-                    style={{ flexGrow: image.width, flexBasis: 0 }}
-                  >
+              {group.columns ? (
+                <div
+                  className="grid gap-4"
+                  style={{
+                    gridTemplateColumns: `repeat(${group.columns}, minmax(0, 1fr))`,
+                  }}
+                >
+                  {group.images.map((image) => (
                     <Image
+                      key={image.url}
                       src={image.url}
                       alt={work.title}
                       width={image.width}
                       height={image.height}
-                      sizes="(min-width: 1024px) 1024px, 100vw"
+                      sizes={`(min-width: 1024px) ${Math.round(
+                        1024 / group.columns!
+                      )}px, ${Math.round(100 / group.columns!)}vw`}
                       className="h-auto w-full"
                     />
-                  </div>
-                ))}
-              </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="flex flex-wrap gap-4">
+                  {group.images.map((image) => (
+                    <div
+                      key={image.url}
+                      className="min-w-[240px]"
+                      style={{ flexGrow: image.width, flexBasis: 0 }}
+                    >
+                      <Image
+                        src={image.url}
+                        alt={work.title}
+                        width={image.width}
+                        height={image.height}
+                        sizes="(min-width: 1024px) 1024px, 100vw"
+                        className="h-auto w-full"
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>
