@@ -429,7 +429,7 @@ const fallbackWorks: Work[] = [
     year: 2021,
     role: "Producer",
     client: "다원에이치앤비",
-    coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/wrok-images/work-production/29.jpeg",
+    coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/wrok-images/work-production/29-1.jpeg",
     images: ["https://tvcf.co.kr/play/ah03047-845538", "https://tvcf.co.kr/play/bh03443-845543", "https://tvcf.co.kr/play/bh03281-845541", "https://tvcf.co.kr/play/ah13209-845540", "https://tvcf.co.kr/play/ah14962-850362", "https://tvcf.co.kr/play/ah24809-850360", "https://tvcf.co.kr/play/ah25605-850770", "https://tvcf.co.kr/play/bh15043-850363"],
     summary:
       "건강기능식품 라인업 캠페인 (알티지 오메가3, 루테인, 비타민B, 프로바이오틱스 외).",

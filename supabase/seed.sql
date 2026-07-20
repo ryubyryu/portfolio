@@ -225,7 +225,7 @@ update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/wrok-images/work-production/26.jpeg' where slug = 'jungkwanjang-2021';
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/wrok-images/work-production/27.jpeg' where slug = 'nature-made';
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/wrok-images/work-production/28.jpeg' where slug = 'beplain';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/wrok-images/work-production/29.jpeg' where slug = 'myallri';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/wrok-images/work-production/29-1.jpeg' where slug = 'myallri';
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/wrok-images/work-production/30.jpeg' where slug = 'woongjin-bookclub';
 
 -- TVCF 개별 영상 재생 URL을 images에 반영합니다 (description과 같은 순서).
