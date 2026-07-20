@@ -44,30 +44,6 @@ function fromRow(row: WorkRow): Work {
 // Supabase 환경변수가 없을 때(로컬 개발 초기 등) 화면이 비지 않도록 쓰는
 // 목데이터. supabase/seed.sql과 내용을 맞춰뒀습니다.
 const fallbackWorks: Work[] = [
-  {
-    slug: "paper-house",
-    title: "Paper House",
-    category: "Production",
-    year: 2025,
-    role: "Web Design & Development",
-    client: "Paper House",
-    summary: "종이 질감을 모티프로 한 소규모 출판사 웹사이트.",
-    description: [
-      "Next.js 기반으로 개발했고, 여백과 스크롤 리듬에 신경 썼습니다.",
-      "출간 도서 아카이브를 그리드 형태로 정리했습니다.",
-    ],
-  },
-  {
-    slug: "still-room",
-    title: "Still Room",
-    category: "Production",
-    year: 2023,
-    role: "Web Design & Development",
-    summary: "가구 브랜드의 제품 아카이브 웹사이트.",
-    description: [
-      "제품 하나하나를 큰 이미지로 보여주는 데 집중한 미니멀 커머스 페이지입니다.",
-    ],
-  },
   // 아래는 TVCF 포트폴리오(star.tvcf.co.kr) 기준 2018.10.12 ~ 2021.10.06
   // Production 실제 경력입니다. 캠페인 단위로 묶었습니다.
   {
@@ -301,18 +277,6 @@ const fallbackWorks: Work[] = [
     description: ["종합", "안성기", "유지태"],
   },
   {
-    slug: "dongwon-gift-set",
-    title: "동원 선물세트",
-    category: "Production",
-    year: 2020,
-    role: "Producer",
-    client: "동원",
-    coverImage: "https://nmedia.tvcf.co.kr/media/print/0000418/A000418779860C.jpg",
-    images: ["https://tvcf.co.kr/play/ah15767-802772"],
-    summary: '"건강 총동원"을 콘셉트로 한 선물세트 캠페인.',
-    description: ["건강 총동원"],
-  },
-  {
     slug: "sos-state-of-survival",
     title: "S.O.S : 스테이트 오브 서바이벌",
     category: "Production",
@@ -338,9 +302,13 @@ const fallbackWorks: Work[] = [
     role: "Producer",
     client: "리챔",
     coverImage: "https://nmedia.tvcf.co.kr/media/print/0000421/A000421108866F.jpg",
-    images: ["https://tvcf.co.kr/play/ah11122-805614", "https://tvcf.co.kr/play/bh11041-805613"],
-    summary: '"햄맛챔피온리챔"을 콘셉트로 한 캠페인.',
-    description: ["햄맛챔피온리챔 15초", "햄맛챔피온리챔 30초"],
+    images: [
+      "https://tvcf.co.kr/play/ah11122-805614",
+      "https://tvcf.co.kr/play/bh11041-805613",
+      "https://tvcf.co.kr/play/ah15767-802772",
+    ],
+    summary: '"햄맛챔피온리챔"과 "건강 총동원" 선물세트를 함께 소구한 캠페인.',
+    description: ["햄맛챔피온리챔 15초", "햄맛챔피온리챔 30초", "건강 총동원"],
   },
   {
     slug: "denmark-pocket-cheese",

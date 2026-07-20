@@ -45,7 +45,7 @@ export default async function WorkDetailPage({
       </Link>
 
       <div className="mb-10 grid gap-6 border-b border-line pb-10 sm:grid-cols-[2fr_1fr]">
-        <h1 className="font-display text-3xl text-ink sm:text-4xl">
+        <h1 className="font-body text-lg font-bold text-ink">
           {work.title}
         </h1>
         <dl className="grid grid-cols-2 gap-x-4 gap-y-2 font-mono text-xs text-stone sm:text-right">
@@ -71,14 +71,14 @@ export default async function WorkDetailPage({
         className="aspect-video"
       />
 
-      <div className="mt-10 max-w-2xl space-y-4 text-ink-soft">
-        <p className="text-lg text-ink">{work.summary}</p>
+      <div className="mt-10 max-w-2xl space-y-2 text-xs tracking-tight text-ink-soft">
+        <p className="text-ink">{work.summary}</p>
         {!work.images?.length &&
           work.description.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
       </div>
 
       {work.images && work.images.length > 0 && (
-        <div className="mt-10 max-w-2xl divide-y divide-line border-y border-line">
+        <div className="mt-10 max-w-2xl divide-y divide-line border-y border-line text-xs tracking-tight">
           {work.images.map((url, i) => (
             <a
               key={url}
