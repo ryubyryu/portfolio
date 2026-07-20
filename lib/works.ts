@@ -568,7 +568,7 @@ const fallbackWorks: Work[] = [
     ],
     gallery: [
       {
-        heading: "LG gram 360 x CLASS101 feat. Libere_Nuage",
+        heading: "LG gram 360 x CLASS101 (feat. Libere_Nuage)",
         columns: 3,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/1.avif", width: 1713, height: 964 },
