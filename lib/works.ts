@@ -590,7 +590,7 @@ const fallbackWorks: Work[] = [
       },
     ],
     links: [
-      { label: "EVENT MICROSITE 바로가기", url: "https://class101.net/ko/products/638f178f86a5d10015f627cc" },
+      { label: "LG그램 360 클래스 바로가기", url: "https://class101.net/ko/products/638f178f86a5d10015f627cc" },
     ],
   },
   {
