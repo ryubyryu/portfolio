@@ -7,8 +7,7 @@ export const metadata: Metadata = {
 
 const info = [
   { label: "Location", value: "Seoul, Republic of Korea" },
-  { label: "Email", suffix: "(KOR)", value: "ryutsby@gmail.com" },
-  { label: "Email", suffix: "(JPN)", value: "hellokanmiru@gmail.com" },
+  { label: "Email", value: "ryutsby@gmail.com" },
 ];
 
 const social = [
@@ -24,10 +23,9 @@ export default function ContactPage() {
 
         <ul className="space-y-2 text-xs tracking-tight">
           {info.map((item) => (
-            <li key={item.label + (item.suffix ?? "")} className="flex items-baseline gap-x-3">
-              <span className="flex w-28 shrink-0 items-baseline gap-x-1 font-mono text-stone">
-                <span>{item.label}</span>
-                {item.suffix && <span>{item.suffix}</span>}
+            <li key={item.label} className="flex items-baseline gap-x-3">
+              <span className="w-28 shrink-0 font-mono text-stone">
+                {item.label}
               </span>
               <span className="flex-1 text-ink">{item.value}</span>
             </li>
