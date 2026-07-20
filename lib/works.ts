@@ -16,6 +16,11 @@ export type WorkGalleryImage = {
   height: number;
 };
 
+export type WorkGalleryGroup = {
+  heading?: string;
+  images: WorkGalleryImage[];
+};
+
 export type Work = {
   slug: string;
   title: string;
@@ -29,7 +34,7 @@ export type Work = {
   images?: string[];
   links?: WorkLink[];
   stats?: WorkStat[];
-  gallery?: WorkGalleryImage[];
+  gallery?: WorkGalleryGroup[];
 };
 
 type WorkRow = {
@@ -45,7 +50,7 @@ type WorkRow = {
   images: string[];
   links: WorkLink[] | null;
   stats: WorkStat[] | null;
-  gallery: WorkGalleryImage[] | null;
+  gallery: WorkGalleryGroup[] | null;
 };
 
 function fromRow(row: WorkRow): Work {
@@ -503,29 +508,48 @@ const fallbackWorks: Work[] = [
     ],
     gallery: [
       {
-        url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/1.avif",
-        width: 1300,
-        height: 590,
+        heading: "Campaign Microsite",
+        images: [
+          {
+            url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/1.avif",
+            width: 1300,
+            height: 590,
+          },
+        ],
       },
       {
-        url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/2.avif",
-        width: 1314,
-        height: 594,
+        heading: "Poster Making Process",
+        images: [
+          {
+            url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/2.avif",
+            width: 1314,
+            height: 594,
+          },
+        ],
       },
       {
-        url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/4.avif",
-        width: 1206,
-        height: 1752,
+        images: [
+          {
+            url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/4.avif",
+            width: 1206,
+            height: 1752,
+          },
+        ],
       },
       {
-        url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery.avif",
-        width: 1214,
-        height: 714,
-      },
-      {
-        url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery2.avif",
-        width: 676,
-        height: 676,
+        heading: "User-Generated Images",
+        images: [
+          {
+            url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery2.avif",
+            width: 676,
+            height: 676,
+          },
+          {
+            url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery.avif",
+            width: 1214,
+            height: 714,
+          },
+        ],
       },
     ],
     links: [

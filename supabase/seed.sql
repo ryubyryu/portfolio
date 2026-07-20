@@ -377,11 +377,24 @@ update works set stats = '[
   {"label":"Award","value":"A.N.D. AWARD GRAND PRIX 2022 (디지털 광고 캠페인 부문 이벤트 분야)"}
 ]'::jsonb where slug = 'noroo-poster-challenge';
 update works set gallery = '[
-  {"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/1.avif","width":1300,"height":590},
-  {"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/2.avif","width":1314,"height":594},
-  {"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/4.avif","width":1206,"height":1752},
-  {"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery.avif","width":1214,"height":714},
-  {"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery2.avif","width":676,"height":676}
+  {
+    "heading":"Campaign Microsite",
+    "images":[{"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/1.avif","width":1300,"height":590}]
+  },
+  {
+    "heading":"Poster Making Process",
+    "images":[{"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/2.avif","width":1314,"height":594}]
+  },
+  {
+    "images":[{"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/4.avif","width":1206,"height":1752}]
+  },
+  {
+    "heading":"User-Generated Images",
+    "images":[
+      {"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery2.avif","width":676,"height":676},
+      {"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery.avif","width":1214,"height":714}
+    ]
+  }
 ]'::jsonb where slug = 'noroo-poster-challenge';
 update works set links = '[{"label":"나이키 에디토리얼 보기","url":"https://www.nike.com/kr/a/ho22-football-community-editorial"}]'::jsonb where slug = 'nike-worldcup-2022';
 update works set links = '[{"label":"유튜브에서 영상 보기","url":"https://www.youtube.com/watch?v=Vy_--uYhmwc"}]'::jsonb where slug = 'lotteria-thanks-burger';

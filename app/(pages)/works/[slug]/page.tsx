@@ -100,22 +100,6 @@ export default async function WorkDetailPage({
         </div>
       )}
 
-      {work.gallery && work.gallery.length > 0 && (
-        <div className="mt-10 space-y-6">
-          {work.gallery.map((image) => (
-            <Image
-              key={image.url}
-              src={image.url}
-              alt={work.title}
-              width={image.width}
-              height={image.height}
-              sizes="(min-width: 1024px) 1024px, 100vw"
-              className="h-auto w-full"
-            />
-          ))}
-        </div>
-      )}
-
       {work.stats && work.stats.length > 0 && (
         <dl className="mt-10 grid max-w-2xl grid-cols-2 gap-x-4 gap-y-2 font-mono text-xs text-stone sm:grid-cols-[auto_1fr]">
           {work.stats.map((stat) => (
@@ -125,6 +109,38 @@ export default async function WorkDetailPage({
             </Fragment>
           ))}
         </dl>
+      )}
+
+      {work.gallery && work.gallery.length > 0 && (
+        <div className="mt-10 space-y-10">
+          {work.gallery.map((group, groupIndex) => (
+            <div key={groupIndex} className="space-y-4">
+              {group.heading && (
+                <h2 className="font-mono text-xs uppercase tracking-widest text-stone">
+                  ▼ {group.heading}
+                </h2>
+              )}
+              <div className="flex flex-wrap gap-4">
+                {group.images.map((image) => (
+                  <div
+                    key={image.url}
+                    className="min-w-[240px]"
+                    style={{ flexGrow: image.width, flexBasis: 0 }}
+                  >
+                    <Image
+                      src={image.url}
+                      alt={work.title}
+                      width={image.width}
+                      height={image.height}
+                      sizes="(min-width: 1024px) 1024px, 100vw"
+                      className="h-auto w-full"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
       )}
 
       {work.links && work.links.length > 0 && (
