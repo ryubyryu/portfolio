@@ -3,7 +3,6 @@ import { getWorks } from "@/lib/works";
 import { siteConfig } from "@/lib/site-config";
 import HeroBackground from "@/components/hero-background";
 import SiteNav from "@/components/site-nav";
-import FullBleedGutter from "@/components/full-bleed-gutter";
 
 export const revalidate = 60;
 
@@ -12,7 +11,6 @@ export default async function Home() {
 
   return (
     <section className="relative min-h-screen w-full overflow-hidden">
-      <FullBleedGutter />
       <HeroBackground />
 
       <div className="relative flex min-h-screen flex-col justify-between px-6 py-5 sm:px-8 sm:py-5">
@@ -25,7 +23,7 @@ export default async function Home() {
               href={`/works/${work.slug}`}
               className="block py-0.5 transition-colors hover:text-white"
             >
-              {work.title}, {work.client ?? work.category}, {work.year}
+              {work.title}, {work.year}
             </Link>
           ))}
           <Link
