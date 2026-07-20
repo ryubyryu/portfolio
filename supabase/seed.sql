@@ -4,23 +4,6 @@
 
 insert into works (slug, title, category, year, role, client, summary, description, sort_order)
 values
-  (
-    'paper-house', 'Paper House', 'Production', 2025, 'Web Design & Development', 'Paper House',
-    '종이 질감을 모티프로 한 소규모 출판사 웹사이트.',
-    array[
-      'Next.js 기반으로 개발했고, 여백과 스크롤 리듬에 신경 썼습니다.',
-      '출간 도서 아카이브를 그리드 형태로 정리했습니다.'
-    ],
-    1
-  ),
-  (
-    'still-room', 'Still Room', 'Production', 2023, 'Web Design & Development', null,
-    '가구 브랜드의 제품 아카이브 웹사이트.',
-    array[
-      '제품 하나하나를 큰 이미지로 보여주는 데 집중한 미니멀 커머스 페이지입니다.'
-    ],
-    5
-  ),
   -- 아래는 TVCF 포트폴리오(star.tvcf.co.kr) 기준 2018.10.12 ~ 2021.10.06
   -- Production 실제 경력입니다. 캠페인 단위로 묶었습니다.
   (
@@ -129,12 +112,6 @@ values
     46
   ),
   (
-    'dongwon-gift-set', '동원 선물세트', 'Production', 2020, 'Producer', '동원',
-    '"건강 총동원"을 콘셉트로 한 선물세트 캠페인.',
-    array['건강 총동원'],
-    47
-  ),
-  (
     'sos-state-of-survival', 'S.O.S : 스테이트 오브 서바이벌', 'Production', 2020, 'Producer', 'State of Survival',
     '혜리, 정우성이 출연한 모바일 게임 광고.',
     array['티저', '티저 - 혜리', '티저 - 정우성', '혜리', '정우성'],
@@ -142,8 +119,8 @@ values
   ),
   (
     'richam', '리챔', 'Production', 2020, 'Producer', '리챔',
-    '"햄맛챔피온리챔"을 콘셉트로 한 캠페인.',
-    array['햄맛챔피온리챔 15초', '햄맛챔피온리챔 30초'],
+    '"햄맛챔피온리챔"과 "건강 총동원" 선물세트를 함께 소구한 캠페인.',
+    array['햄맛챔피온리챔 15초', '햄맛챔피온리챔 30초', '건강 총동원'],
     49
   ),
   (
@@ -237,7 +214,6 @@ update works set cover_image = 'https://nmedia.tvcf.co.kr/media/print/0000409/A0
 update works set cover_image = 'https://nmedia.tvcf.co.kr/media/print/0000412/A000412187D985.jpg' where slug = 'samsung-bespoke-dishwasher';
 update works set cover_image = 'https://nmedia.tvcf.co.kr/media/print/0000414/A0004141238722.jpg' where slug = 'ranking-dak';
 update works set cover_image = 'https://nmedia.tvcf.co.kr/media/print/0000417/A00041755917AA.jpg' where slug = 'jungkwanjang-2020';
-update works set cover_image = 'https://nmedia.tvcf.co.kr/media/print/0000418/A000418779860C.jpg' where slug = 'dongwon-gift-set';
 update works set cover_image = 'https://nmedia.tvcf.co.kr/media/print/0000419/A000419157B67C.jpg' where slug = 'sos-state-of-survival';
 update works set cover_image = 'https://nmedia.tvcf.co.kr/media/print/0000421/A000421108866F.jpg' where slug = 'richam';
 update works set cover_image = 'https://nmedia.tvcf.co.kr/media/print/0000422/A0004220445AD3.jpg' where slug = 'denmark-pocket-cheese';
@@ -270,9 +246,8 @@ update works set images = array['https://tvcf.co.kr/play/bh02311-791433'] where 
 update works set images = array['https://tvcf.co.kr/play/bh05538-794179', 'https://tvcf.co.kr/play/bh06097-794187'] where slug = 'samsung-bespoke-dishwasher';
 update works set images = array['https://tvcf.co.kr/play/bh02311-796433', 'https://tvcf.co.kr/play/ah02382-796434', 'https://tvcf.co.kr/play/ah02524-796436'] where slug = 'ranking-dak';
 update works set images = array['https://tvcf.co.kr/play/ah3167-800502', 'https://tvcf.co.kr/play/ah405-800500', 'https://tvcf.co.kr/play/bh27924-800499'] where slug = 'jungkwanjang-2020';
-update works set images = array['https://tvcf.co.kr/play/ah15767-802772'] where slug = 'dongwon-gift-set';
 update works set images = array['https://tvcf.co.kr/play/ah16085-803176', 'https://tvcf.co.kr/play/bh12164-805427', 'https://tvcf.co.kr/play/ah12083-805426', 'https://tvcf.co.kr/play/bh17128-805989', 'https://tvcf.co.kr/play/ah400-806000'] where slug = 'sos-state-of-survival';
-update works set images = array['https://tvcf.co.kr/play/ah11122-805614', 'https://tvcf.co.kr/play/bh11041-805613'] where slug = 'richam';
+update works set summary = '"햄맛챔피온리챔"과 "건강 총동원" 선물세트를 함께 소구한 캠페인.', description = array['햄맛챔피온리챔 15초', '햄맛챔피온리챔 30초', '건강 총동원'], images = array['https://tvcf.co.kr/play/ah11122-805614', 'https://tvcf.co.kr/play/bh11041-805613', 'https://tvcf.co.kr/play/ah15767-802772'] where slug = 'richam';
 update works set images = array['https://tvcf.co.kr/play/bh17286-806591'] where slug = 'denmark-pocket-cheese';
 update works set images = array['https://tvcf.co.kr/play/bh26489-808081'] where slug = 'samsung-bespoke-induction';
 update works set images = array['https://tvcf.co.kr/play/bh22322-808029'] where slug = 'maxim-white-gold';
