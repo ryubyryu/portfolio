@@ -109,6 +109,9 @@ export default async function WorkDetailPage({
               className="flex items-center justify-between py-4 text-ink transition-colors hover:text-stone"
             >
               <span>{link.label}</span>
+              <span className="font-mono text-xs uppercase tracking-widest text-stone">
+                재생 ↗
+              </span>
             </a>
           ))}
         </div>

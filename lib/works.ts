@@ -480,7 +480,7 @@ const fallbackWorks: Work[] = [
       "온라인에서의 참여가 실제 오프라인으로 이어져 세월의 흔적으로 낡고 벗겨진 벽면에 아티스트의 그래픽을 페인팅하여, 시장을 전시장으로 만들다.",
     ],
     links: [
-      { label: "유튜브에서 영상 보기 ↗", url: "https://www.youtube.com/watch?v=sqqOP9K1_N0" },
+      { label: "유튜브에서 영상 보기", url: "https://www.youtube.com/watch?v=sqqOP9K1_N0" },
     ],
   },
   {
@@ -513,7 +513,7 @@ const fallbackWorks: Work[] = [
     ],
     links: [
       {
-        label: "나이키 에디토리얼 보기 ↗",
+        label: "나이키 에디토리얼 보기",
         url: "https://www.nike.com/kr/a/ho22-football-community-editorial",
       },
     ],
@@ -593,7 +593,7 @@ const fallbackWorks: Work[] = [
       "롯데리아에서 한 해 가장 사랑받은 버거를 재출시하며 캠페인 영상부터 나만의 캐릭터로 카드를 만드는 사이트까지 롯데리아를 매개체로 연말연시 고마운 사람들에게 땡스~한 마음을 서로 전할 수 있는 IMC 캠페인을 설계.",
     ],
     links: [
-      { label: "유튜브에서 영상 보기 ↗", url: "https://www.youtube.com/watch?v=Vy_--uYhmwc" },
+      { label: "유튜브에서 영상 보기", url: "https://www.youtube.com/watch?v=Vy_--uYhmwc" },
     ],
   },
   {
@@ -642,7 +642,7 @@ const fallbackWorks: Work[] = [
       "신제품 LG 그램 프로의 고성능을 체험시키기 위해 음악, 이미지, 대화형 3종의 생성형 AI를 해치와 함께 여행을 떠나듯 경험해보는 여행사 컨셉의 체험형 캠페인 진행",
     ],
     links: [
-      { label: "유튜브에서 영상 보기 ↗", url: "https://www.youtube.com/watch?v=anuBmMuAM_w" },
+      { label: "유튜브에서 영상 보기", url: "https://www.youtube.com/watch?v=anuBmMuAM_w" },
     ],
   },
   {
@@ -661,15 +661,15 @@ const fallbackWorks: Work[] = [
       "LG 그램 Pro의 핵심 AI 기능들을 다양한 방법으로 소개한다.",
     ],
     links: [
-      { label: "TVCF 영상 컷 1 보기 ↗", url: "https://tvcf.co.kr/play/bh07658-973485" },
-      { label: "TVCF 영상 컷 2 보기 ↗", url: "https://tvcf.co.kr/play/bh12431-970127" },
-      { label: "TVCF 영상 컷 3 보기 ↗", url: "https://tvcf.co.kr/play/bh12795-970131" },
-      { label: "TVCF 영상 컷 4 보기 ↗", url: "https://tvcf.co.kr/play/ah12886-970132" },
-      { label: "TVCF 영상 컷 5 보기 ↗", url: "https://tvcf.co.kr/play/ah15221-970658" },
-      { label: "TVCF 영상 컷 6 보기 ↗", url: "https://tvcf.co.kr/play/ah11265-972014" },
-      { label: "TVCF 영상 컷 7 보기 ↗", url: "https://tvcf.co.kr/play/bh11538-972017" },
-      { label: "TVCF 영상 컷 8 보기 ↗", url: "https://tvcf.co.kr/play/ah23604-972040" },
-      { label: "TVCF 영상 컷 9 보기 ↗", url: "https://tvcf.co.kr/play/ah04686-972852" },
+      { label: "LG 그램 : 그램VI법_Teaser편", url: "https://tvcf.co.kr/play/bh07658-973485" },
+      { label: "그램VI법01_에러 난 과제 파일 구출법", url: "https://tvcf.co.kr/play/bh12431-970127" },
+      { label: "그램VI법02_시험 준비 교수님 소환술", url: "https://tvcf.co.kr/play/bh12795-970131" },
+      { label: "그램VI법03_과제 지옥 탈출법", url: "https://tvcf.co.kr/play/ah12886-970132" },
+      { label: "그램VI법04_일잘러의 회의 준비법", url: "https://tvcf.co.kr/play/ah15221-970658" },
+      { label: "그램VI법05_휴가 복귀 후 밀린 메일 정리법", url: "https://tvcf.co.kr/play/ah11265-972014" },
+      { label: "그램VI법06_경력같은 신입사원 되는 법", url: "https://tvcf.co.kr/play/bh11538-972017" },
+      { label: "그램VI법07_누구보다 빠르게 남들과는 다른 편집법", url: "https://tvcf.co.kr/play/ah23604-972040" },
+      { label: "그램VI법08_쿨하게 무릎 책상 쓰기", url: "https://tvcf.co.kr/play/ah04686-972852" },
     ],
   },
   {
@@ -687,9 +687,9 @@ const fallbackWorks: Work[] = [
       "구독자 20.7만의 테크 유튜버 '잇츠 오케이 민성'이 새로워진 LG 그램 Pro의 CPU 특징, 멀티태스킹 비법, 4K 영상 편집법을 누구나 이해하기 쉽도록 재미있게 소개하다.",
     ],
     links: [
-      { label: "TVCF 영상 컷 1 보기 ↗", url: "https://tvcf.co.kr/play/ah11083-975012" },
-      { label: "TVCF 영상 컷 2 보기 ↗", url: "https://tvcf.co.kr/play/bh11174-975013" },
-      { label: "TVCF 영상 컷 3 보기 ↗", url: "https://tvcf.co.kr/play/ah11265-975014" },
+      { label: "TVCF 영상 컷 1 보기", url: "https://tvcf.co.kr/play/ah11083-975012" },
+      { label: "TVCF 영상 컷 2 보기", url: "https://tvcf.co.kr/play/bh11174-975013" },
+      { label: "TVCF 영상 컷 3 보기", url: "https://tvcf.co.kr/play/ah11265-975014" },
     ],
   },
   {
@@ -708,8 +708,8 @@ const fallbackWorks: Work[] = [
       "G-Shock과 함께하는 그의 일상을 담아내며 오랜 시간 사랑받은 아이코닉 스타일처럼 시대를 뛰어넘어 사랑받는 아티스트가 되기 위해 노력하는 그만의 스토리로 도전 그리고 스타일에 대한 영감을 주다.",
     ],
     links: [
-      { label: "TVCF 영상 컷 1 보기 ↗", url: "https://tvcf.co.kr/play/ah1548-979206" },
-      { label: "TVCF 영상 컷 2 보기 ↗", url: "https://tvcf.co.kr/play/ah1366-979204" },
+      { label: "TVCF 영상 컷 1 보기", url: "https://tvcf.co.kr/play/ah1548-979206" },
+      { label: "TVCF 영상 컷 2 보기", url: "https://tvcf.co.kr/play/ah1366-979204" },
     ],
   },
 ];
