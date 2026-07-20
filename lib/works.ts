@@ -528,26 +528,22 @@ const fallbackWorks: Work[] = [
         ],
       },
       {
+        heading: "User-Generated Images",
+        images: [
+          {
+            url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery.avif",
+            width: 1214,
+            height: 714,
+          },
+        ],
+      },
+      {
+        heading: "Market Installation",
         images: [
           {
             url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/4.avif",
             width: 1206,
             height: 1752,
-          },
-        ],
-      },
-      {
-        heading: "User-Generated Images",
-        images: [
-          {
-            url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery2.avif",
-            width: 676,
-            height: 676,
-          },
-          {
-            url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/gallery.avif",
-            width: 1214,
-            height: 714,
           },
         ],
       },
