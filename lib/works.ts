@@ -5,6 +5,11 @@ export type WorkLink = {
   url: string;
 };
 
+export type WorkStat = {
+  label: string;
+  value: string;
+};
+
 export type Work = {
   slug: string;
   title: string;
@@ -17,6 +22,7 @@ export type Work = {
   coverImage?: string;
   images?: string[];
   links?: WorkLink[];
+  stats?: WorkStat[];
 };
 
 type WorkRow = {
@@ -31,6 +37,7 @@ type WorkRow = {
   cover_image: string | null;
   images: string[];
   links: WorkLink[] | null;
+  stats: WorkStat[] | null;
 };
 
 function fromRow(row: WorkRow): Work {
@@ -46,6 +53,7 @@ function fromRow(row: WorkRow): Work {
     coverImage: row.cover_image ?? undefined,
     images: row.images,
     links: row.links && row.links.length > 0 ? row.links : undefined,
+    stats: row.stats && row.stats.length > 0 ? row.stats : undefined,
   };
 }
 
@@ -479,8 +487,13 @@ const fallbackWorks: Work[] = [
       "1회의 포스터 참여가 1m²의 페인트가 되어, 코로나로 사람들의 발길이 끊긴 전통시장에 페인트를 기부하는 #포스터챌린지 캠페인.",
       "온라인에서의 참여가 실제 오프라인으로 이어져 세월의 흔적으로 낡고 벗겨진 벽면에 아티스트의 그래픽을 페인팅하여, 시장을 전시장으로 만들다.",
     ],
+    stats: [
+      { label: "Visits", value: "43K+" },
+      { label: "Participants", value: "10K+" },
+      { label: "Award", value: "A.N.D. AWARD GRAND PRIX 2022 (디지털 광고 캠페인 부문 이벤트 분야)" },
+    ],
     links: [
-      { label: "유튜브에서 영상 보기", url: "https://www.youtube.com/watch?v=sqqOP9K1_N0" },
+      { label: "노루페인트 '포스터챌린지' 리캡 영상", url: "https://www.youtube.com/watch?v=Uzo8pRUjMHk" },
     ],
   },
   {
@@ -722,7 +735,7 @@ export async function getWorks(): Promise<Work[]> {
   const { data, error } = await supabase
     .from("works")
     .select(
-      "slug, title, category, year, role, client, summary, description, cover_image, images, links"
+      "slug, title, category, year, role, client, summary, description, cover_image, images, links, stats"
     )
     .order("year", { ascending: false })
     .order("sort_order", { ascending: false });
@@ -739,7 +752,7 @@ export async function getWorkBySlug(slug: string): Promise<Work | undefined> {
   const { data, error } = await supabase
     .from("works")
     .select(
-      "slug, title, category, year, role, client, summary, description, cover_image, images, links"
+      "slug, title, category, year, role, client, summary, description, cover_image, images, links, stats"
     )
     .eq("slug", slug)
     .maybeSingle();

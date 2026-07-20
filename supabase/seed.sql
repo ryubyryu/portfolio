@@ -370,7 +370,12 @@ update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/14.jpeg' where slug = 'gshock-iconic-styles';
 
 -- Campaign 본문에 추가로 넣을 영상/에디토리얼 링크입니다 (dcr8co.com 포트폴리오 단순 링크는 제외).
-update works set links = '[{"label":"유튜브에서 영상 보기","url":"https://www.youtube.com/watch?v=sqqOP9K1_N0"}]'::jsonb where slug = 'noroo-poster-challenge';
+update works set links = '[{"label":"노루페인트 ''포스터챌린지'' 리캡 영상","url":"https://www.youtube.com/watch?v=Uzo8pRUjMHk"}]'::jsonb where slug = 'noroo-poster-challenge';
+update works set stats = '[
+  {"label":"Visits","value":"43K+"},
+  {"label":"Participants","value":"10K+"},
+  {"label":"Award","value":"A.N.D. AWARD GRAND PRIX 2022 (디지털 광고 캠페인 부문 이벤트 분야)"}
+]'::jsonb where slug = 'noroo-poster-challenge';
 update works set links = '[{"label":"나이키 에디토리얼 보기","url":"https://www.nike.com/kr/a/ho22-football-community-editorial"}]'::jsonb where slug = 'nike-worldcup-2022';
 update works set links = '[{"label":"유튜브에서 영상 보기","url":"https://www.youtube.com/watch?v=Vy_--uYhmwc"}]'::jsonb where slug = 'lotteria-thanks-burger';
 update works set links = '[{"label":"유튜브에서 영상 보기","url":"https://www.youtube.com/watch?v=anuBmMuAM_w"}]'::jsonb where slug = 'lg-gram-go-ai-travel';

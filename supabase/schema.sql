@@ -14,6 +14,7 @@ create table if not exists works (
   cover_image text,
   images text[] not null default '{}',
   links jsonb not null default '[]'::jsonb,
+  stats jsonb not null default '[]'::jsonb,
   sort_order int not null default 0,
   created_at timestamptz not null default now()
 );

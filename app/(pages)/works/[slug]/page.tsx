@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -96,6 +97,17 @@ export default async function WorkDetailPage({
             </a>
           ))}
         </div>
+      )}
+
+      {work.stats && work.stats.length > 0 && (
+        <dl className="mt-10 grid max-w-2xl grid-cols-2 gap-x-4 gap-y-2 font-mono text-xs text-stone sm:grid-cols-[auto_1fr]">
+          {work.stats.map((stat) => (
+            <Fragment key={stat.label}>
+              <dt className="uppercase tracking-widest">{stat.label}</dt>
+              <dd className="text-ink">{stat.value}</dd>
+            </Fragment>
+          ))}
+        </dl>
       )}
 
       {work.links && work.links.length > 0 && (
