@@ -981,6 +981,22 @@ const fallbackWorks: Work[] = [
       "코레일과 협업하여 부산 KTX역 내에 팝업 스토어를 설치하여 한 달 간 운영.",
       "애써 찾아와야 하는 팝업 스토어의 한계를 넘어 총 12만명에게 노트북 체험 기회 제공",
     ],
+    gallery: [
+      {
+        columns: 3,
+        images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20in%20Busan/1.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20in%20Busan/2.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20in%20Busan/3.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20in%20Busan/4.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20in%20Busan/5.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20in%20Busan/6.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20in%20Busan/7.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20in%20Busan/8.avif", width: 1713, height: 964 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20in%20Busan/9.avif", width: 1713, height: 964 },
+        ],
+      },
+    ],
   },
   {
     slug: "lg-gram-go-ai-travel",
