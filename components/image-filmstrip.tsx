@@ -23,7 +23,7 @@ export default function ImageFilmstrip({
     <div className="relative">
       <div
         ref={scrollRef}
-        className="flex gap-2 overflow-x-auto scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="flex gap-1 overflow-x-auto scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {images.map((image, i) => (
           <div
