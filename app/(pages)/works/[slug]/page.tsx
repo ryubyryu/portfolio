@@ -125,7 +125,7 @@ export default async function WorkDetailPage({
                 <ImageCarousel images={group.images} alt={work.title} />
               ) : group.columns ? (
                 <div
-                  className="grid gap-4"
+                  className="grid gap-1"
                   style={{
                     gridTemplateColumns: `repeat(${group.columns}, minmax(0, 1fr))`,
                   }}
