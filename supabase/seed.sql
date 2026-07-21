@@ -217,7 +217,7 @@ values
     62
   ),
   (
-    'nike-worldcup-2022', 'NIKE : WORLD CUP 2022', 'Campaign', 2022, 'Copywriter', '나이키 코리아',
+    'nike-worldcup-2022', 'NIKE : WORLD CUP 2022', 'Campaign', 2022, 'Copywriter', '나이키코리아',
     'NIKE 너만의 무늬 [    ] 우리의 무기. 2022년 카타르 월드컵 모멘텀의 나이키 캠페인 "서로가 다르기에 우리는 더 강해진다"는 메시지로 승리를 뜨겁게 응원하며 국가대표 선수들을 하이라이팅하다.',
     array[
       'NIKE 너만의 무늬 [    ] 우리의 무기.',
@@ -226,7 +226,7 @@ values
     63
   ),
   (
-    'nike-runners-helping-runners', 'NIKE : RUNNERS HELPING RUNNERS', 'Campaign', 2023, 'Copywriter', '나이키 코리아',
+    'nike-runners-helping-runners', 'NIKE : RUNNERS HELPING RUNNERS', 'Campaign', 2023, 'Copywriter', '나이키코리아',
     '러닝에 도전하는 초보 러너 류준열의 Runners Helping Runners. 그의 목소리로 시작을 망설이는 많은 러너들에게 동기 부여와 도움이 되는 정보를 전달하는 캠페인',
     array[
       '러닝에 도전하는 초보 러너 류준열의 Runners Helping Runners.',
@@ -235,7 +235,7 @@ values
     64
   ),
   (
-    'nike-air-force-1-t1', 'NIKE : AIR FORCE 1 x T1', 'Content', 2023, 'Copywriter', '나이키 코리아',
+    'nike-air-force-1-t1', 'NIKE : AIR FORCE 1 x T1', 'Content', 2023, 'Copywriter', '나이키코리아',
     'NIKE Air Force 1 x T1. 각자의 게임 플레이 스타일처럼 개성 넘치게 나이키 에어포스1을 커스텀하는 T1 선수들의 모습을 담다.',
     array[
       'NIKE Air Force 1 x T1.',
@@ -253,7 +253,7 @@ values
     66
   ),
   (
-    'nike-hoshi-style-story', 'NIKE : HOSHI''S STYLE STORY', 'Content', 2023, 'Copywriter', '나이키 코리아',
+    'nike-hoshi-style-story', 'NIKE : HOSHI''S STYLE STORY', 'Content', 2023, 'Copywriter', '나이키코리아',
     'NIKE 세븐틴 호시의 스타일 스토리. "내가 되고 싶은 나처럼 옷을 입는다"는 세븐틴의 호시. 그의 스타일과 철학을 스토리 필름으로 담아내고 보메로5를 활용한 세 가지 룩으로 스타일링에 대한 영감을 주다.',
     array[
       'NIKE 세븐틴 호시의 스타일 스토리.',
@@ -269,7 +269,7 @@ values
     68
   ),
   (
-    'nike-airmax-dn', 'NIKE : AIRMAX Dn', 'Content', 2024, 'Copywriter', '나이키 코리아',
+    'nike-airmax-dn', 'NIKE : AIRMAX Dn', 'Content', 2024, 'Copywriter', '나이키코리아',
     '과감한 개성의 나이키 에어맥스Dn 스타일 컨텐츠. 케이팝 아티스트들의 스타일링을 책임지고 있는 스타일리스트 김영진과 모델 채종석의 룩을 통해 에어맥스 Dn만의 독보적인 스타일을 표현하다.',
     array[
       '과감한 개성의 나이키 에어맥스Dn 스타일 컨텐츠.',
