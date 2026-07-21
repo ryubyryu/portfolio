@@ -41,7 +41,7 @@ export default async function WorkDetailPage({
     <div className="mx-auto max-w-5xl px-6 py-16 sm:px-8">
       <Link
         href="/works"
-        className="mb-10 inline-block font-mono text-xs tracking-widest text-stone hover:text-ink"
+        className="mb-10 inline-block font-mono text-xs uppercase tracking-widest text-stone hover:text-ink"
       >
         ← Works
       </Link>
