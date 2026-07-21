@@ -28,7 +28,7 @@ export default function ImageFilmstrip({
         {images.map((image, i) => (
           <div
             key={image.url}
-            className="h-40 shrink-0"
+            className="h-64 shrink-0 sm:h-80"
             style={{ aspectRatio: `${image.width} / ${image.height}` }}
           >
             <Image
@@ -36,7 +36,7 @@ export default function ImageFilmstrip({
               alt={`${alt} ${i + 1}`}
               width={image.width}
               height={image.height}
-              sizes="200px"
+              sizes="400px"
               className="h-full w-auto object-cover"
             />
           </div>
@@ -45,14 +45,14 @@ export default function ImageFilmstrip({
       <button
         onClick={() => scrollBy(-1)}
         aria-label="이전 이미지"
-        className="absolute left-1 top-1/2 flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white transition-colors hover:bg-black/60"
+        className="absolute left-2 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white transition-colors hover:bg-black/60"
       >
         ‹
       </button>
       <button
         onClick={() => scrollBy(1)}
         aria-label="다음 이미지"
-        className="absolute right-1 top-1/2 flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white transition-colors hover:bg-black/60"
+        className="absolute right-2 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white transition-colors hover:bg-black/60"
       >
         ›
       </button>

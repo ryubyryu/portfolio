@@ -884,7 +884,7 @@ const fallbackWorks: Work[] = [
       "롯데리아에서 한 해 가장 사랑받은 버거를 재출시하며 캠페인 영상부터 나만의 캐릭터로 카드를 만드는 사이트까지 롯데리아를 매개체로 연말연시 고마운 사람들에게 땡스~한 마음을 서로 전할 수 있는 IMC 캠페인을 설계.",
     ],
     links: [
-      { label: "유튜브에서 영상 보기", url: "https://www.youtube.com/watch?v=Vy_--uYhmwc" },
+      { label: "고마운 사람에게 마음을 전하세요ㅣ롯데리아 땡스버거", url: "https://www.youtube.com/watch?v=Vy_--uYhmwc" },
     ],
     gallery: [
       {
