@@ -26,6 +26,7 @@ export type WorkGalleryGroup = {
   heading?: string;
   columns?: number;
   carousel?: boolean;
+  filmstrip?: boolean;
   video?: WorkGalleryVideo;
   feature?: WorkGalleryImage;
   images: WorkGalleryImage[];
@@ -902,10 +903,8 @@ const fallbackWorks: Work[] = [
       },
       {
         heading: "TEASER POSTER",
-        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/10.avif", width: 1470, height: 827 }],
-      },
-      {
-        carousel: true,
+        filmstrip: true,
+        feature: { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/10.avif", width: 1470, height: 827 },
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/11.avif", width: 937, height: 1400 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/12.avif", width: 937, height: 1400 },
@@ -921,10 +920,8 @@ const fallbackWorks: Work[] = [
       },
       {
         heading: "DIGITAL CAMPAIGN MICROSITE",
-        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/21.avif", width: 1470, height: 827 }],
-      },
-      {
-        carousel: true,
+        filmstrip: true,
+        feature: { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/21.avif", width: 1470, height: 827 },
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/22.avif", width: 479, height: 599 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/23.avif", width: 479, height: 599 },
