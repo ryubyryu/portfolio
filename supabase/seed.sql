@@ -354,20 +354,20 @@ update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/30.jpeg' where slug = 'woongjin-bookclub';
 
 -- Campaign 썸네일 이미지 URL을 cover_image에 반영합니다 (사용자가 지정한 순서대로 1~14).
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/1.jpeg' where slug = 'noroo-poster-challenge';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/2.jpeg' where slug = 'lg-gram-class101';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/3.jpeg' where slug = 'nike-worldcup-2022';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/4.jpeg' where slug = 'nike-runners-helping-runners';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/5.jpeg' where slug = 'nike-air-force-1-t1';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/6.jpeg' where slug = 'kakao-corporate-pr';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/7.jpeg' where slug = 'nike-hoshi-style-story';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/8.jpeg' where slug = 'lotteria-thanks-burger';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/9.jpeg' where slug = 'nike-airmax-dn';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/10.jpeg' where slug = 'lg-gram-go-busan';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/11.jpeg' where slug = 'lg-gram-go-ai-travel';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/12.jpeg' where slug = 'lg-gram-vi-beop';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/13.jpeg' where slug = 'lg-gram-vi-beop-class';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/14.jpeg' where slug = 'gshock-iconic-styles';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/1.avif' where slug = 'noroo-poster-challenge';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/2.avif' where slug = 'lg-gram-class101';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/3.avif' where slug = 'nike-worldcup-2022';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/4.avif' where slug = 'nike-runners-helping-runners';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/1.avif' where slug = 'nike-air-force-1-t1';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/5.avif' where slug = 'kakao-corporate-pr';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/2.avif' where slug = 'nike-hoshi-style-story';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/6.avif' where slug = 'lotteria-thanks-burger';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/3.avif' where slug = 'nike-airmax-dn';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/7.avif' where slug = 'lg-gram-go-busan';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/8.avif' where slug = 'lg-gram-go-ai-travel';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/4.avif' where slug = 'lg-gram-vi-beop';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/5.avif' where slug = 'lg-gram-vi-beop-class';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/6.avif' where slug = 'gshock-iconic-styles';
 
 -- Campaign 본문에 추가로 넣을 영상/에디토리얼 링크입니다 (dcr8co.com 포트폴리오 단순 링크는 제외).
 update works set links = '[{"label":"노루페인트 ''포스터챌린지'' 리캡 영상","url":"https://www.youtube.com/watch?v=Uzo8pRUjMHk"}]'::jsonb where slug = 'noroo-poster-challenge';
