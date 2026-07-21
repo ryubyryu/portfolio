@@ -118,11 +118,12 @@ export default async function WorkDetailPage({
             const cols = group.columns ?? group.images.length;
             const rows = Math.ceil(group.images.length / cols);
             const refImage = group.images[0];
-            const videoFr =
-              group.video && refImage
+            const featureMedia = group.video ?? group.feature;
+            const featureFr =
+              featureMedia && refImage
                 ? rows *
                   (refImage.height / refImage.width) *
-                  (group.video.width / group.video.height)
+                  (featureMedia.width / featureMedia.height)
                 : 0;
 
             return (
@@ -132,20 +133,34 @@ export default async function WorkDetailPage({
                     ▼ {group.heading}
                   </h2>
                 )}
-                {group.video ? (
+                {featureMedia ? (
                   <div
                     className="grid gap-1"
                     style={{
-                      gridTemplateColumns: `${videoFr}fr repeat(${cols}, minmax(0, 1fr))`,
+                      gridTemplateColumns: `${featureFr}fr repeat(${cols}, minmax(0, 1fr))`,
                     }}
                   >
-                    <video
-                      src={group.video.url}
-                      controls
-                      playsInline
-                      className="h-full w-full object-cover"
-                      style={{ gridRow: `span ${rows}` }}
-                    />
+                    {group.video ? (
+                      <video
+                        src={group.video.url}
+                        controls
+                        playsInline
+                        className="h-full w-full object-cover"
+                        style={{ gridRow: `span ${rows}` }}
+                      />
+                    ) : (
+                      <div className="relative" style={{ gridRow: `span ${rows}` }}>
+                        <Image
+                          src={featureMedia.url}
+                          alt={work.title}
+                          fill
+                          sizes={`(min-width: 1024px) ${Math.round(
+                            1024 * (featureFr / (cols + featureFr))
+                          )}px, ${Math.round((100 * featureFr) / (cols + featureFr))}vw`}
+                          className="object-cover"
+                        />
+                      </div>
+                    )}
                     {group.images.map((image) => (
                       <div
                         key={image.url}
@@ -157,8 +172,8 @@ export default async function WorkDetailPage({
                           alt={work.title}
                           fill
                           sizes={`(min-width: 1024px) ${Math.round(
-                            1024 / (cols + videoFr)
-                          )}px, ${Math.round(100 / (cols + videoFr))}vw`}
+                            1024 / (cols + featureFr)
+                          )}px, ${Math.round(100 / (cols + featureFr))}vw`}
                           className="object-cover"
                         />
                       </div>
