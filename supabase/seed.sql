@@ -160,6 +160,12 @@ values
     55
   ),
   (
+    'dongwon-tuna-open', '동원참치', 'Production', 2020, 'Producer', '동원 F&B',
+    '"동원이도 캔을 따!"를 콘셉트로 한 브랜드 캠페인.',
+    array['동원참치 : 동원이도 캔을 따! 편'],
+    100
+  ),
+  (
     'jungkwanjang-2021', '정관장', 'Production', 2021, 'Producer', '한국인삼공사',
     '한석규, 김성령이 출연한 "제자리" 캠페인.',
     array['정관장 : 제자리 - 한석규 편', '정관장 : 제자리 - 김성령 편', '정관장 : 제자리 - 정몰 편'],
@@ -347,6 +353,7 @@ update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/23.jpeg' where slug = 'lotte-group';
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/24.jpeg' where slug = 'yogiyo-express';
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/25.jpeg' where slug = 'porsche-taycan';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/31.jpeg' where slug = 'dongwon-tuna-open';
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/26.jpeg' where slug = 'jungkwanjang-2021';
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/27.jpeg' where slug = 'nature-made';
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/28.jpeg' where slug = 'beplain';
@@ -528,6 +535,7 @@ update works set images = array['https://tvcf.co.kr/play/bh22322-808029'] where 
 update works set images = array['https://tvcf.co.kr/play/ah11765-808122'] where slug = 'lotte-group';
 update works set images = array['https://tvcf.co.kr/play/bh16646-809483', 'https://tvcf.co.kr/play/ah2644-810508'] where slug = 'yogiyo-express';
 update works set images = array['https://tvcf.co.kr/play/ah1968-810512', 'https://tvcf.co.kr/play/ah25604-809670', 'https://tvcf.co.kr/play/bh06326-811879'] where slug = 'porsche-taycan';
+update works set images = array['https://tvcf.co.kr/play/ah06169-794288'] where slug = 'dongwon-tuna-open';
 update works set images = array['https://tvcf.co.kr/play/bh1563-815507', 'https://tvcf.co.kr/play/ah1482-815506', 'https://tvcf.co.kr/play/bh1401-815505'] where slug = 'jungkwanjang-2021';
 update works set images = array['https://tvcf.co.kr/play/bh04881-816361', 'https://tvcf.co.kr/play/bh17128-816089'] where slug = 'nature-made';
 update works set images = array['https://tvcf.co.kr/play/bh04084-839751'] where slug = 'beplain';

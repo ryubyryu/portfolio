@@ -435,6 +435,18 @@ const fallbackWorks: Work[] = [
     ],
   },
   {
+    slug: "dongwon-tuna-open",
+    title: "동원참치",
+    category: "Production",
+    year: 2020,
+    role: "Producer",
+    client: "동원 F&B",
+    coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/31.jpeg",
+    images: ["https://tvcf.co.kr/play/ah06169-794288"],
+    summary: '"동원이도 캔을 따!"를 콘셉트로 한 브랜드 캠페인.',
+    description: ["동원참치 : 동원이도 캔을 따! 편"],
+  },
+  {
     slug: "jungkwanjang-2021",
     title: "정관장",
     category: "Production",
