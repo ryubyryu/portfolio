@@ -19,6 +19,7 @@ export type WorkGalleryImage = {
 export type WorkGalleryGroup = {
   heading?: string;
   columns?: number;
+  carousel?: boolean;
   images: WorkGalleryImage[];
 };
 
@@ -607,9 +608,26 @@ const fallbackWorks: Work[] = [
       "NIKE 너만의 무늬 [    ] 우리의 무기.",
       "2022년 카타르 월드컵 모멘텀의 나이키 캠페인 \"서로가 다르기에 우리는 더 강해진다\"는 메시지로 승리를 뜨겁게 응원하며 국가대표 선수들을 하이라이팅하다.",
     ],
+    gallery: [
+      {
+        carousel: true,
+        images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20WORLD%20CUP%202022/1.avif", width: 1960, height: 996 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20WORLD%20CUP%202022/2.avif", width: 1960, height: 996 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20WORLD%20CUP%202022/3.avif", width: 1960, height: 996 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20WORLD%20CUP%202022/4.avif", width: 1960, height: 996 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20WORLD%20CUP%202022/5.avif", width: 1960, height: 996 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20WORLD%20CUP%202022/6.avif", width: 1960, height: 996 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20WORLD%20CUP%202022/7.avif", width: 1960, height: 996 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20WORLD%20CUP%202022/8.avif", width: 1960, height: 996 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20WORLD%20CUP%202022/9.avif", width: 1960, height: 996 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20WORLD%20CUP%202022/10.avif", width: 1960, height: 996 },
+        ],
+      },
+    ],
     links: [
       {
-        label: "나이키 에디토리얼 보기",
+        label: "NIKE JOURNAL : 축구로 하나되는 사람들, 풋볼 커뮤니티",
         url: "https://www.nike.com/kr/a/ho22-football-community-editorial",
       },
       {
