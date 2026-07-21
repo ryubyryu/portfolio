@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { getAdjacentWorks, getWorkBySlug, getWorks } from "@/lib/works";
 import WorkThumb from "@/components/work-thumb";
 import ImageCarousel from "@/components/image-carousel";
+import ImageFilmstrip from "@/components/image-filmstrip";
 
 export const revalidate = 60;
 
@@ -133,7 +134,27 @@ export default async function WorkDetailPage({
                     ▼ {group.heading}
                   </h2>
                 )}
-                {featureMedia ? (
+                {group.filmstrip ? (
+                  <div className="space-y-1">
+                    {group.feature && (
+                      <div
+                        className="relative"
+                        style={{
+                          aspectRatio: `${group.feature.width} / ${group.feature.height}`,
+                        }}
+                      >
+                        <Image
+                          src={group.feature.url}
+                          alt={work.title}
+                          fill
+                          sizes="(min-width: 1024px) 1024px, 100vw"
+                          className="object-cover"
+                        />
+                      </div>
+                    )}
+                    <ImageFilmstrip images={group.images} alt={work.title} />
+                  </div>
+                ) : featureMedia ? (
                   <div
                     className="grid gap-1"
                     style={{
