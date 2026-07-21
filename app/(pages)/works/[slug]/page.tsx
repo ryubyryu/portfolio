@@ -224,7 +224,7 @@ export default async function WorkDetailPage({
                     ))}
                   </div>
                 ) : (
-                  <div className="flex flex-wrap gap-4">
+                  <div className="flex flex-wrap gap-1">
                     {group.images.map((image) => (
                       <div
                         key={image.url}
