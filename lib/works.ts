@@ -612,6 +612,18 @@ const fallbackWorks: Work[] = [
         label: "나이키 에디토리얼 보기",
         url: "https://www.nike.com/kr/a/ho22-football-community-editorial",
       },
+      {
+        label: "NIKE : 너만의 무늬 우리의 무기 - CODE KUNST 편",
+        url: "https://tvcf.co.kr/play/bh01715-915419",
+      },
+      {
+        label: "NIKE : 너만의 무늬 우리의 무기 - 3인 편",
+        url: "https://tvcf.co.kr/play/ah01624-915418",
+      },
+      {
+        label: "NIKE : 너만의 무늬 우리의 무기 - HWANG HEECHAN 편",
+        url: "https://tvcf.co.kr/play/bh01351-915415",
+      },
     ],
   },
   {

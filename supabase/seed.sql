@@ -394,7 +394,12 @@ update works set gallery = '[
     "images":[{"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NOROO%20POSTER%20CHALLENGE/4.avif","width":1206,"height":1752}]
   }
 ]'::jsonb where slug = 'noroo-poster-challenge';
-update works set links = '[{"label":"나이키 에디토리얼 보기","url":"https://www.nike.com/kr/a/ho22-football-community-editorial"}]'::jsonb where slug = 'nike-worldcup-2022';
+update works set links = '[
+  {"label":"나이키 에디토리얼 보기","url":"https://www.nike.com/kr/a/ho22-football-community-editorial"},
+  {"label":"NIKE : 너만의 무늬 우리의 무기 - CODE KUNST 편","url":"https://tvcf.co.kr/play/bh01715-915419"},
+  {"label":"NIKE : 너만의 무늬 우리의 무기 - 3인 편","url":"https://tvcf.co.kr/play/ah01624-915418"},
+  {"label":"NIKE : 너만의 무늬 우리의 무기 - HWANG HEECHAN 편","url":"https://tvcf.co.kr/play/bh01351-915415"}
+]'::jsonb where slug = 'nike-worldcup-2022';
 update works set links = '[{"label":"유튜브에서 영상 보기","url":"https://www.youtube.com/watch?v=Vy_--uYhmwc"}]'::jsonb where slug = 'lotteria-thanks-burger';
 update works set links = '[{"label":"유튜브에서 영상 보기","url":"https://www.youtube.com/watch?v=anuBmMuAM_w"}]'::jsonb where slug = 'lg-gram-go-ai-travel';
 update works set links = '[
