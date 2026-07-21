@@ -5,6 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAdjacentWorks, getWorkBySlug, getWorks } from "@/lib/works";
 import WorkThumb from "@/components/work-thumb";
+import ImageCarousel from "@/components/image-carousel";
 
 export const revalidate = 60;
 
@@ -120,7 +121,9 @@ export default async function WorkDetailPage({
                   ▼ {group.heading}
                 </h2>
               )}
-              {group.columns ? (
+              {group.carousel ? (
+                <ImageCarousel images={group.images} alt={work.title} />
+              ) : group.columns ? (
                 <div
                   className="grid gap-4"
                   style={{
