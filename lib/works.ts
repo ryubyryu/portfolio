@@ -88,7 +88,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/1.jpeg",
     images: ["https://tvcf.co.kr/play/ah05745-718482", "https://tvcf.co.kr/play/ah14201-718460"],
     summary: "맑은피부, 동안피부를 소구한 뷰티 디바이스 런칭 캠페인.",
-    description: ["맑은피부", "동안피부"],
+    description: ["LG 프라엘 : 맑은피부 편", "LG 프라엘 : 동안피부 편"],
   },
   {
     slug: "ohui-first-genature",
@@ -100,7 +100,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/2.jpeg",
     images: ["https://tvcf.co.kr/play/bh03017-725943"],
     summary: "피부감도를 소구한 스킨케어 캠페인.",
-    description: ["피부감도"],
+    description: ["오휘 더 퍼스트 제너츄어 : 피부감도 편"],
   },
   {
     slug: "lg-hwisen-thinq",
@@ -112,7 +112,12 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/3.jpeg",
     images: ["https://tvcf.co.kr/play/bh03293-729147", "https://tvcf.co.kr/play/ah03222-729146", "https://tvcf.co.kr/play/bh03151-729145", "https://tvcf.co.kr/play/ah03089-729144"],
     summary: "제습·냉방·난방·공기청정 4종 컷으로 구성된 에어컨 캠페인.",
-    description: ["제습", "냉방", "난방", "공기청정"],
+    description: [
+      "LG 휘센 인공지능스스로에어컨 ThinQ : 제습 편",
+      "LG 휘센 인공지능스스로에어컨 ThinQ : 냉방 편",
+      "LG 휘센 인공지능스스로에어컨 ThinQ : 난방 편",
+      "LG 휘센 인공지능스스로에어컨 ThinQ : 공기청정 편",
+    ],
   },
   {
     slug: "whoo-cheongidan",
@@ -124,7 +129,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/4.jpeg",
     images: ["https://tvcf.co.kr/play/bh0775-731311"],
     summary: '"세상 위에 빛나다"를 콘셉트로 한 쿠션 캠페인.',
-    description: ["세상 위에 빛나다"],
+    description: ["후 천기단 화현 에센스 쿠션 : 세상 위에 빛나다 편"],
   },
   {
     slug: "benz-service",
@@ -136,7 +141,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/5.jpeg",
     images: ["https://tvcf.co.kr/play/bh01336-739519"],
     summary: '"동행(Go Together)"을 콘셉트로 한 서비스 캠페인.',
-    description: ["동행(Go Together)"],
+    description: ["메르세데스 벤츠 서비스 : 동행(Go Together) 편"],
   },
   {
     slug: "whoo-bichup",
@@ -148,7 +153,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/6.jpeg",
     images: ["https://tvcf.co.kr/play/bh03855-739455"],
     summary: '"순환의 힘"을 소구한 에센스 캠페인.',
-    description: ["순환의 힘"],
+    description: ["후 비첩 순환 에센스 : 순환의 힘 편"],
   },
   {
     slug: "ohui-first-ample",
@@ -160,7 +165,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/7.jpeg",
     images: ["https://tvcf.co.kr/play/ah22804-745040"],
     summary: '"빛의 시그니처"를 콘셉트로 한 앰플 캠페인.',
-    description: ["빛의 시그니처"],
+    description: ["오휘 더 퍼스트 앰플 : 빛의 시그니처 편"],
   },
   {
     slug: "lotte-himart-20th",
@@ -172,7 +177,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/8.jpeg",
     images: ["https://tvcf.co.kr/play/ah03229-771846"],
     summary: "창립 20주년 세일 캠페인.",
-    description: ["창립 20주년 세일 20년만의 기회"],
+    description: ["롯데하이마트 : 창립 20주년 세일 20년만의 기회 편"],
   },
   {
     slug: "dongwon-tuna",
@@ -182,13 +187,12 @@ const fallbackWorks: Work[] = [
     role: "Producer",
     client: "동원 F&B",
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/9.jpeg",
-    images: ["https://tvcf.co.kr/play/ah23363-780048", "https://tvcf.co.kr/play/ah24207-780160", "https://tvcf.co.kr/play/bh14278-780161", "https://tvcf.co.kr/play/ah06169-794288"],
+    images: ["https://tvcf.co.kr/play/ah23363-780048", "https://tvcf.co.kr/play/ah24207-780160", "https://tvcf.co.kr/play/bh14278-780161"],
     summary: '"캔을 따"를 콘셉트로 한 브랜드 캠페인.',
     description: [
-      "캔을 따",
-      "캔을 따 Full",
-      "캔을 따 인터뷰",
-      "동원이도 캔을 따!",
+      "동원참치 : 캔을 따 편",
+      "동원참치 : 캔을 따 Full 편",
+      "동원참치 : 캔을 따 인터뷰 편",
     ],
   },
   {
@@ -201,7 +205,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/10.jpeg",
     images: ["https://tvcf.co.kr/play/bh15819-780783"],
     summary: '"음~ 왜 이제 왔어요"를 콘셉트로 한 신제품 캠페인.',
-    description: ["음~ 왜 이제 왔어요"],
+    description: ["카누 바닐라 라떼 : 음~ 왜 이제 왔어요 편"],
   },
   {
     slug: "duolac",
@@ -213,7 +217,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/11.jpeg",
     images: ["https://tvcf.co.kr/play/ah04342-783362", "https://tvcf.co.kr/play/ah01967-784628"],
     summary: "우리나라 유산균 듀오락 캠페인.",
-    description: ["우리나라 유산균 듀오락", "우리나라 유산균 듀오락 2"],
+    description: ["듀오락 : 우리나라 유산균 듀오락 편", "듀오락 : 우리나라 유산균 듀오락 2편"],
   },
   {
     slug: "porsche-911-timeless-machine",
@@ -226,12 +230,12 @@ const fallbackWorks: Work[] = [
     images: ["https://tvcf.co.kr/play/bh1354-784805", "https://tvcf.co.kr/play/ah0984-784814", "https://tvcf.co.kr/play/bh06793-787597", "https://tvcf.co.kr/play/ah06722-787596", "https://tvcf.co.kr/play/bh12458-787035", "https://tvcf.co.kr/play/ah12387-787034"],
     summary: "오너들의 이야기를 담은 오너 스토리 시리즈.",
     description: [
-      "오너 스토리 종합",
-      "오너 스토리 티저",
-      "오너 스토리 신태윤",
-      "오너 스토리 김택",
-      "오너 스토리 전용훈",
-      "오너 스토리 정규영",
+      "포르쉐 : 911 Timeless Machine_오너 스토리 종합 편",
+      "포르쉐 : 911 Timeless Machine_오너 스토리 티저 편",
+      "포르쉐 : 911 Timeless Machine_오너 스토리 신태윤 편",
+      "포르쉐 : 911 Timeless Machine_오너 스토리 김택 편",
+      "포르쉐 : 911 Timeless Machine_오너 스토리 전용훈 편",
+      "포르쉐 : 911 Timeless Machine_오너 스토리 정규영 편",
     ],
   },
   {
@@ -246,11 +250,11 @@ const fallbackWorks: Work[] = [
     summary: "프리미엄 라인 런칭 캠페인 (가치·언박싱·범퍼 컷).",
     description: [
       "가치",
-      "언박싱 디자인",
-      "언박싱 맛",
-      "범퍼A",
-      "범퍼B",
-      "범퍼C",
+      "카누 시그니처 : 언박싱 디자인 편",
+      "카누 시그니처 : 언박싱 맛 편",
+      "카누 시그니처 : 범퍼 A",
+      "카누 시그니처 : 범퍼 B",
+      "카누 시그니처 : 범퍼 C",
     ],
   },
   {
@@ -263,7 +267,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/14.jpeg",
     images: ["https://tvcf.co.kr/play/bh02311-791433"],
     summary: '"본"을 콘셉트로 한 브랜드 캠페인.',
-    description: ["본"],
+    description: ["피자알볼로 : 본 편"],
   },
   {
     slug: "samsung-bespoke-dishwasher",
@@ -276,8 +280,8 @@ const fallbackWorks: Work[] = [
     images: ["https://tvcf.co.kr/play/bh05538-794179", "https://tvcf.co.kr/play/bh06097-794187"],
     summary: '"당신이 바라던 식기세척기"를 소구한 런칭 캠페인.',
     description: [
-      "당신이 바라던 식기세척기 - TVC",
-      "당신이 바라던 식기세척기 - 디지털",
+      "삼성 비스포크 식기세척기 : 당신이 바라던 식기세척기 - TVC 편",
+      "삼성 비스포크 식기세척기 : 당신이 바라던 식기세척기 - 디지털 편",
     ],
   },
   {
@@ -291,9 +295,9 @@ const fallbackWorks: Work[] = [
     images: ["https://tvcf.co.kr/play/bh02311-796433", "https://tvcf.co.kr/play/ah02382-796434", "https://tvcf.co.kr/play/ah02524-796436"],
     summary: '"나홀로이식당" 시리즈 캠페인.',
     description: [
-      "나홀로이식당_외국어ver",
-      "나홀로이식당_치팅데이",
-      "나홀로이식당_식단관리",
+      "랭킹닭컴 : 나홀로이식당_외국어ver 편",
+      "랭킹닭컴 : 나홀로이식당_치팅데이 편",
+      "랭킹닭컴 : 나홀로이식당_식단관리 편",
     ],
   },
   {
@@ -306,7 +310,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/17.jpeg",
     images: ["https://tvcf.co.kr/play/ah3167-800502", "https://tvcf.co.kr/play/ah405-800500", "https://tvcf.co.kr/play/bh27924-800499"],
     summary: "안성기, 유지태가 출연한 홍삼 브랜드 캠페인.",
-    description: ["종합", "안성기", "유지태"],
+    description: ["정관장 : 종합 편", "정관장 : 안성기 편", "정관장 : 유지태 편"],
   },
   {
     slug: "sos-state-of-survival",
@@ -319,11 +323,11 @@ const fallbackWorks: Work[] = [
     images: ["https://tvcf.co.kr/play/ah16085-803176", "https://tvcf.co.kr/play/bh12164-805427", "https://tvcf.co.kr/play/ah12083-805426", "https://tvcf.co.kr/play/bh17128-805989", "https://tvcf.co.kr/play/ah400-806000"],
     summary: "혜리, 정우성이 출연한 모바일 게임 광고.",
     description: [
-      "티저",
-      "티저 - 혜리",
-      "티저 - 정우성",
-      "혜리",
-      "정우성",
+      "S.O.S : 스테이트 오브 서바이벌 : 티저 편",
+      "S.O.S : 스테이트 오브 서바이벌 : 티저 - 혜리 편",
+      "S.O.S : 스테이트 오브 서바이벌 : 티저 편 - 정우성 편",
+      "S.O.S : 스테이트 오브 서바이벌 : 혜리 편",
+      "S.O.S : 스테이트 오브 서바이벌 : 정우성 편",
     ],
   },
   {
@@ -340,7 +344,11 @@ const fallbackWorks: Work[] = [
       "https://tvcf.co.kr/play/ah15767-802772",
     ],
     summary: '"햄맛챔피온리챔"과 "건강 총동원" 선물세트를 함께 소구한 캠페인.',
-    description: ["햄맛챔피온리챔 15초", "햄맛챔피온리챔 30초", "건강 총동원"],
+    description: [
+      "리챔 : 햄맛 챔피온 리챔 15초 편",
+      "리챔 : 햄맛 챔피온 리챔 30초 편",
+      "동원 선물세트 : 건강 총동원 편",
+    ],
   },
   {
     slug: "denmark-pocket-cheese",
@@ -350,9 +358,17 @@ const fallbackWorks: Work[] = [
     role: "Producer",
     client: "동원 F&B",
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/20.jpeg",
-    images: ["https://tvcf.co.kr/play/bh17286-806591"],
+    images: [
+      "https://tvcf.co.kr/play/bh17286-806591",
+      "https://tvcf.co.kr/play/ah17367-806592",
+      "https://tvcf.co.kr/play/ah27205-806590",
+    ],
     summary: '"10초면 찢기에 충분해"를 소구한 신제품 캠페인.',
-    description: ["10초면 찢기에 충분해 (15s_A)"],
+    description: [
+      "덴마크 인 포켓치즈 : 10초면 찢기에 충분해 (15s_A) 편",
+      "덴마크 인 포켓치즈 : 10초면 찢기에 충분해 (15s_B) 편",
+      "덴마크 인 포켓치즈 : 10초면 찢기에 충분해 (full) 편",
+    ],
   },
   {
     slug: "samsung-bespoke-induction",
@@ -364,7 +380,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/21.jpeg",
     images: ["https://tvcf.co.kr/play/bh26489-808081"],
     summary: '김이나가 출연한 "Kitchen for You" 캠페인.',
-    description: ["김이나의 Kitchen for You"],
+    description: ["삼성 비스포크 인덕션 : 김이나의 Kitchen for You 편"],
   },
   {
     slug: "maxim-white-gold",
@@ -376,7 +392,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/22.jpeg",
     images: ["https://tvcf.co.kr/play/bh22322-808029"],
     summary: '"나에게 부드러워지는 시간"을 콘셉트로 한 캠페인.',
-    description: ["나에게 부드러워지는 시간"],
+    description: ["맥심 화이트골드 : 나에게 부드러워지는 시간 편"],
   },
   {
     slug: "lotte-group",
@@ -388,7 +404,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/23.jpeg",
     images: ["https://tvcf.co.kr/play/ah11765-808122"],
     summary: '"함께 가는 친구, 롯데" 기업PR 캠페인.',
-    description: ["함께 가는 친구, 롯데"],
+    description: ["롯데그룹 : 함께 가는 친구, 롯데 편"],
   },
   {
     slug: "yogiyo-express",
@@ -400,7 +416,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/24.jpeg",
     images: ["https://tvcf.co.kr/play/bh16646-809483", "https://tvcf.co.kr/play/ah2644-810508"],
     summary: '"익스프레스" 배달 서비스 캠페인.',
-    description: ["익스프레스 라이더", "익스프레스 속도"],
+    description: ["요기요 : 익스프레스 라이더 편", "요기요 : 익스프레스 속도 편"],
   },
   {
     slug: "porsche-taycan",
@@ -413,9 +429,9 @@ const fallbackWorks: Work[] = [
     images: ["https://tvcf.co.kr/play/ah1968-810512", "https://tvcf.co.kr/play/ah25604-809670", "https://tvcf.co.kr/play/bh06326-811879"],
     summary: '"Seoul, Electrified"를 콘셉트로 한 타이칸 런칭 캠페인.',
     description: [
-      "더 뉴 타이칸 : Seoul, Electrified",
-      "Seoul, electrified : 티저",
-      "영혼의 전율",
+      "포르쉐 : 더 뉴 타이칸 : Seoul, Electrified 편",
+      "포르쉐 : 더 뉴 타이칸 : Seoul, Electrified : 티저 편",
+      "포르쉐 : 더 뉴 타이칸 : 영혼의 전율 편",
     ],
   },
   {
@@ -428,7 +444,11 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/26.jpeg",
     images: ["https://tvcf.co.kr/play/bh1563-815507", "https://tvcf.co.kr/play/ah1482-815506", "https://tvcf.co.kr/play/bh1401-815505"],
     summary: '한석규, 김성령이 출연한 "제자리" 캠페인.',
-    description: ["제자리:한석규", "제자리:김성령", "정관장몰:정몰"],
+    description: [
+      "정관장 : 제자리 - 한석규 편",
+      "정관장 : 제자리 - 김성령 편",
+      "정관장 : 제자리 - 정몰 편",
+    ],
   },
   {
     slug: "nature-made",
@@ -440,7 +460,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/27.jpeg",
     images: ["https://tvcf.co.kr/play/bh04881-816361", "https://tvcf.co.kr/play/bh17128-816089"],
     summary: '"홈트", "배달음식" 등 일상 속 건강 캠페인.',
-    description: ["홈트", "배달음식"],
+    description: ["네이처 메이드 : 홈트 편", "네이처 메이드 : 배달음식 편"],
   },
   {
     slug: "beplain",
@@ -452,7 +472,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/28.jpeg",
     images: ["https://tvcf.co.kr/play/bh04084-839751"],
     summary: "녹두Song 캠페인.",
-    description: ["녹두Song 캠페인"],
+    description: ["비플레인 : 녹두Song 캠페인 편"],
   },
   {
     slug: "myallri",
@@ -466,14 +486,14 @@ const fallbackWorks: Work[] = [
     summary:
       "건강기능식품 라인업 캠페인 (알티지 오메가3, 루테인, 비타민B, 프로바이오틱스 외).",
     description: [
-      "나를 위한 케어레시피",
-      "골든루트 밀크시슬(feat.간건강)",
-      "코어 비타민B 플러스(feat.활력)",
-      "프로바이오틱스(feat.장건강)",
-      "알티지 알래스카 오메가3(feat.혈액순환)",
-      "슈퍼크리티컬 루테인(feat.눈건강)",
-      "나를 위한 케어 레시피2",
-      "카마디 엑스투(feat.뼈건강)",
+      "마이올리 : 나를 위한 케어레시피 편",
+      "마이올리 : 골든루트 밀크시슬 (feat.간건강) 편",
+      "마이올리 : 코어 비타민B 플러스 (feat.활력) 편",
+      "마이올리 : 프로바이틱스 (feat.장건강) 편",
+      "마이올리 : 알티지 알래스카 오메가3 (feat.혈액순환) 편",
+      "마이올리 : 슈퍼크리티컬 루테인 (feat.눈건강) 편",
+      "마이올리 : 나를 위한 케어 레시피 2편",
+      "마이올리 : 카마디 엑스투 (feat.뼈건강) 편",
     ],
   },
   {
@@ -486,7 +506,7 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-production/30.jpeg",
     images: ["https://tvcf.co.kr/play/bh14248-845053"],
     summary: '"독서의 기준"을 콘셉트로 한 브랜드 캠페인.',
-    description: ["독서의 기준"],
+    description: ["웅진북클럽 : 독서의 기준 편"],
   },
   // Campaign 실제 경력. 사용자가 지정한 순서대로 정리했습니다.
   {
