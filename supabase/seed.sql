@@ -355,8 +355,8 @@ update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage
 
 -- Campaign 썸네일 이미지 URL을 cover_image에 반영합니다 (사용자가 지정한 순서대로 1~14).
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/1.avif' where slug = 'noroo-poster-challenge';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/2.avif' where slug = 'lg-gram-class101';
-update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/3.avif' where slug = 'nike-worldcup-2022';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/3.avif' where slug = 'lg-gram-class101';
+update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/2.avif' where slug = 'nike-worldcup-2022';
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/4.avif' where slug = 'nike-runners-helping-runners';
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/1.avif' where slug = 'nike-air-force-1-t1';
 update works set cover_image = 'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/5.avif' where slug = 'kakao-corporate-pr';
