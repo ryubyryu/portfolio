@@ -156,7 +156,7 @@ export default async function WorkDetailPage({
                   </div>
                 ) : featureMedia ? (
                   <div
-                    className="grid gap-1"
+                    className="grid gap-0"
                     style={{
                       gridTemplateColumns: `${featureFr}fr repeat(${cols}, minmax(0, 1fr))`,
                     }}
@@ -204,7 +204,7 @@ export default async function WorkDetailPage({
                   <ImageCarousel images={group.images} alt={work.title} />
                 ) : group.columns ? (
                   <div
-                    className="grid gap-1"
+                    className="grid gap-0"
                     style={{
                       gridTemplateColumns: `repeat(${group.columns}, minmax(0, 1fr))`,
                     }}
@@ -224,7 +224,7 @@ export default async function WorkDetailPage({
                     ))}
                   </div>
                 ) : (
-                  <div className="flex flex-wrap gap-1">
+                  <div className="flex flex-wrap gap-0">
                     {group.images.map((image) => (
                       <div
                         key={image.url}
