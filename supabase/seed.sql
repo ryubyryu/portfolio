@@ -187,10 +187,10 @@ values
     'myallri', '마이올리', 'Production', 2021, 'Producer', '다원에이치앤비',
     '건강기능식품 라인업 캠페인 (알티지 오메가3, 루테인, 비타민B, 프로바이오틱스 외).',
     array[
-      '마이올리 : 나를 위한 케어레시피 편', '마이올리 : 골든루트 밀크시슬 (feat.간건강) 편',
-      '마이올리 : 코어 비타민B 플러스 (feat.활력) 편', '마이올리 : 프로바이틱스 (feat.장건강) 편',
-      '마이올리 : 알티지 알래스카 오메가3 (feat.혈액순환) 편', '마이올리 : 슈퍼크리티컬 루테인 (feat.눈건강) 편',
-      '마이올리 : 나를 위한 케어 레시피 2편', '마이올리 : 카마디 엑스투 (feat.뼈건강) 편'
+      '마이올리 : 나를 위한 케어레시피 편', '마이올리 : 나를 위한 케어 레시피 2편',
+      '마이올리 : 골든루트 밀크시슬 (feat.간건강) 편', '마이올리 : 코어 비타민B 플러스 (feat.활력) 편',
+      '마이올리 : 프로바이틱스 (feat.장건강) 편', '마이올리 : 알티지 알래스카 오메가3 (feat.혈액순환) 편',
+      '마이올리 : 슈퍼크리티컬 루테인 (feat.눈건강) 편', '마이올리 : 카마디 엑스투 (feat.뼈건강) 편'
     ],
     59
   ),
@@ -539,5 +539,5 @@ update works set images = array['https://tvcf.co.kr/play/ah06169-794288'] where 
 update works set images = array['https://tvcf.co.kr/play/bh1563-815507', 'https://tvcf.co.kr/play/ah1482-815506', 'https://tvcf.co.kr/play/bh1401-815505'] where slug = 'jungkwanjang-2021';
 update works set images = array['https://tvcf.co.kr/play/bh04881-816361', 'https://tvcf.co.kr/play/bh17128-816089'] where slug = 'nature-made';
 update works set images = array['https://tvcf.co.kr/play/bh04084-839751'] where slug = 'beplain';
-update works set images = array['https://tvcf.co.kr/play/ah03047-845538', 'https://tvcf.co.kr/play/bh03443-845543', 'https://tvcf.co.kr/play/bh03281-845541', 'https://tvcf.co.kr/play/ah13209-845540', 'https://tvcf.co.kr/play/ah14962-850362', 'https://tvcf.co.kr/play/ah24809-850360', 'https://tvcf.co.kr/play/ah25605-850770', 'https://tvcf.co.kr/play/bh15043-850363'] where slug = 'myallri';
+update works set images = array['https://tvcf.co.kr/play/ah03047-845538', 'https://tvcf.co.kr/play/ah25605-850770', 'https://tvcf.co.kr/play/bh03443-845543', 'https://tvcf.co.kr/play/bh03281-845541', 'https://tvcf.co.kr/play/ah13209-845540', 'https://tvcf.co.kr/play/ah14962-850362', 'https://tvcf.co.kr/play/ah24809-850360', 'https://tvcf.co.kr/play/bh15043-850363'] where slug = 'myallri';
 update works set images = array['https://tvcf.co.kr/play/bh14248-845053'] where slug = 'woongjin-bookclub';
