@@ -16,10 +16,17 @@ export type WorkGalleryImage = {
   height: number;
 };
 
+export type WorkGalleryVideo = {
+  url: string;
+  width: number;
+  height: number;
+};
+
 export type WorkGalleryGroup = {
   heading?: string;
   columns?: number;
   carousel?: boolean;
+  video?: WorkGalleryVideo;
   images: WorkGalleryImage[];
 };
 
@@ -741,6 +748,32 @@ const fallbackWorks: Work[] = [
     description: [
       "NIKE Air Force 1 x T1.",
       "각자의 게임 플레이 스타일처럼 개성 넘치게 나이키 에어포스1을 커스텀하는 T1 선수들의 모습을 담다.",
+    ],
+    gallery: [
+      {
+        columns: 4,
+        video: {
+          url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/0.mp4",
+          width: 720,
+          height: 1280,
+        },
+        images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/1.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/2.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/3.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/4.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/5.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/6.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/7.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/8.avif", width: 688, height: 1224 },
+        ],
+      },
+    ],
+    links: [
+      {
+        label: "NIKE : AIR FORCE 1 x T1 @NIKESEOUL ON INSTAGRAM",
+        url: "https://www.instagram.com/p/Cr16BB3BLna/",
+      },
     ],
   },
   {
