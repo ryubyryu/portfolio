@@ -876,10 +876,20 @@ export async function getWorkBySlug(slug: string): Promise<Work | undefined> {
 
 export async function getAdjacentWorks(slug: string) {
   const ordered = await getWorks();
-  const index = ordered.findIndex((work) => work.slug === slug);
+  const current = ordered.find((work) => work.slug === slug);
+  if (!current) {
+    return { prev: undefined, next: undefined };
+  }
+
+  // 같은 카테고리(섹션) 안에서, 그 섹션의 연도 순서를 기준으로 이전/다음을 찾습니다.
+  const sameCategory = ordered.filter((work) => work.category === current.category);
+  const index = sameCategory.findIndex((work) => work.slug === slug);
   return {
-    prev: index > 0 ? ordered[index - 1] : undefined,
-    next: index >= 0 && index < ordered.length - 1 ? ordered[index + 1] : undefined,
+    prev: index > 0 ? sameCategory[index - 1] : undefined,
+    next:
+      index >= 0 && index < sameCategory.length - 1
+        ? sameCategory[index + 1]
+        : undefined,
   };
 }
 
