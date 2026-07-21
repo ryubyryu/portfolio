@@ -707,7 +707,7 @@ const fallbackWorks: Work[] = [
         ],
       },
       {
-        heading: "NIKE A RUNNER GUIDE with RYU JUN YEOL",
+        heading: "NIKE A RUNNER GUIDE (with. RYU JUNYEOL)",
         columns: 3,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20RUNNERS%20HELPING%20RUNNERS/10.avif", width: 1713, height: 964 },
