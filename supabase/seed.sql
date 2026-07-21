@@ -421,7 +421,7 @@ update works set gallery = '[
 
 update works set gallery = '[
   {
-    "heading":"NIKE RUNNERS HELPING RUNNERS Feat. RYU JUN YEOL",
+    "heading":"NIKE RUNNERS HELPING RUNNERS (Feat. RYU JUNYEOL)",
     "columns":3,
     "images":[
       {"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20RUNNERS%20HELPING%20RUNNERS/1.avif","width":1713,"height":964},
@@ -450,6 +450,11 @@ update works set gallery = '[
       {"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20RUNNERS%20HELPING%20RUNNERS/18.avif","width":1713,"height":964}
     ]
   }
+]'::jsonb where slug = 'nike-runners-helping-runners';
+update works set links = '[
+  {"label":"NIKE : 러너스 헬핑 러너스 - 류준열 편","url":"https://tvcf.co.kr/play/bh16394-901571"},
+  {"label":"NIKE : 러너스 헬핑 러너스 - 러너 가이드 편","url":"https://tvcf.co.kr/play/ah26303-901570"},
+  {"label":"NIKE : 러너스 헬핑 러너스 - 러너 가이드 편 (세로)","url":"https://tvcf.co.kr/play/bh24594-900751"}
 ]'::jsonb where slug = 'nike-runners-helping-runners';
 update works set links = '[{"label":"유튜브에서 영상 보기","url":"https://www.youtube.com/watch?v=Vy_--uYhmwc"}]'::jsonb where slug = 'lotteria-thanks-burger';
 update works set links = '[{"label":"유튜브에서 영상 보기","url":"https://www.youtube.com/watch?v=anuBmMuAM_w"}]'::jsonb where slug = 'lg-gram-go-ai-travel';
