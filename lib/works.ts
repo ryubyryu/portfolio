@@ -27,6 +27,7 @@ export type WorkGalleryGroup = {
   columns?: number;
   carousel?: boolean;
   video?: WorkGalleryVideo;
+  feature?: WorkGalleryImage;
   images: WorkGalleryImage[];
 };
 
@@ -791,8 +792,6 @@ const fallbackWorks: Work[] = [
       "이미 모두의 일상이 된 카카오톡 앱, 그 뒤에서 보이지 않지만 지금 이 순간도 트래픽과 씨름하는 카카오 메시징 파트의 생생한 현장 이야기 - 365일 24시간 카톡을 지키는 그들의 노력을 담다.",
     ],
     stats: [
-      { label: "Date", value: "October 2023" },
-      { label: "Category", value: "Campaign Film" },
       { label: "Awards", value: "A.N.D. Award Grand Prix 2023 (디지털 광고 캠페인 부문 대기업 분야)" },
       { label: "Awards", value: "A.N.D. Award Winner 2023 (디지털 광고 캠페인 부문 IT서비스 분야)" },
     ],
@@ -829,6 +828,46 @@ const fallbackWorks: Work[] = [
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/2.avif",
     summary:
       "NIKE 세븐틴 호시의 스타일 스토리. \"내가 되고 싶은 나처럼 옷을 입는다\"는 세븐틴의 호시. 그의 스타일과 철학을 스토리 필름으로 담아내고 보메로5를 활용한 세 가지 룩으로 스타일링에 대한 영감을 주다.",
+    gallery: [
+      {
+        heading: "NIKE SVT HOSHI'S STYLE STORY",
+        columns: 4,
+        feature: { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/1.avif", width: 688, height: 1224 },
+        images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/2.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/3.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/4.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/5.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/6.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/7.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/8.avif", width: 688, height: 1224 },
+        ],
+      },
+      {
+        heading: "NIKE VOMERO5 STYLE WITH SVT HOSHI",
+        columns: 4,
+        feature: { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/11.avif", width: 688, height: 1224 },
+        images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/12.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/13.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/14.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/15.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/16.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/17.avif", width: 688, height: 1224 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/18.avif", width: 688, height: 1224 },
+        ],
+      },
+    ],
+    links: [
+      {
+        label: "NIKE : SVT HOSHI'S STYLE STORY @NIKESEOUL ON INSTAGRAM",
+        url: "https://www.instagram.com/p/C0Ali2rPFHd/",
+      },
+      {
+        label: "NIKE : VOMERO5 STYLE WITH SVT HOSHI @NIKESEOUL ON INSTAGRAM",
+        url: "https://www.instagram.com/p/C0SmJQhhY-t/",
+      },
+    ],
     description: [
       "NIKE 세븐틴 호시의 스타일 스토리.",
       "\"내가 되고 싶은 나처럼 옷을 입는다\"는 세븐틴의 호시.",
