@@ -188,14 +188,14 @@ export default async function WorkDetailPage({
       <div className="mt-16 flex justify-between border-t border-line pt-8 font-mono text-xs uppercase tracking-widest text-stone">
         {prev ? (
           <Link href={`/works/${prev.slug}`} className="hover:text-ink">
-            ← {prev.title}
+            ← After
           </Link>
         ) : (
           <span />
         )}
         {next ? (
           <Link href={`/works/${next.slug}`} className="hover:text-ink">
-            {next.title} →
+            Before →
           </Link>
         ) : (
           <span />
