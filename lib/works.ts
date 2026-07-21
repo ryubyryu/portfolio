@@ -644,7 +644,7 @@ const fallbackWorks: Work[] = [
   {
     slug: "nike-air-force-1-t1",
     title: "NIKE : AIR FORCE 1 x T1",
-    category: "Campaign",
+    category: "Content",
     year: 2023,
     role: "Copywriter",
     client: "나이키 코리아",
@@ -674,7 +674,7 @@ const fallbackWorks: Work[] = [
   {
     slug: "nike-hoshi-style-story",
     title: "NIKE : HOSHI'S STYLE STORY",
-    category: "Campaign",
+    category: "Content",
     year: 2023,
     role: "Copywriter",
     client: "나이키 코리아",
@@ -707,7 +707,7 @@ const fallbackWorks: Work[] = [
   {
     slug: "nike-airmax-dn",
     title: "NIKE : AIRMAX Dn",
-    category: "Campaign",
+    category: "Content",
     year: 2024,
     role: "Copywriter",
     client: "나이키 코리아",
@@ -756,7 +756,7 @@ const fallbackWorks: Work[] = [
   {
     slug: "lg-gram-vi-beop",
     title: "LG gram VI법",
-    category: "Campaign",
+    category: "Content",
     year: 2025,
     role: "Copywriter",
     client: "LG전자",
@@ -783,7 +783,7 @@ const fallbackWorks: Work[] = [
   {
     slug: "lg-gram-vi-beop-class",
     title: "LG gram VI법 CLASS",
-    category: "Campaign",
+    category: "Content",
     year: 2025,
     role: "Copywriter",
     client: "LG전자",
@@ -803,7 +803,7 @@ const fallbackWorks: Work[] = [
   {
     slug: "gshock-iconic-styles",
     title: "G-SHOCK ICONIC STYLES",
-    category: "Campaign",
+    category: "Content",
     year: 2025,
     role: "Copywriter",
     client: "지코스모",
