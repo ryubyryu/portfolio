@@ -1046,8 +1046,54 @@ const fallbackWorks: Work[] = [
       "gramGO AI 상상여행사, AI를 활용한 BTL 캠페인.",
       "신제품 LG 그램 프로의 고성능을 체험시키기 위해 음악, 이미지, 대화형 3종의 생성형 AI를 해치와 함께 여행을 떠나듯 경험해보는 여행사 컨셉의 체험형 캠페인 진행",
     ],
+    gallery: [
+      {
+        heading: "MISSION",
+        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/10.avif", width: 1910, height: 1080 }],
+      },
+      {
+        heading: "INTRODUCTION",
+        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/11.avif", width: 1910, height: 1080 }],
+      },
+      {
+        heading: "IMAGINARY AI TICKET BOOTH",
+        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/12.avif", width: 1910, height: 1080 }],
+      },
+      {
+        columns: 2,
+        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/2.avif", width: 1713, height: 964 }, { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/3.avif", width: 1713, height: 964 }],
+      },
+      {
+        heading: "IMAGINARY BGM STUDIO",
+        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/13.avif", width: 1910, height: 1080 }],
+      },
+      {
+        columns: 2,
+        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/4.avif", width: 1713, height: 964 }, { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/5.avif", width: 1713, height: 964 }],
+      },
+      {
+        heading: "IMAGINARY PHOTO STUDIO",
+        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/14.avif", width: 1910, height: 1080 }],
+      },
+      {
+        columns: 3,
+        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/6.avif", width: 1713, height: 964 }, { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/7.avif", width: 1713, height: 964 }, { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/8.avif", width: 1713, height: 964 }],
+      },
+      {
+        heading: "LUCKY DRAW",
+        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/15.avif", width: 1910, height: 1080 }],
+      },
+      {
+        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/9.avif", width: 1713, height: 964 }],
+      },
+      {
+        heading: "POP-UP BOOTH",
+        columns: 3,
+        images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/1.avif", width: 1713, height: 964 }, { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/16.avif", width: 1910, height: 1080 }, { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/17.avif", width: 1880, height: 1063 }],
+      },
+    ],
     links: [
-      { label: "유튜브에서 영상 보기", url: "https://www.youtube.com/watch?v=anuBmMuAM_w" },
+      { label: "LG 그램 : LG gram GO AI 상상여행사 2024", url: "https://tvcf.co.kr/play/ah04681-971352" },
     ],
   },
   {
