@@ -941,6 +941,11 @@ const fallbackWorks: Work[] = [
         heading: "OOH & OFFLINE CAMPAIGN",
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/34.avif", width: 1470, height: 827 },
+        ],
+      },
+      {
+        heading: "CAMPAIGN RESULTS",
+        images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/35.avif", width: 1470, height: 827 },
         ],
       },
