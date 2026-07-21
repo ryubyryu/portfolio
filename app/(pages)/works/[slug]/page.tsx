@@ -114,58 +114,102 @@ export default async function WorkDetailPage({
 
       {work.gallery && work.gallery.length > 0 && (
         <div className="mt-10 space-y-10">
-          {work.gallery.map((group, groupIndex) => (
-            <div key={groupIndex} className="space-y-4">
-              {group.heading && (
-                <h2 className="font-mono text-xs tracking-widest text-stone">
-                  ▼ {group.heading}
-                </h2>
-              )}
-              {group.carousel ? (
-                <ImageCarousel images={group.images} alt={work.title} />
-              ) : group.columns ? (
-                <div
-                  className="grid gap-1"
-                  style={{
-                    gridTemplateColumns: `repeat(${group.columns}, minmax(0, 1fr))`,
-                  }}
-                >
-                  {group.images.map((image) => (
-                    <Image
-                      key={image.url}
-                      src={image.url}
-                      alt={work.title}
-                      width={image.width}
-                      height={image.height}
-                      sizes={`(min-width: 1024px) ${Math.round(
-                        1024 / group.columns!
-                      )}px, ${Math.round(100 / group.columns!)}vw`}
-                      className="h-auto w-full"
+          {work.gallery.map((group, groupIndex) => {
+            const cols = group.columns ?? group.images.length;
+            const rows = Math.ceil(group.images.length / cols);
+            const refImage = group.images[0];
+            const videoFr =
+              group.video && refImage
+                ? rows *
+                  (refImage.height / refImage.width) *
+                  (group.video.width / group.video.height)
+                : 0;
+
+            return (
+              <div key={groupIndex} className="space-y-4">
+                {group.heading && (
+                  <h2 className="font-mono text-xs tracking-widest text-stone">
+                    ▼ {group.heading}
+                  </h2>
+                )}
+                {group.video ? (
+                  <div
+                    className="grid gap-1"
+                    style={{
+                      gridTemplateColumns: `${videoFr}fr repeat(${cols}, minmax(0, 1fr))`,
+                    }}
+                  >
+                    <video
+                      src={group.video.url}
+                      controls
+                      playsInline
+                      className="h-full w-full object-cover"
+                      style={{ gridRow: `span ${rows}` }}
                     />
-                  ))}
-                </div>
-              ) : (
-                <div className="flex flex-wrap gap-4">
-                  {group.images.map((image) => (
-                    <div
-                      key={image.url}
-                      className="min-w-[240px]"
-                      style={{ flexGrow: image.width, flexBasis: 0 }}
-                    >
+                    {group.images.map((image) => (
+                      <div
+                        key={image.url}
+                        className="relative"
+                        style={{ aspectRatio: `${image.width} / ${image.height}` }}
+                      >
+                        <Image
+                          src={image.url}
+                          alt={work.title}
+                          fill
+                          sizes={`(min-width: 1024px) ${Math.round(
+                            1024 / (cols + videoFr)
+                          )}px, ${Math.round(100 / (cols + videoFr))}vw`}
+                          className="object-cover"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                ) : group.carousel ? (
+                  <ImageCarousel images={group.images} alt={work.title} />
+                ) : group.columns ? (
+                  <div
+                    className="grid gap-1"
+                    style={{
+                      gridTemplateColumns: `repeat(${group.columns}, minmax(0, 1fr))`,
+                    }}
+                  >
+                    {group.images.map((image) => (
                       <Image
+                        key={image.url}
                         src={image.url}
                         alt={work.title}
                         width={image.width}
                         height={image.height}
-                        sizes="(min-width: 1024px) 1024px, 100vw"
+                        sizes={`(min-width: 1024px) ${Math.round(
+                          1024 / group.columns!
+                        )}px, ${Math.round(100 / group.columns!)}vw`}
                         className="h-auto w-full"
                       />
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
+                    ))}
+                  </div>
+                ) : (
+                  <div className="flex flex-wrap gap-4">
+                    {group.images.map((image) => (
+                      <div
+                        key={image.url}
+                        className="min-w-[240px]"
+                        style={{ flexGrow: image.width, flexBasis: 0 }}
+                      >
+                        <Image
+                          src={image.url}
+                          alt={work.title}
+                          width={image.width}
+                          height={image.height}
+                          sizes="(min-width: 1024px) 1024px, 100vw"
+                          className="h-auto w-full"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
       )}
 
