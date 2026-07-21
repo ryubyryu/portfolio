@@ -83,7 +83,7 @@ export default async function WorkDetailPage({
       )}
 
       {work.images && work.images.length > 0 && (
-        <div className="mt-10 max-w-2xl divide-y divide-line border-y border-line text-xs tracking-tight">
+        <div className="mt-10 divide-y divide-line border-y border-line text-xs tracking-tight">
           {work.images.map((url, i) => (
             <a
               key={url}
@@ -170,7 +170,7 @@ export default async function WorkDetailPage({
       )}
 
       {work.links && work.links.length > 0 && (
-        <div className="mt-6 max-w-2xl divide-y divide-line border-y border-line text-xs tracking-tight">
+        <div className="mt-6 divide-y divide-line border-y border-line text-xs tracking-tight">
           {work.links.map((link) => (
             <a
               key={link.url}
