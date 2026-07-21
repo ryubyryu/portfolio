@@ -229,7 +229,7 @@ values
     64
   ),
   (
-    'nike-air-force-1-t1', 'NIKE : AIR FORCE 1 x T1', 'Campaign', 2023, 'Copywriter', '나이키 코리아',
+    'nike-air-force-1-t1', 'NIKE : AIR FORCE 1 x T1', 'Content', 2023, 'Copywriter', '나이키 코리아',
     'NIKE Air Force 1 x T1. 각자의 게임 플레이 스타일처럼 개성 넘치게 나이키 에어포스1을 커스텀하는 T1 선수들의 모습을 담다.',
     array[
       'NIKE Air Force 1 x T1.',
@@ -247,7 +247,7 @@ values
     66
   ),
   (
-    'nike-hoshi-style-story', 'NIKE : HOSHI''S STYLE STORY', 'Campaign', 2023, 'Copywriter', '나이키 코리아',
+    'nike-hoshi-style-story', 'NIKE : HOSHI''S STYLE STORY', 'Content', 2023, 'Copywriter', '나이키 코리아',
     'NIKE 세븐틴 호시의 스타일 스토리. "내가 되고 싶은 나처럼 옷을 입는다"는 세븐틴의 호시. 그의 스타일과 철학을 스토리 필름으로 담아내고 보메로5를 활용한 세 가지 룩으로 스타일링에 대한 영감을 주다.',
     array[
       'NIKE 세븐틴 호시의 스타일 스토리.',
@@ -263,7 +263,7 @@ values
     68
   ),
   (
-    'nike-airmax-dn', 'NIKE : AIRMAX Dn', 'Campaign', 2024, 'Copywriter', '나이키 코리아',
+    'nike-airmax-dn', 'NIKE : AIRMAX Dn', 'Content', 2024, 'Copywriter', '나이키 코리아',
     '과감한 개성의 나이키 에어맥스Dn 스타일 컨텐츠. 케이팝 아티스트들의 스타일링을 책임지고 있는 스타일리스트 김영진과 모델 채종석의 룩을 통해 에어맥스 Dn만의 독보적인 스타일을 표현하다.',
     array[
       '과감한 개성의 나이키 에어맥스Dn 스타일 컨텐츠.',
@@ -291,7 +291,7 @@ values
     71
   ),
   (
-    'lg-gram-vi-beop', 'LG gram VI법', 'Campaign', 2025, 'Copywriter', 'LG전자',
+    'lg-gram-vi-beop', 'LG gram VI법', 'Content', 2025, 'Copywriter', 'LG전자',
     'LG 그램 AI를 활용하는 나만의 VI법을 소개하는 그램VI법 컨텐츠 제작. 대학생과 직장인들을 타겟으로 총 8편 에피소드로 구성. LG 그램 Pro의 핵심 AI 기능들을 다양한 방법으로 소개한다.',
     array[
       'LG 그램 AI를 활용하는 나만의 VI법을 소개하는 그램VI법 컨텐츠 제작.',
@@ -301,7 +301,7 @@ values
     72
   ),
   (
-    'lg-gram-vi-beop-class', 'LG gram VI법 CLASS', 'Campaign', 2025, 'Copywriter', 'LG전자',
+    'lg-gram-vi-beop-class', 'LG gram VI법 CLASS', 'Content', 2025, 'Copywriter', 'LG전자',
     '새롭게 출시한 LG 그램 Pro의 혁신적 성능을 숏폼형 클래스로 소개하는 ''LG 그램VI법 클래스'' 컨텐츠 제작. 구독자 20.7만의 테크 유튜버 ''잇츠 오케이 민성''이 새로워진 LG 그램 Pro의 CPU 특징, 멀티태스킹 비법, 4K 영상 편집법을 누구나 이해하기 쉽도록 재미있게 소개하다.',
     array[
       '새롭게 출시한 LG 그램 Pro의 혁신적 성능을 숏폼형 클래스로 소개하는 ''LG 그램VI법 클래스'' 컨텐츠 제작.',
@@ -310,7 +310,7 @@ values
     73
   ),
   (
-    'gshock-iconic-styles', 'G-SHOCK ICONIC STYLES', 'Campaign', 2025, 'Copywriter', '지코스모',
+    'gshock-iconic-styles', 'G-SHOCK ICONIC STYLES', 'Content', 2025, 'Copywriter', '지코스모',
     'G-Shock 아이코닉 스타일 시리즈를 소개하는 콘텐츠 제작. 아이돌 그룹 엔플라잉의 리더이자, ''선재 업고 튀어''에서 배우로 다양한 분야에 도전하며 바쁜 일정을 소화하는 이승협. G-Shock과 함께하는 그의 일상을 담아내며 오랜 시간 사랑받은 아이코닉 스타일처럼 시대를 뛰어넘어 사랑받는 아티스트가 되기 위해 노력하는 그만의 스토리로 도전 그리고 스타일에 대한 영감을 주다.',
     array[
       'G-Shock 아이코닉 스타일 시리즈를 소개하는 콘텐츠 제작.',
