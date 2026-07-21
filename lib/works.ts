@@ -753,11 +753,6 @@ const fallbackWorks: Work[] = [
     gallery: [
       {
         columns: 4,
-        video: {
-          url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/0.mp4",
-          width: 720,
-          height: 1280,
-        },
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/1.avif", width: 688, height: 1224 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/2.avif", width: 688, height: 1224 },
