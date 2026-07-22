@@ -73,6 +73,7 @@ export default async function WorkDetailPage({
         title={work.title}
         coverImage={work.coverImage}
         className="aspect-video"
+        sizes="(min-width: 900px) 900px, 100vw"
       />
 
       {!work.images?.length && (
@@ -136,7 +137,7 @@ export default async function WorkDetailPage({
                 style={group.marginBottom !== undefined ? { marginBottom: `${group.marginBottom}px` } : undefined}
               >
                 {group.heading && (
-                  <h2 className="font-mono text-xs tracking-wide text-stone">
+                  <h2 className="font-mono text-xs tracking-normal text-stone">
                     ▼ {group.heading}
                   </h2>
                 )}
