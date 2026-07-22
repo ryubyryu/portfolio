@@ -190,17 +190,43 @@ export default async function WorkDetailPage({
                         style={{ gridRow: `span ${rows}` }}
                       />
                     ) : (
-                      <div className="relative" style={{ gridRow: `span ${rows}` }}>
-                        <Image
-                          src={featureMedia.url}
-                          alt={work.title}
-                          fill
-                          sizes={`(min-width: 1024px) ${Math.round(
-                            1024 * (featureFr / (cols + featureFr))
-                          )}px, ${Math.round((100 * featureFr) / (cols + featureFr))}vw`}
-                          className="object-cover"
-                        />
-                      </div>
+                      (() => {
+                        const featureInner = (
+                          <div className="relative h-full w-full">
+                            <Image
+                              src={featureMedia.url}
+                              alt={work.title}
+                              fill
+                              sizes={`(min-width: 1024px) ${Math.round(
+                                1024 * (featureFr / (cols + featureFr))
+                              )}px, ${Math.round((100 * featureFr) / (cols + featureFr))}vw`}
+                              className="object-cover"
+                            />
+                            {group.playOverlay && (
+                              <div className="absolute inset-0 flex items-center justify-center">
+                                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-white/80 bg-black/20 text-white">
+                                  ▶
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        );
+                        return group.featureLink ? (
+                          <a
+                            href={group.featureLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="relative block"
+                            style={{ gridRow: `span ${rows}` }}
+                          >
+                            {featureInner}
+                          </a>
+                        ) : (
+                          <div className="relative" style={{ gridRow: `span ${rows}` }}>
+                            {featureInner}
+                          </div>
+                        );
+                      })()
                     )}
                     {group.images.map((image) => (
                       <div
