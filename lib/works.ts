@@ -1284,11 +1284,6 @@ const fallbackWorks: Work[] = [
         ],
       },
     ],
-    links: [
-      { label: "잇츠 오케이의 그램VI법 01_애로우? 루나? CPU 뭐가 다르지?", url: "https://tvcf.co.kr/play/ah11083-975012" },
-      { label: "잇츠 오케이의 그램VI법 02_프로들을 위한 멀티태스킹", url: "https://tvcf.co.kr/play/bh11174-975013" },
-      { label: "잇츠 오케이의 그램VI법 03_4K 편집 가능한 그램 Pro 외장그래픽", url: "https://tvcf.co.kr/play/ah11265-975014" },
-    ],
   },
   {
     slug: "gshock-iconic-styles",
