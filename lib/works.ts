@@ -1417,6 +1417,21 @@ const fallbackWorks: Work[] = [
       { label: "아워홈: 급이 다른 미식 셰프, 중식의 대가", url: "https://www.youtube.com/shorts/yudUIv0Qr7A" },
     ],
   },
+  {
+    slug: "bibigo-svt-social",
+    title: "bibigo : TASTE WHAT'S BEYOND (Feat. SEVENTEEN)",
+    category: "Content",
+    year: 2025,
+    role: "Copywriter",
+    client: "CJ제일제당",
+    coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20SVT%20Social/0.jpeg",
+    summary:
+      "CJ제일제당의 글로벌 K-푸드 브랜드 비비고와 세븐틴이 함께한 글로벌 캠페인. 비비고 글로벌 SNS 채널 @bibigo.global의 인스타그램 및 X 콘텐츠를 기획·제작했다.",
+    description: [
+      "CJ제일제당의 글로벌 K-푸드 브랜드 비비고와 세븐틴이 함께한 글로벌 캠페인.",
+      "캠페인 콘셉트를 기반으로 비비고 글로벌 SNS 채널 @bibigo.global의\n인스타그램 및 X 콘텐츠를 기획·제작했다.\n브랜드 필름과 마이크로사이트 bibigo HOUSE의 비주얼 에셋을 활용해\n캠페인 메시지를 소셜 콘텐츠 전반에 일관되게 적용하며 글로벌 팬들과의 접점을 확장했다.",
+    ],
+  },
 ];
 
 export async function getWorks(): Promise<Work[]> {
