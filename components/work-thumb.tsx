@@ -19,11 +19,13 @@ export default function WorkThumb({
   title,
   coverImage,
   className = "",
+  sizes = "(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 50vw",
 }: {
   slug: string;
   title: string;
   coverImage?: string;
   className?: string;
+  sizes?: string;
 }) {
   if (coverImage) {
     return (
@@ -32,7 +34,7 @@ export default function WorkThumb({
           src={coverImage}
           alt={title}
           fill
-          sizes="(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 50vw"
+          sizes={sizes}
           className="object-cover"
         />
       </div>
