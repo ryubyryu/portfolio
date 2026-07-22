@@ -40,7 +40,7 @@ export default async function WorkDetailPage({
   const { prev, next } = await getAdjacentWorks(slug);
 
   return (
-    <div className="mx-auto max-w-5xl px-6 py-16 sm:px-8">
+    <div className="mx-auto max-w-[900px] px-6 py-16 sm:px-8">
       <Link
         href="/works"
         className="mb-10 inline-block font-mono text-xs uppercase tracking-widest text-stone hover:text-ink"
@@ -171,7 +171,7 @@ export default async function WorkDetailPage({
                           src={group.feature.url}
                           alt={work.title}
                           fill
-                          sizes="(min-width: 1024px) 1024px, 100vw"
+                          sizes="(min-width: 1024px) 900px, 100vw"
                           className="object-cover"
                         />
                       </div>
@@ -203,7 +203,7 @@ export default async function WorkDetailPage({
                               alt={work.title}
                               fill
                               sizes={`(min-width: 1024px) ${Math.round(
-                                1024 * (featureFr / (cols + featureFr))
+                                900 * (featureFr / (cols + featureFr))
                               )}px, ${Math.round((100 * featureFr) / (cols + featureFr))}vw`}
                               className="object-cover"
                             />
@@ -244,7 +244,7 @@ export default async function WorkDetailPage({
                           alt={work.title}
                           fill
                           sizes={`(min-width: 1024px) ${Math.round(
-                            1024 / (cols + featureFr)
+                            900 / (cols + featureFr)
                           )}px, ${Math.round(100 / (cols + featureFr))}vw`}
                           className="object-cover"
                         />
@@ -270,7 +270,7 @@ export default async function WorkDetailPage({
                             width={image.width}
                             height={image.height}
                             sizes={`(min-width: 1024px) ${Math.round(
-                              1024 / group.columns!
+                              900 / group.columns!
                             )}px, ${Math.round(100 / group.columns!)}vw`}
                             className="h-auto w-full"
                           />
@@ -318,7 +318,7 @@ export default async function WorkDetailPage({
                           alt={work.title}
                           width={image.width}
                           height={image.height}
-                          sizes="(min-width: 1024px) 1024px, 100vw"
+                          sizes="(min-width: 1024px) 900px, 100vw"
                           className="h-auto w-full"
                         />
                       </div>
