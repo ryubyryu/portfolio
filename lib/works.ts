@@ -1302,7 +1302,7 @@ const fallbackWorks: Work[] = [
     ],
     gallery: [
       {
-        heading: "지금, 가장 아이코닉한 순간 - G-Shock x 이승협",
+        heading: "G-SHOCK ICONIC STYLES (Feat. LEE SEUNGHYUB)",
         columns: 1,
         playOverlay: true,
         links: ["https://www.youtube.com/watch?v=r3U0wLYNuCY"],
@@ -1324,6 +1324,7 @@ const fallbackWorks: Work[] = [
         ],
       },
       {
+        heading: "G-SHOCK ICONIC STYLES (Feat. LEE SEUNGHYUB)",
         columns: 4,
         gap: 8,
         feature: { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/G-SHOCK%20ICONIC%20STYLES/10.png", width: 1080, height: 1920 },
@@ -1340,10 +1341,6 @@ const fallbackWorks: Work[] = [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/G-SHOCK%20ICONIC%20STYLES/18.avif", width: 688, height: 1224 },
         ],
       },
-    ],
-    links: [
-      { label: "G-SHOCK : ICONIC STYLES : LEE SEUNG HYUB 가로편", url: "https://tvcf.co.kr/play/ah1548-979206" },
-      { label: "G-SHOCK : ICONIC STYLES : LEE SEUNG HYUB 세로편", url: "https://tvcf.co.kr/play/ah1366-979204" },
     ],
   },
 ];
