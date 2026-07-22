@@ -624,6 +624,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "LG gram 360 x CLASS101 (feat. Libere_Nuage)",
         columns: 3,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/1.avif", width: 1713, height: 964 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20X%20CLASS101/2.avif", width: 1713, height: 964 },
@@ -715,6 +716,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "NIKE RUNNERS HELPING RUNNERS (Feat. RYU JUNYEOL)",
         columns: 3,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20RUNNERS%20HELPING%20RUNNERS/1.avif", width: 1713, height: 964 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20RUNNERS%20HELPING%20RUNNERS/2.avif", width: 1713, height: 964 },
@@ -730,6 +732,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "NIKE A RUNNER GUIDE (with. RYU JUNYEOL)",
         columns: 3,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20RUNNERS%20HELPING%20RUNNERS/10.avif", width: 1713, height: 964 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/NIKE%20-%20RUNNERS%20HELPING%20RUNNERS/11.avif", width: 1713, height: 964 },
@@ -766,6 +769,7 @@ const fallbackWorks: Work[] = [
     gallery: [
       {
         columns: 4,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/1.avif", width: 688, height: 1224 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIR%20FORCE%201%20x%20T1/2.avif", width: 688, height: 1224 },
@@ -806,6 +810,7 @@ const fallbackWorks: Work[] = [
     gallery: [
       {
         columns: 3,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/KAKAO%20CORP.%20PR%20CAMPAIGN/1.avif", width: 1713, height: 964 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/KAKAO%20CORP.%20PR%20CAMPAIGN/2.avif", width: 1713, height: 964 },
@@ -840,6 +845,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "NIKE SVT HOSHI'S STYLE STORY",
         columns: 4,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/1.avif", width: 688, height: 1224 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/2.avif", width: 688, height: 1224 },
@@ -854,6 +860,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "NIKE VOMERO5 STYLE WITH SVT HOSHI",
         columns: 4,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/11.avif", width: 688, height: 1224 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20HOSHI%27S%20STYLE%20STORY/12.avif", width: 688, height: 1224 },
@@ -1035,6 +1042,7 @@ const fallbackWorks: Work[] = [
     gallery: [
       {
         columns: 3,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20in%20Busan/1.avif", width: 1713, height: 964 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20in%20Busan/2.avif", width: 1713, height: 964 },
