@@ -58,7 +58,7 @@ export default function WorksGrid({
               slug={work.slug}
               title={work.title}
               coverImage={work.coverImage}
-              className="aspect-[1.91/1] transition-opacity group-hover:opacity-90"
+              className="aspect-video transition-opacity group-hover:opacity-90"
             />
             <div className="mt-3">
               <div className="text-sm text-ink">{work.title}</div>
