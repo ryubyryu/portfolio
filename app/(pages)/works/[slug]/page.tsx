@@ -98,7 +98,7 @@ export default async function WorkDetailPage({
             >
               <span>{work.description[i] ?? work.title}</span>
               <span className="font-mono text-xs uppercase tracking-widest text-stone">
-                재생 ↗
+                이동 ↗
               </span>
             </a>
           ))}
@@ -351,7 +351,7 @@ export default async function WorkDetailPage({
             >
               <span>{link.label}</span>
               <span className="font-mono text-xs uppercase tracking-widest text-stone">
-                재생 ↗
+                이동 ↗
               </span>
             </a>
           ))}
