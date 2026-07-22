@@ -1419,7 +1419,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "bibigo-svt-social",
-    title: "bibigo : TASTE WHAT'S BEYOND (Feat. SEVENTEEN)",
+    title: "bibigo x SEVENTEEN : SOCIAL CONTENT",
     category: "Content",
     year: 2025,
     role: "Copywriter",
