@@ -131,7 +131,7 @@ export default async function WorkDetailPage({
               <div
                 key={groupIndex}
                 className="space-y-4"
-                style={group.marginBottom ? { marginBottom: `${group.marginBottom}px` } : undefined}
+                style={group.marginBottom !== undefined ? { marginBottom: `${group.marginBottom}px` } : undefined}
               >
                 {group.heading && (
                   <h2 className="font-mono text-xs tracking-widest text-stone">
