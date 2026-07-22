@@ -76,9 +76,11 @@ export default async function WorkDetailPage({
       />
 
       {!work.images?.length && (
-        <div className="mt-10 max-w-2xl space-y-3 text-xs tracking-tight text-ink-soft">
+        <div className="mt-10 max-w-2xl space-y-3 text-xs leading-relaxed tracking-tight text-ink-soft">
           {work.description.map((paragraph, i) => (
-            <p key={i}>{paragraph}</p>
+            <p key={i} className="whitespace-pre-line">
+              {paragraph}
+            </p>
           ))}
         </div>
       )}
@@ -134,7 +136,7 @@ export default async function WorkDetailPage({
                 style={group.marginBottom !== undefined ? { marginBottom: `${group.marginBottom}px` } : undefined}
               >
                 {group.heading && (
-                  <h2 className="font-mono text-xs tracking-widest text-stone">
+                  <h2 className="font-mono text-xs tracking-wide text-stone">
                     ▼ {group.heading}
                   </h2>
                 )}
@@ -146,16 +148,18 @@ export default async function WorkDetailPage({
                           <span className="font-mono text-sm text-ink">{i + 1}</span>
                           <h3 className="text-xs font-bold text-ink">{item.title}</h3>
                         </div>
-                        <p className="text-xs leading-relaxed tracking-tight text-ink-soft">
+                        <p className="whitespace-pre-line text-xs leading-relaxed tracking-tight text-ink-soft">
                           {item.body}
                         </p>
                       </div>
                     ))}
                   </div>
                 ) : group.text ? (
-                  <div className="max-w-2xl space-y-3 text-xs tracking-tight text-ink-soft">
+                  <div className="max-w-2xl space-y-3 text-xs leading-relaxed tracking-tight text-ink-soft">
                     {group.text.map((paragraph, i) => (
-                      <p key={i}>{paragraph}</p>
+                      <p key={i} className="whitespace-pre-line">
+                        {paragraph}
+                      </p>
                     ))}
                   </div>
                 ) : group.filmstrip ? (
