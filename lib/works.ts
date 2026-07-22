@@ -1313,7 +1313,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "G-SHOCK ICONIC STYLES (Feat. LEE SEUNGHYUB)",
         columns: 1,
-        marginBottom: 24,
+        marginBottom: 8,
         playOverlay: true,
         links: ["https://www.youtube.com/watch?v=r3U0wLYNuCY"],
         images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/G-SHOCK%20ICONIC%20STYLES/0.png", width: 1920, height: 1080 }],
