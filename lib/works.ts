@@ -1229,6 +1229,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "LG 그램VI법 클래스 EP. 01",
         columns: 4,
+        gap: 8,
         feature: { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/LG%20gram%20ai%20-%20Class/0.jpg", width: 1080, height: 1920 },
         featureLink: "https://tvcf.co.kr/play/ah11083-975012",
         playOverlay: true,
@@ -1246,6 +1247,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "LG 그램VI법 클래스 EP. 02",
         columns: 4,
+        gap: 8,
         feature: { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/LG%20gram%20ai%20-%20Class/9.jpg", width: 1080, height: 1920 },
         featureLink: "https://tvcf.co.kr/play/bh11174-975013",
         playOverlay: true,
@@ -1263,6 +1265,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "LG 그램VI법 클래스 EP. 03",
         columns: 4,
+        gap: 8,
         feature: { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/LG%20gram%20ai%20-%20Class/18.jpg", width: 1080, height: 1920 },
         featureLink: "https://tvcf.co.kr/play/ah11265-975014",
         playOverlay: true,
