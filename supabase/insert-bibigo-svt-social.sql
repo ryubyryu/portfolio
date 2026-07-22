@@ -1,6 +1,6 @@
 -- 새 Content 항목 "bibigo x SEVENTEEN" 소셜 캠페인을 추가합니다.
 
-insert into works (slug, title, category, year, role, client, summary, description, cover_image)
+insert into works (slug, title, category, year, role, client, summary, description, cover_image, links)
 values (
   'bibigo-svt-social',
   'bibigo x SEVENTEEN : SOCIAL CONTENT',
@@ -15,7 +15,11 @@ values (
 브랜드 필름과 마이크로사이트 bibigo HOUSE의 비주얼 에셋을 활용해
 캠페인 메시지를 소셜 콘텐츠 전반에 일관되게 적용하며 글로벌 팬들과의 접점을 확장했다.'
   ],
-  'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20SVT%20Social/0.jpeg'
+  'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20SVT%20Social/0.jpeg',
+  '[
+    {"label":"@bibigo.global INSTAGRAM","url":"https://www.instagram.com/bibigo.global/"},
+    {"label":"@bibigo.global X","url":"https://x.com/bibigoGlobal"}
+  ]'::jsonb
 )
 on conflict (slug) do update set
   title = excluded.title,
@@ -25,4 +29,5 @@ on conflict (slug) do update set
   client = excluded.client,
   summary = excluded.summary,
   description = excluded.description,
-  cover_image = excluded.cover_image;
+  cover_image = excluded.cover_image,
+  links = excluded.links;

@@ -1431,6 +1431,10 @@ const fallbackWorks: Work[] = [
       "CJ제일제당의 글로벌 K-푸드 브랜드 비비고와 세븐틴이 함께한 글로벌 캠페인.",
       "캠페인 콘셉트를 기반으로 비비고 글로벌 SNS 채널 @bibigo.global의 인스타그램 및 X 콘텐츠를 기획·제작\n브랜드 필름과 마이크로사이트 bibigo HOUSE의 비주얼 에셋을 활용해\n캠페인 메시지를 소셜 콘텐츠 전반에 일관되게 적용하며 글로벌 팬들과의 접점을 확장했다.",
     ],
+    links: [
+      { label: "@bibigo.global INSTAGRAM", url: "https://www.instagram.com/bibigo.global/" },
+      { label: "@bibigo.global X", url: "https://x.com/bibigoGlobal" },
+    ],
   },
 ];
 
