@@ -901,6 +901,7 @@ const fallbackWorks: Work[] = [
     gallery: [
       {
         columns: 3,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/1.avif", width: 1713, height: 964 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/2.avif", width: 1713, height: 964 },
@@ -916,6 +917,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "TEASER POSTER",
         filmstrip: true,
+        gap: 8,
         feature: { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/10.avif", width: 1470, height: 827 },
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/11.avif", width: 937, height: 1400 },
@@ -933,6 +935,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "DIGITAL CAMPAIGN MICROSITE",
         filmstrip: true,
+        gap: 8,
         feature: { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/21.avif", width: 1470, height: 827 },
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LOTTERIA%20-%20THANKS%20BURGER/22.avif", width: 479, height: 599 },
