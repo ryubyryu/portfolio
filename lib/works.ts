@@ -38,6 +38,7 @@ export type WorkGalleryGroup = {
   text?: string[];
   list?: WorkGalleryListItem[];
   captions?: string[];
+  links?: string[];
   playOverlay?: boolean;
   images: WorkGalleryImage[];
 };
@@ -1146,6 +1147,17 @@ const fallbackWorks: Work[] = [
           "LG gram VI법 (EP. 06)",
           "LG gram VI법 (EP. 07)",
           "LG gram VI법 (EP. 08)",
+        ],
+        links: [
+          "https://tvcf.co.kr/play/bh07658-973485",
+          "https://tvcf.co.kr/play/bh12431-970127",
+          "https://tvcf.co.kr/play/bh12795-970131",
+          "https://tvcf.co.kr/play/ah12886-970132",
+          "https://tvcf.co.kr/play/ah15221-970658",
+          "https://tvcf.co.kr/play/ah11265-972014",
+          "https://tvcf.co.kr/play/bh11538-972017",
+          "https://tvcf.co.kr/play/ah23604-972040",
+          "https://tvcf.co.kr/play/ah04686-972852",
         ],
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/LG%20gram%20ai/0.png", width: 1080, height: 1920 },

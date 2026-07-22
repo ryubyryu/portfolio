@@ -230,8 +230,8 @@ export default async function WorkDetailPage({
                       gap: `${group.gap ?? 0}px`,
                     }}
                   >
-                    {group.images.map((image, i) => (
-                      <div key={image.url}>
+                    {group.images.map((image, i) => {
+                      const cellImage = (
                         <div className="relative">
                           <Image
                             src={image.url}
@@ -251,13 +251,28 @@ export default async function WorkDetailPage({
                             </div>
                           )}
                         </div>
-                        {group.captions?.[i] && (
-                          <p className="mt-2 font-mono text-xs text-stone">
-                            ▲ {group.captions[i]}
-                          </p>
-                        )}
-                      </div>
-                    ))}
+                      );
+                      return (
+                        <div key={image.url}>
+                          {group.links?.[i] ? (
+                            <a
+                              href={group.links[i]}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {cellImage}
+                            </a>
+                          ) : (
+                            cellImage
+                          )}
+                          {group.captions?.[i] && (
+                            <p className="mt-2 font-mono text-xs text-stone">
+                              ▲ {group.captions[i]}
+                            </p>
+                          )}
+                        </div>
+                      );
+                    })}
                   </div>
                 ) : (
                   <div className="flex flex-wrap gap-0">
