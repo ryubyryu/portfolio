@@ -1209,17 +1209,6 @@ const fallbackWorks: Work[] = [
         images: [],
       },
     ],
-    links: [
-      { label: "LG 그램 : 그램VI법_Teaser편", url: "https://tvcf.co.kr/play/bh07658-973485" },
-      { label: "LG 그램 : 그램VI법01_에러 난 과제 파일 구출법", url: "https://tvcf.co.kr/play/bh12431-970127" },
-      { label: "LG 그램 : 그램VI법02_시험 준비 교수님 소환술", url: "https://tvcf.co.kr/play/bh12795-970131" },
-      { label: "LG 그램 : 그램VI법03_과제 지옥 탈출법", url: "https://tvcf.co.kr/play/ah12886-970132" },
-      { label: "LG 그램 : 그램VI법04_일잘러의 회의 준비법", url: "https://tvcf.co.kr/play/ah15221-970658" },
-      { label: "LG 그램 : 그램VI법05_휴가 복귀 후 밀린 메일 정리법", url: "https://tvcf.co.kr/play/ah11265-972014" },
-      { label: "LG 그램 : 그램VI법06_경력같은 신입사원 되는 법", url: "https://tvcf.co.kr/play/bh11538-972017" },
-      { label: "LG 그램 : 그램VI법07_누구보다 빠르게 남들과는 다른 편집법", url: "https://tvcf.co.kr/play/ah23604-972040" },
-      { label: "LG 그램 : 그램VI법08_쿨하게 무릎 책상 쓰기", url: "https://tvcf.co.kr/play/ah04686-972852" },
-    ],
   },
   {
     slug: "lg-gram-vi-beop-class",
