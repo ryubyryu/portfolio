@@ -996,8 +996,8 @@ const fallbackWorks: Work[] = [
       },
     ],
     links: [
-      { label: "나이키 : Airmax DN-스타일리스트 김영진 편", url: "https://tvcf.co.kr/play/bh1638-953107" },
-      { label: "나이키 : Airmax DN- 모델 채종석 편", url: "https://tvcf.co.kr/play/bh1811-953109" },
+      { label: "NIKE : AIRMAX Dn STYLE by KIM YOUNGJIN", url: "https://www.instagram.com/p/C5fqASvR2jm/" },
+      { label: "NIKE : CHAE JONGSUK'S AIRMAX Dn STYLED BY KIM YOUNGJIN", url: "https://www.instagram.com/p/C5hX_EbB2Q7/" },
     ],
   },
   {

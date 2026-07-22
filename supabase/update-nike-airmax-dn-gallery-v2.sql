@@ -1,5 +1,5 @@
--- NIKE : AIRMAX Dn에 4x2 갤러리 2세트와 링크 2개를 추가합니다.
--- 급하지 않아요 — 편하실 때 실행해주세요.
+-- NIKE : AIRMAX Dn에 4x2 갤러리 2세트와 인스타그램 링크 2개를 반영합니다.
+-- (이전에 보내드린 update-nike-airmax-dn-gallery.sql은 실행하지 마시고 이 파일만 실행해주세요 — 링크가 인스타그램으로 교체됐어요.)
 
 update works set gallery = '[
   {
@@ -33,6 +33,6 @@ update works set gallery = '[
 ]'::jsonb where slug = 'nike-airmax-dn';
 
 update works set links = '[
-  {"label":"나이키 : Airmax DN-스타일리스트 김영진 편","url":"https://tvcf.co.kr/play/bh1638-953107"},
-  {"label":"나이키 : Airmax DN- 모델 채종석 편","url":"https://tvcf.co.kr/play/bh1811-953109"}
+  {"label":"NIKE : AIRMAX Dn STYLE by KIM YOUNGJIN","url":"https://www.instagram.com/p/C5fqASvR2jm/"},
+  {"label":"NIKE : CHAE JONGSUK''S AIRMAX Dn STYLED BY KIM YOUNGJIN","url":"https://www.instagram.com/p/C5hX_EbB2Q7/"}
 ]'::jsonb where slug = 'nike-airmax-dn';
