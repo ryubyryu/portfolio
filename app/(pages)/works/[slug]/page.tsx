@@ -134,7 +134,27 @@ export default async function WorkDetailPage({
                     ▼ {group.heading}
                   </h2>
                 )}
-                {group.filmstrip ? (
+                {group.list ? (
+                  <div className="grid gap-8 sm:grid-cols-3">
+                    {group.list.map((item, i) => (
+                      <div key={item.title} className="space-y-2">
+                        <div className="flex items-baseline gap-2">
+                          <span className="font-mono text-sm text-ink">{i + 1}</span>
+                          <h3 className="text-xs font-bold text-ink">{item.title}</h3>
+                        </div>
+                        <p className="text-xs leading-relaxed tracking-tight text-ink-soft">
+                          {item.body}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                ) : group.text ? (
+                  <div className="max-w-2xl space-y-3 text-xs tracking-tight text-ink-soft">
+                    {group.text.map((paragraph, i) => (
+                      <p key={i}>{paragraph}</p>
+                    ))}
+                  </div>
+                ) : group.filmstrip ? (
                   <div className="space-y-1">
                     {group.feature && (
                       <div
@@ -210,18 +230,33 @@ export default async function WorkDetailPage({
                       gap: `${group.gap ?? 0}px`,
                     }}
                   >
-                    {group.images.map((image) => (
-                      <Image
-                        key={image.url}
-                        src={image.url}
-                        alt={work.title}
-                        width={image.width}
-                        height={image.height}
-                        sizes={`(min-width: 1024px) ${Math.round(
-                          1024 / group.columns!
-                        )}px, ${Math.round(100 / group.columns!)}vw`}
-                        className="h-auto w-full"
-                      />
+                    {group.images.map((image, i) => (
+                      <div key={image.url}>
+                        <div className="relative">
+                          <Image
+                            src={image.url}
+                            alt={work.title}
+                            width={image.width}
+                            height={image.height}
+                            sizes={`(min-width: 1024px) ${Math.round(
+                              1024 / group.columns!
+                            )}px, ${Math.round(100 / group.columns!)}vw`}
+                            className="h-auto w-full"
+                          />
+                          {group.playOverlay && (
+                            <div className="absolute inset-0 flex items-center justify-center">
+                              <div className="flex h-10 w-10 items-center justify-center rounded-full border border-white/80 bg-black/20 text-white">
+                                ▶
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                        {group.captions?.[i] && (
+                          <p className="mt-2 font-mono text-xs text-stone">
+                            ▲ {group.captions[i]}
+                          </p>
+                        )}
+                      </div>
                     ))}
                   </div>
                 ) : (
