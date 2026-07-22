@@ -1137,6 +1137,7 @@ const fallbackWorks: Work[] = [
         gap: 8,
         playOverlay: true,
         captions: [
+          "LG gram VI법 (Teaser 편)",
           "LG gram VI법 (EP. 01)",
           "LG gram VI법 (EP. 02)",
           "LG gram VI법 (EP. 03)",
@@ -1147,6 +1148,7 @@ const fallbackWorks: Work[] = [
           "LG gram VI법 (EP. 08)",
         ],
         images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/LG%20gram%20ai/0.png", width: 1080, height: 1920 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/LG%20gram%20ai/1.jpg", width: 1080, height: 1920 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/LG%20gram%20ai/2.jpg", width: 1080, height: 1920 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/LG%20gram%20ai/3.jpg", width: 1080, height: 1920 },
@@ -1186,6 +1188,13 @@ const fallbackWorks: Work[] = [
       {
         heading: "그램VI법 TVCF 댓글 반응",
         images: [{ url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/LG%20gram%20ai/9.avif", width: 1700, height: 1010 }],
+      },
+      {
+        heading: "RESULT",
+        text: [
+          "(2025.04.15 기준) 총 167만 2,467 인게이지먼트를 달성했다. 모든 에피소드는 약 166만 5,798회 시청되었으며, 영상 발행과 함께 진행된 '그램비법이 필요한 친구 태그 이벤트' 등 다양한 참여형 소셜 이벤트를 통해 4,542개의 댓글이 수집되었다. 이러한 활동으로 콘텐츠의 확산력을 높이고 소비자 반응을 통한 인사이트를 확보할 수 있었다. 그리고 국내 영상 광고 전문 플랫폼 TVCF에서는 \"AI를 뒤집어 비법으로 만든 것이 인상적이었다\", \"AI를 어떻게 활용할 수 있는지 잘 보여주고 있어 호감이 느껴진다\" 등 긍정적인 평가가 이어졌고, 결과적으로 그램 AI의 이슈화와 브랜드 긍정 여론 형성에 성공했다.",
+        ],
+        images: [],
       },
     ],
     links: [
