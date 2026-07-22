@@ -176,9 +176,10 @@ export default async function WorkDetailPage({
                   </div>
                 ) : featureMedia ? (
                   <div
-                    className="grid gap-0"
+                    className="grid"
                     style={{
                       gridTemplateColumns: `${featureFr}fr repeat(${cols}, minmax(0, 1fr))`,
+                      gap: `${group.gap ?? 0}px`,
                     }}
                   >
                     {group.video ? (
