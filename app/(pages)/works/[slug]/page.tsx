@@ -155,7 +155,7 @@ export default async function WorkDetailPage({
                     ))}
                   </div>
                 ) : group.filmstrip ? (
-                  <div className="space-y-1">
+                  <div style={{ display: "flex", flexDirection: "column", gap: `${group.gap ?? 0}px` }}>
                     {group.feature && (
                       <div
                         className="relative"
@@ -172,7 +172,7 @@ export default async function WorkDetailPage({
                         />
                       </div>
                     )}
-                    <ImageFilmstrip images={group.images} alt={work.title} />
+                    <ImageFilmstrip images={group.images} alt={work.title} gap={group.gap ?? 0} />
                   </div>
                 ) : featureMedia ? (
                   <div

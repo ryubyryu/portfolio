@@ -7,9 +7,11 @@ import type { WorkGalleryImage } from "@/lib/works";
 export default function ImageFilmstrip({
   images,
   alt,
+  gap = 0,
 }: {
   images: WorkGalleryImage[];
   alt: string;
+  gap?: number;
 }) {
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -23,7 +25,8 @@ export default function ImageFilmstrip({
     <div className="relative">
       <div
         ref={scrollRef}
-        className="flex gap-0 overflow-x-auto scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="flex overflow-x-auto scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        style={{ gap: `${gap}px` }}
       >
         {images.map((image, i) => (
           <div
