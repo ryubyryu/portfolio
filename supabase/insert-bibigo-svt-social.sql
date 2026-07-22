@@ -17,8 +17,8 @@ values (
   ],
   'https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20SVT%20Social/0.jpeg',
   '[
-    {"label":"@bibigo.global INSTAGRAM","url":"https://www.instagram.com/bibigo.global/"},
-    {"label":"@bibigo.global X","url":"https://x.com/bibigoGlobal"}
+    {"label":"bibigo.global @INSTAGRAM","url":"https://www.instagram.com/bibigo.global/"},
+    {"label":"bibigo.global @X","url":"https://x.com/bibigoGlobal"}
   ]'::jsonb
 )
 on conflict (slug) do update set
