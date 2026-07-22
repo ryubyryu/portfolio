@@ -605,7 +605,7 @@ const fallbackWorks: Work[] = [
       },
     ],
     links: [
-      { label: "노루페인트 '포스터챌린지' 리캡 영상", url: "https://www.youtube.com/watch?v=Uzo8pRUjMHk" },
+      { label: "노루페인트 '포스터챌린지' 리캡 영상 @YOUTUBE", url: "https://www.youtube.com/watch?v=Uzo8pRUjMHk" },
     ],
   },
   {
@@ -827,7 +827,7 @@ const fallbackWorks: Work[] = [
     ],
     links: [
       {
-        label: "1cm² 속 보이지 않는 카카오의 노력 🔍 | 365일 24시간 카톡을 지키는 사람들",
+        label: "1cm² 속 보이지 않는 카카오의 노력 🔍 | 365일 24시간 카톡을 지키는 사람들 @YOUTUBE",
         url: "https://www.youtube.com/watch?v=ro_6M5qc604&t=41s",
       },
     ],
@@ -904,7 +904,7 @@ const fallbackWorks: Work[] = [
       "롯데리아에서 한 해 가장 사랑받은 버거를 재출시하며 캠페인 영상부터 나만의 캐릭터로 카드를 만드는 사이트까지 롯데리아를 매개체로 연말연시 고마운 사람들에게 땡스~한 마음을 서로 전할 수 있는 IMC 캠페인을 설계.",
     ],
     links: [
-      { label: "고마운 사람에게 마음을 전하세요ㅣ롯데리아 땡스버거", url: "https://www.youtube.com/watch?v=Vy_--uYhmwc" },
+      { label: "고마운 사람에게 마음을 전하세요ㅣ롯데리아 땡스버거 @YOUTUBE", url: "https://www.youtube.com/watch?v=Vy_--uYhmwc" },
     ],
     gallery: [
       {
@@ -1021,8 +1021,8 @@ const fallbackWorks: Work[] = [
       },
     ],
     links: [
-      { label: "NIKE : AIRMAX Dn STYLE by KIM YOUNGJIN", url: "https://www.instagram.com/p/C5fqASvR2jm/" },
-      { label: "NIKE : CHAE JONGSUK'S AIRMAX Dn STYLED BY KIM YOUNGJIN", url: "https://www.instagram.com/p/C5hX_EbB2Q7/" },
+      { label: "NIKE : AIRMAX Dn STYLE by KIM YOUNGJIN @NIKESEOUL ON INSTAGRAM", url: "https://www.instagram.com/p/C5fqASvR2jm/" },
+      { label: "NIKE : CHAE JONGSUK'S AIRMAX Dn STYLED BY KIM YOUNGJIN @NIKESEOUL ON INSTAGRAM", url: "https://www.instagram.com/p/C5hX_EbB2Q7/" },
     ],
   },
   {
