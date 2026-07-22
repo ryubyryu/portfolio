@@ -17,7 +17,7 @@ update works set gallery = '[
     ]
   },
   {
-    "heading": "CHAE JONGSUK'S AIRMAX Dn STYLED BY KIM YOUNGJIN",
+    "heading": "CHAE JONGSUK''S AIRMAX Dn STYLED BY KIM YOUNGJIN",
     "columns": 4,
     "images": [
       {"url":"https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIRMAX%20Dn/9.avif","width":878,"height":1562},
