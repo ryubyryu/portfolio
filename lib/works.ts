@@ -970,6 +970,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "NIKE AIRMAX Dn STYLE by KIM YOUNGJIN",
         columns: 4,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIRMAX%20Dn/1.avif", width: 878, height: 1562 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIRMAX%20Dn/2.avif", width: 878, height: 1562 },
@@ -984,6 +985,7 @@ const fallbackWorks: Work[] = [
       {
         heading: "CHAE JONGSUK'S AIRMAX Dn STYLED BY KIM YOUNGJIN",
         columns: 4,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIRMAX%20Dn/9.avif", width: 878, height: 1562 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/NIKE%20AIRMAX%20Dn/10.avif", width: 878, height: 1562 },
