@@ -1358,7 +1358,7 @@ const fallbackWorks: Work[] = [
     title: "OURHOME 급이 다른 미식",
     category: "Campaign",
     year: 2026,
-    role: "Copywriter",
+    role: "Creative Planner",
     client: "아워홈",
     coverImage: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/OURHOME%20-%20Taste%20of%20ourhome/0.avif",
     summary:
