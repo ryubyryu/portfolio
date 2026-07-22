@@ -3,7 +3,7 @@
 insert into works (slug, title, category, year, role, client, summary, description, cover_image)
 values (
   'bibigo-svt-social',
-  'bibigo : TASTE WHAT''S BEYOND (Feat. SEVENTEEN)',
+  'bibigo x SEVENTEEN : SOCIAL CONTENT',
   'Content',
   2025,
   'Copywriter',
