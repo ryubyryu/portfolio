@@ -128,7 +128,11 @@ export default async function WorkDetailPage({
                 : 0;
 
             return (
-              <div key={groupIndex} className="space-y-4">
+              <div
+                key={groupIndex}
+                className="space-y-4"
+                style={group.marginBottom ? { marginBottom: `${group.marginBottom}px` } : undefined}
+              >
                 {group.heading && (
                   <h2 className="font-mono text-xs tracking-widest text-stone">
                     ▼ {group.heading}
