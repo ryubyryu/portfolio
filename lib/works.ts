@@ -25,6 +25,7 @@ export type WorkGalleryVideo = {
 export type WorkGalleryGroup = {
   heading?: string;
   columns?: number;
+  gap?: number;
   carousel?: boolean;
   filmstrip?: boolean;
   video?: WorkGalleryVideo;
@@ -1049,6 +1050,7 @@ const fallbackWorks: Work[] = [
     gallery: [
       {
         columns: 3,
+        gap: 8,
         images: [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/1.avif", width: 1713, height: 964 },
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-campaign/LG%20gram%20GO%20SEASON%202/2.avif", width: 1713, height: 964 },
