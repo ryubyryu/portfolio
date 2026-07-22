@@ -137,7 +137,10 @@ export default async function WorkDetailPage({
                 style={group.marginBottom !== undefined ? { marginBottom: `${group.marginBottom}px` } : undefined}
               >
                 {group.heading && (
-                  <h2 className="font-mono text-xs tracking-tight text-stone">
+                  <h2
+                    className="font-mono text-xs tracking-widest text-stone"
+                    style={{ wordSpacing: "-2px" }}
+                  >
                     ▼ {group.heading}
                   </h2>
                 )}
