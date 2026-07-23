@@ -77,7 +77,7 @@ export default async function WorkDetailPage({
       />
 
       {!work.images?.length && (
-        <div className="mt-10 max-w-2xl space-y-3 break-keep text-pretty text-xs leading-relaxed tracking-tight text-ink-soft">
+        <div className="mt-10 space-y-3 break-keep text-pretty text-xs leading-relaxed tracking-tight text-ink-soft">
           {work.description.map((paragraph, i) => (
             <p key={i} className="whitespace-pre-line">
               {paragraph}
@@ -159,7 +159,7 @@ export default async function WorkDetailPage({
                     ))}
                   </div>
                 ) : group.text ? (
-                  <div className="max-w-2xl space-y-3 break-keep text-pretty text-xs leading-relaxed tracking-tight text-ink-soft">
+                  <div className="space-y-3 break-keep text-pretty text-xs leading-relaxed tracking-tight text-ink-soft">
                     {group.text.map((paragraph, i) => (
                       <p key={i} className="whitespace-pre-line">
                         {paragraph}
