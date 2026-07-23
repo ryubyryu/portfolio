@@ -40,6 +40,7 @@ export type WorkGalleryGroup = {
   text?: string[];
   list?: WorkGalleryListItem[];
   captions?: string[];
+  captionPosition?: "above" | "below";
   links?: string[];
   playOverlay?: boolean;
   marginBottom?: number;
@@ -1452,6 +1453,7 @@ const fallbackWorks: Work[] = [
         gap: 8,
         playOverlay: true,
         captions: ["Teaser @bibigo.global INSTAGRAM", "Teaser2 @bibigo.global INSTAGRAM", "Main @bibigo.global INSTAGRAM"],
+        captionPosition: "above",
         links: [
           "https://www.instagram.com/p/DUSPEDLEhkY/",
           "https://www.instagram.com/p/DUZ9dWtkmGx/",
@@ -1466,7 +1468,8 @@ const fallbackWorks: Work[] = [
       {
         columns: 3,
         gap: 8,
-        captions: ["Recipe 1 (ENG Ver.)", "Recipe 2 (ENG Ver.)", "Recipe 3 (ENG Ver.)"],
+        captions: ["Recipe1 (ENG Ver.)", "Recipe2 (ENG Ver.)", "Recipe3 (ENG Ver.)"],
+        captionPosition: "above",
         carouselGroups: [
           [
             { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe1_1_eng.jpeg", width: 1015, height: 1350 },

@@ -77,7 +77,7 @@ export default async function WorkDetailPage({
       />
 
       {!work.images?.length && (
-        <div className="mt-10 max-w-2xl space-y-3 text-xs leading-relaxed tracking-tight text-ink-soft">
+        <div className="mt-10 max-w-2xl space-y-3 break-keep text-xs leading-relaxed tracking-tight text-ink-soft">
           {work.description.map((paragraph, i) => (
             <p key={i} className="whitespace-pre-line">
               {paragraph}
@@ -152,14 +152,14 @@ export default async function WorkDetailPage({
                           <span className="font-mono text-sm text-ink">{i + 1}</span>
                           <h3 className="text-xs font-bold text-ink">{item.title}</h3>
                         </div>
-                        <p className="whitespace-pre-line text-xs leading-relaxed tracking-tight text-ink-soft">
+                        <p className="whitespace-pre-line break-keep text-xs leading-relaxed tracking-tight text-ink-soft">
                           {item.body}
                         </p>
                       </div>
                     ))}
                   </div>
                 ) : group.text ? (
-                  <div className="max-w-2xl space-y-3 text-xs leading-relaxed tracking-tight text-ink-soft">
+                  <div className="max-w-2xl space-y-3 break-keep text-xs leading-relaxed tracking-tight text-ink-soft">
                     {group.text.map((paragraph, i) => (
                       <p key={i} className="whitespace-pre-line">
                         {paragraph}
@@ -269,6 +269,11 @@ export default async function WorkDetailPage({
                   >
                     {group.carouselGroups.map((groupImages, i) => (
                       <div key={groupImages[0]?.url ?? i}>
+                        {group.captionPosition === "above" && group.captions?.[i] && (
+                          <p className="mb-2 font-mono text-xs text-stone">
+                            ▼ {group.captions[i]}
+                          </p>
+                        )}
                         <ImageCarousel
                           images={groupImages}
                           alt={work.title}
@@ -279,7 +284,7 @@ export default async function WorkDetailPage({
                           }
                           autoAdvance={false}
                         />
-                        {group.captions?.[i] && (
+                        {group.captionPosition !== "above" && group.captions?.[i] && (
                           <p className="mt-2 font-mono text-xs text-stone">
                             ▲ {group.captions[i]}
                           </p>
@@ -327,6 +332,11 @@ export default async function WorkDetailPage({
                       );
                       return (
                         <div key={image.url}>
+                          {group.captionPosition === "above" && group.captions?.[i] && (
+                            <p className="mb-2 font-mono text-xs text-stone">
+                              ▼ {group.captions[i]}
+                            </p>
+                          )}
                           {group.links?.[i] ? (
                             <a
                               href={group.links[i]}
@@ -338,7 +348,7 @@ export default async function WorkDetailPage({
                           ) : (
                             cellImage
                           )}
-                          {group.captions?.[i] && (
+                          {group.captionPosition !== "above" && group.captions?.[i] && (
                             <p className="mt-2 font-mono text-xs text-stone">
                               ▲ {group.captions[i]}
                             </p>
