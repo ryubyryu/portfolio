@@ -260,7 +260,13 @@ export default async function WorkDetailPage({
                     ))}
                   </div>
                 ) : group.carousel ? (
-                  <ImageCarousel images={group.images} alt={work.title} />
+                  <ImageCarousel
+                    images={group.images}
+                    alt={work.title}
+                    aspectRatio={
+                      refImage ? `${refImage.width} / ${refImage.height}` : undefined
+                    }
+                  />
                 ) : group.columns ? (
                   <div
                     className="grid"

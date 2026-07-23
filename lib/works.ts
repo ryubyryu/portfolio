@@ -1462,6 +1462,33 @@ const fallbackWorks: Work[] = [
           { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/3.jpeg", width: 1080, height: 1920 },
         ],
       },
+      {
+        carousel: true,
+        images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe1_1_eng.jpeg", width: 1015, height: 1350 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe1_2_eng.jpeg", width: 1015, height: 1350 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe1_3_eng.jpeg", width: 1015, height: 1350 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe1_4_eng.jpeg", width: 1015, height: 1350 },
+        ],
+      },
+      {
+        carousel: true,
+        images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe2_1_eng.jpeg", width: 1015, height: 1350 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe2_2_eng.jpeg", width: 1015, height: 1350 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe2_3_eng.jpeg", width: 1015, height: 1350 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe2_4_eng.jpeg", width: 1015, height: 1350 },
+        ],
+      },
+      {
+        carousel: true,
+        images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe3_1_eng.jpeg", width: 1015, height: 1350 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe3_2_eng.jpeg", width: 1015, height: 1350 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe3_3_eng.jpeg", width: 1015, height: 1350 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe3_4_eng.jpeg", width: 1015, height: 1350 },
+        ],
+      },
     ],
     links: [
       { label: "bibigo.global @INSTAGRAM", url: "https://www.instagram.com/bibigo.global/" },

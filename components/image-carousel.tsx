@@ -9,9 +9,11 @@ const AUTO_ADVANCE_MS = 4000;
 export default function ImageCarousel({
   images,
   alt,
+  aspectRatio = "1.91 / 1",
 }: {
   images: WorkGalleryImage[];
   alt: string;
+  aspectRatio?: string;
 }) {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
@@ -33,7 +35,8 @@ export default function ImageCarousel({
 
   return (
     <div
-      className="relative aspect-[1.91/1] w-full overflow-hidden bg-line"
+      className="relative w-full overflow-hidden bg-line"
+      style={{ aspectRatio }}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
