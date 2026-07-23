@@ -1447,6 +1447,24 @@ const fallbackWorks: Work[] = [
       "세븐틴 민규가 비비고 제품을 활용한 다양한 메뉴와 조리법을 소개하며,\nCJ더마켓 라이브커머스 공개에 맞춰 글로벌 팬들을 위한 SNS 콘텐츠를 기획·제작했다.",
       "레시피 소개를 비롯해 비하인드 영상, 밸런스 게임 등 다양한 부가 콘텐츠를 통해\n브랜드 경험을 소셜 콘텐츠로 확장하며 팬들과의 접점을 넓혔다.",
     ],
+    gallery: [
+      {
+        columns: 3,
+        gap: 8,
+        playOverlay: true,
+        captions: ["Teaser 편", "Teaser 2편", "Main 편"],
+        links: [
+          "https://www.instagram.com/p/DUSPEDLEhkY/",
+          "https://www.instagram.com/p/DUZ9dWtkmGx/",
+          "https://www.instagram.com/p/DUkQpaIEqJi/",
+        ],
+        images: [
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/1.jpeg", width: 1080, height: 1920 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/2.jpeg", width: 1080, height: 1920 },
+          { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/3.jpeg", width: 1080, height: 1920 },
+        ],
+      },
+    ],
     links: [
       { label: "bibigo.global @INSTAGRAM", url: "https://www.instagram.com/bibigo.global/" },
       { label: "bibigo.global @X", url: "https://x.com/bibigoGlobal" },
