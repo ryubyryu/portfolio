@@ -1415,7 +1415,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "bibigo-svt-social",
-    title: "bibigo global ambassador SVT Campaign",
+    title: "bibigo Global Ambassador SVT Campaign",
     category: "Content",
     year: 2025,
     role: "Copywriter",
