@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
 type TimelineItem = {
   period: string;
   title: string;
-  titleParts?: [string, string];
+  titleParts?: string[];
 };
 
 type AwardItem = TimelineItem & {
@@ -24,7 +25,7 @@ const career: TimelineItem[] = [
   {
     period: "2022–2026",
     title: "디지털 크리에이티브 에이전시〈디크리에잇〉카피라이터",
-    titleParts: ["디지털 크리에이티브 에이전시", "〈디크리에잇〉 카피 라이터"] as [string, string],
+    titleParts: ["디지털 크리에이티브 에이전시 〈디크리에잇〉", "카피 라이터"],
   },
 ];
 
@@ -68,7 +69,7 @@ const awards: AwardItem[] = [
   {
     period: "2023",
     title: "앤어워드 Grand Prix & Winner — 카카오〈1㎠ 속 보이지 않는 카카오의 노력〉기업PR 캠페인",
-    titleParts: ["앤어워드 Grand Prix & Winner", "- 카카오〈1㎠ 속 보이지 않는 카카오의 노력〉기업PR 캠페인"] as [string, string],
+    titleParts: ["앤어워드 Grand Prix & Winner", "- 카카오〈1㎠ 속 보이지 않는 카카오의 노력〉", "기업PR 캠페인"],
     url: "https://naward.or.kr/archive/winners/2023?w_id=4766",
   },
   {
@@ -80,6 +81,25 @@ const awards: AwardItem[] = [
   { period: "2011", title: "TVCF 서울영상광고제 YCA 부문 대상" },
   { period: "2011", title: "부산국제광고제(AD STARS) 일반인 부문 파이널리스트" },
 ];
+
+function TitleWithBreaks({ item }: { item: TimelineItem }) {
+  if (!item.titleParts) return <>{item.title}</>;
+  return (
+    <>
+      {item.titleParts.map((part, i) => (
+        <Fragment key={i}>
+          {part}
+          {i < item.titleParts!.length - 1 && (
+            <>
+              {" "}
+              <br className="sm:hidden" />
+            </>
+          )}
+        </Fragment>
+      ))}
+    </>
+  );
+}
 
 export default function AboutPage() {
   return (
@@ -94,15 +114,7 @@ export default function AboutPage() {
                 {item.period}
               </span>
               <span className="flex-1 text-ink">
-                {item.titleParts ? (
-                  <>
-                    {item.titleParts[0]}{" "}
-                    <br className="sm:hidden" />
-                    {item.titleParts[1]}
-                  </>
-                ) : (
-                  item.title
-                )}
+                <TitleWithBreaks item={item} />
               </span>
             </li>
           ))}
@@ -121,15 +133,7 @@ export default function AboutPage() {
                 {item.period}
               </span>
               <span className="flex-1 text-ink">
-                {item.titleParts ? (
-                  <>
-                    {item.titleParts[0]}{" "}
-                    <br className="sm:hidden" />
-                    {item.titleParts[1]}
-                  </>
-                ) : (
-                  item.title
-                )}
+                <TitleWithBreaks item={item} />
               </span>
             </li>
           ))}
@@ -153,15 +157,7 @@ export default function AboutPage() {
                   rel="noopener noreferrer"
                   className="flex-1 text-ink-soft underline decoration-transparent underline-offset-2 transition-colors hover:text-ink hover:decoration-current"
                 >
-                  {item.titleParts ? (
-                    <>
-                      {item.titleParts[0]}{" "}
-                      <br className="sm:hidden" />
-                      {item.titleParts[1]}
-                    </>
-                  ) : (
-                    item.title
-                  )}
+                  <TitleWithBreaks item={item} />
                 </a>
               ) : (
                 <span className="flex-1 text-ink-soft">{item.title}</span>
