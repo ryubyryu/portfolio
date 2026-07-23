@@ -60,15 +60,17 @@ export default function ImageCarousel({
 
       <button
         onClick={() => goTo(index - 1)}
+        disabled={index === 0}
         aria-label="이전 이미지"
-        className="absolute left-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/30 text-white transition-colors hover:bg-black/50"
+        className="absolute left-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/30 text-white transition-colors hover:bg-black/50 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-black/30"
       >
         ‹
       </button>
       <button
         onClick={() => goTo(index + 1)}
+        disabled={index === images.length - 1}
         aria-label="다음 이미지"
-        className="absolute right-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/30 text-white transition-colors hover:bg-black/50"
+        className="absolute right-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/30 text-white transition-colors hover:bg-black/50 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-black/30"
       >
         ›
       </button>
