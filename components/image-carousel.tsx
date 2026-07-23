@@ -10,10 +10,12 @@ export default function ImageCarousel({
   images,
   alt,
   aspectRatio = "1.91 / 1",
+  autoAdvance = true,
 }: {
   images: WorkGalleryImage[];
   alt: string;
   aspectRatio?: string;
+  autoAdvance?: boolean;
 }) {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
@@ -26,12 +28,12 @@ export default function ImageCarousel({
   );
 
   useEffect(() => {
-    if (paused || images.length <= 1) return;
+    if (!autoAdvance || paused || images.length <= 1) return;
     const id = setInterval(() => {
       setIndex((i) => (i + 1) % images.length);
     }, AUTO_ADVANCE_MS);
     return () => clearInterval(id);
-  }, [paused, images.length]);
+  }, [autoAdvance, paused, images.length]);
 
   return (
     <div
