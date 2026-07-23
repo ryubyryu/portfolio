@@ -259,6 +259,27 @@ export default async function WorkDetailPage({
                       </div>
                     ))}
                   </div>
+                ) : group.carouselGroups ? (
+                  <div
+                    className="grid"
+                    style={{
+                      gridTemplateColumns: `repeat(${group.columns ?? group.carouselGroups.length}, minmax(0, 1fr))`,
+                      gap: `${group.gap ?? 0}px`,
+                    }}
+                  >
+                    {group.carouselGroups.map((groupImages, i) => (
+                      <ImageCarousel
+                        key={groupImages[0]?.url ?? i}
+                        images={groupImages}
+                        alt={work.title}
+                        aspectRatio={
+                          groupImages[0]
+                            ? `${groupImages[0].width} / ${groupImages[0].height}`
+                            : undefined
+                        }
+                      />
+                    ))}
+                  </div>
                 ) : group.carousel ? (
                   <ImageCarousel
                     images={group.images}
