@@ -1451,7 +1451,7 @@ const fallbackWorks: Work[] = [
         columns: 3,
         gap: 8,
         playOverlay: true,
-        captions: ["Teaser 편", "Teaser 2편", "Main 편"],
+        captions: ["Teaser @bibigo.global INSTAGRAM", "Teaser2 @bibigo.global INSTAGRAM", "Main @bibigo.global INSTAGRAM"],
         links: [
           "https://www.instagram.com/p/DUSPEDLEhkY/",
           "https://www.instagram.com/p/DUZ9dWtkmGx/",
@@ -1466,6 +1466,7 @@ const fallbackWorks: Work[] = [
       {
         columns: 3,
         gap: 8,
+        captions: ["Recipe 1 (ENG Ver.)", "Recipe 2 (ENG Ver.)", "Recipe 3 (ENG Ver.)"],
         carouselGroups: [
           [
             { url: "https://llwbqewucexzruxdgveq.supabase.co/storage/v1/object/public/work-images/work-content/bibigo%20-%20GYUstaurant/recipe/recipe1_1_eng.jpeg", width: 1015, height: 1350 },

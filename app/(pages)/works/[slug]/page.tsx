@@ -268,16 +268,23 @@ export default async function WorkDetailPage({
                     }}
                   >
                     {group.carouselGroups.map((groupImages, i) => (
-                      <ImageCarousel
-                        key={groupImages[0]?.url ?? i}
-                        images={groupImages}
-                        alt={work.title}
-                        aspectRatio={
-                          groupImages[0]
-                            ? `${groupImages[0].width} / ${groupImages[0].height}`
-                            : undefined
-                        }
-                      />
+                      <div key={groupImages[0]?.url ?? i}>
+                        <ImageCarousel
+                          images={groupImages}
+                          alt={work.title}
+                          aspectRatio={
+                            groupImages[0]
+                              ? `${groupImages[0].width} / ${groupImages[0].height}`
+                              : undefined
+                          }
+                          autoAdvance={false}
+                        />
+                        {group.captions?.[i] && (
+                          <p className="mt-2 font-mono text-xs text-stone">
+                            ▲ {group.captions[i]}
+                          </p>
+                        )}
+                      </div>
                     ))}
                   </div>
                 ) : group.carousel ? (
