@@ -547,7 +547,7 @@ const fallbackWorks: Work[] = [
   // Campaign 실제 경력. 사용자가 지정한 순서대로 정리했습니다.
   {
     slug: "noroo-poster-challenge",
-    title: "노루페인트 : 포스터 챌린지",
+    title: "NOROO POSTER CHALLENGE",
     category: "Campaign",
     year: 2022,
     role: "Copywriter",
@@ -653,7 +653,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "nike-worldcup-2022",
-    title: "NIKE : WORLD CUP 2022",
+    title: "NIKE WORLD CUP 2022",
     category: "Campaign",
     year: 2022,
     role: "Copywriter",
@@ -703,7 +703,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "nike-runners-helping-runners",
-    title: "NIKE : RUNNERS HELPING RUNNERS",
+    title: "NIKE Runners Helping Runners",
     category: "Campaign",
     year: 2023,
     role: "Copywriter",
@@ -757,7 +757,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "nike-air-force-1-t1",
-    title: "NIKE : AIR FORCE 1 x T1",
+    title: "NIKE AIR FORCE 1 x T1",
     category: "Content",
     year: 2023,
     role: "Copywriter",
@@ -794,7 +794,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "kakao-corporate-pr",
-    title: "카카오 기업 PR : CAMPAIGN",
+    title: "KAKAO Corp. PR Campaign",
     category: "Campaign",
     year: 2023,
     role: "Copywriter",
@@ -836,7 +836,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "nike-hoshi-style-story",
-    title: "NIKE : HOSHI'S STYLE STORY",
+    title: "NIKE HOSHI's Style Story",
     category: "Content",
     year: 2023,
     role: "Copywriter",
@@ -893,7 +893,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "lotteria-thanks-burger",
-    title: "롯데리아 : THANKS BURGER",
+    title: "LOTTERIA THANKS BURGER",
     category: "Campaign",
     year: 2023,
     role: "Copywriter",
@@ -977,7 +977,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "nike-airmax-dn",
-    title: "NIKE : AIRMAX Dn",
+    title: "NIKE AIRMAX Dn Style",
     category: "Content",
     year: 2024,
     role: "Copywriter",
@@ -1415,7 +1415,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "bibigo-svt-social",
-    title: "bibigo x SEVENTEEN : SOCIAL CONTENT",
+    title: "bibigo global ambassador SVT Campaign",
     category: "Content",
     year: 2025,
     role: "Copywriter",
@@ -1434,7 +1434,7 @@ const fallbackWorks: Work[] = [
   },
   {
     slug: "bibigo-gyustaurant",
-    title: "bibigo : MINGYU's bibigo Restaurant",
+    title: "MINGYU's bibigo Restaurant",
     category: "Content",
     year: 2026,
     role: "Copywriter",
