@@ -18,7 +18,7 @@ type AwardItem = TimelineItem & {
 const career: TimelineItem[] = [
   {
     period: "2016",
-    title: "일본 규슈 아사히 방송 주식회사〈TV 제작팀〉인턴",
+    title: "일본 〈규슈 아사히 방송 주식회사〉 TV 제작팀 인턴",
   },
   { period: "2019", title: "광고 프로덕션〈파파가 준 카메라〉프로듀서" },
   { period: "2020", title: "광고 프로덕션〈꾸욱꾸욱〉프로듀서" },
@@ -78,11 +78,16 @@ const awards: AwardItem[] = [
     titleParts: ["앤어워드 Grand Prix", "- 노루페인트〈포스터 챌린지〉캠페인"] as [string, string],
     url: "https://naward.or.kr/archive/winners/2022?w_id=4626",
   },
-  { period: "2011", title: "TVCF 서울영상광고제 YCA 부문 대상" },
+  {
+    period: "2011",
+    title: "TVCF 서울영상광고제 YCA 부문 대상",
+    url: "https://tvcf.co.kr/TvcfAward/Main/default",
+  },
   {
     period: "2011",
     title: "부산국제마케팅광고제(MAD STARS) 일반인 부문 파이널리스트",
     titleParts: ["부산국제마케팅광고제(MAD STARS) 일반인 부문", "파이널리스트"] as [string, string],
+    url: "https://www.madstars.org/adstar/main/AdstarMainView.do",
   },
 ];
 
