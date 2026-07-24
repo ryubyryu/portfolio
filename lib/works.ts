@@ -932,10 +932,10 @@ const fallbackWorks: Work[] = [
       "롯데리아에서 한 해 가장 사랑받은 버거를 재출시하며 캠페인 영상부터 나만의 캐릭터로 카드를 만드는 사이트까지 롯데리아를 매개체로 연말연시 고마운 사람들에게 땡스~한 마음을 서로 전할 수 있는 IMC 캠페인을 설계.",
     description: [
       "롯데리아 연말 IMC 캠페인〈땡스버거〉",
-      "투표로 뽑은 올해의 버거 '전주 비빔 라이스 버거'를 연말에 재출시하면서, 제품 이슈를 안부라는 정서로 바꿔 걸었다. \"버거싶다 친구야\"라는 한 줄이 티저 포스터부터 매장 키오스크와 트레이지까지 캠페인 전체의 문법이 됐고, 사이트에서는 자신이나 받는 사람을 닮은 캐릭터를 커스터마이징해 카드를 보내게 했다. 온라인에서 만든 카드는 전국 매장에서 나눠준 실물 카드로도 이어져, 화면 안팎에서 같은 인사를 주고받을 수 있게 했다.",
+      "투표로 뽑은 올해의 버거 '전주 비빔 라이스 버거'의 연말 재출시에 맞춰 캠페인을 기획했다. 메인 필름 \"버거싶다 친구야\"는 보고 싶은 사람에게 밥으로 안부를 전하자는 메시지를 담았고, 사이트에서는 자신 또는 받는 사람을 닮은 캐릭터로 땡스버거 카드를 만들어 보낼 수 있었다. 일러스트를 활용한 실물 카드도 별도로 만들어 전국 매장에서 나눠줬고, 티저 포스터와 옥외 광고판, 매장 키오스크와 트레이지에서도 캠페인을 함께 알렸다.",
       "옥외 설치물과 캠페인 필름 카피라이팅, 이벤트 사이트 스토리보드 제작과 웹 개발사 핸들링을 맡았다. 매장 점장, 옥외 설치 업체와의 커뮤니케이션도 함께 진행했다.",
       "Lotteria year-end IMC campaign〈Thanks Burger〉",
-      "The burger of the year, chosen by public vote, returned at the end of the year — and the product news was reframed as an exchange of greetings. A single line, 버거싶다 친구야, a play on the Korean for \"I miss you,\" became the grammar of everything from teaser posters to in-store kiosks and tray mats. On the site, people customized a character resembling themselves or the person receiving the card. Cards made online continued into physical cards handed out at stores nationwide, so the same greeting could travel on and off screen.",
+      "The campaign was built around the year-end relaunch of the burger of the year, chosen by public vote — Jeonju Bibim Rice Burger. The main film, 버거싶다 친구야 — a play on the Korean for \"I miss you\" — carried the idea of checking in on someone through food. On the site, people could customize a character resembling themselves or the person receiving it to make a Thanks Burger card. Illustrated physical cards were also produced separately and handed out at stores nationwide, and the campaign showed up further on teaser posters, outdoor boards, in-store kiosks, and tray mats.",
       "Copywriting for outdoor installations and the campaign film, storyboarding the event site, and directing the web development partner. Also handled communication with store managers and the installation crew.",
     ],
     stats: [
