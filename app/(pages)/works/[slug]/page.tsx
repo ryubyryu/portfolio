@@ -85,7 +85,7 @@ export default async function WorkDetailPage({
             <div className="mt-10 space-y-8 break-keep text-pretty text-xs leading-relaxed tracking-tight">
               <div className="space-y-3 text-ink-soft">
                 {ko.map((paragraph, i) => (
-                  <p key={i} className="whitespace-pre-line">
+                  <p key={i} className={`whitespace-pre-line ${i === 0 ? "font-bold" : ""}`}>
                     {paragraph}
                   </p>
                 ))}
@@ -93,7 +93,7 @@ export default async function WorkDetailPage({
               {en.length > 0 && (
                 <div className="space-y-3 text-en">
                   {en.map((paragraph, i) => (
-                    <p key={i} className="whitespace-pre-line">
+                    <p key={i} className={`whitespace-pre-line ${i === 0 ? "font-bold" : ""}`}>
                       {paragraph}
                     </p>
                   ))}
