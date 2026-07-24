@@ -19,7 +19,7 @@ export default function WorkThumb({
   title,
   coverImage,
   className = "",
-  sizes = "(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 50vw",
+  sizes = "(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 100vw",
 }: {
   slug: string;
   title: string;
