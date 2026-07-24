@@ -9,6 +9,7 @@ html {
   --paper: #f1f1f1;
   --ink: #17181c;
   --ink-soft: #3d3e42;
+  --en: #6b6b6b;
   --indigo: #33415c;
   --indigo-soft: #5a6a87;
   --stone: #8a8579;
@@ -21,6 +22,7 @@ html {
   --color-paper: var(--paper);
   --color-ink: var(--ink);
   --color-ink-soft: var(--ink-soft);
+  --color-en: var(--en);
   --color-indigo: var(--indigo);
   --color-indigo-soft: var(--indigo-soft);
   --color-stone: var(--stone);

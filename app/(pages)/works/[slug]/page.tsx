@@ -76,15 +76,32 @@ export default async function WorkDetailPage({
         sizes="(min-width: 900px) 900px, 100vw"
       />
 
-      {!work.images?.length && (
-        <div className="mt-10 space-y-3 break-keep text-pretty text-xs leading-relaxed tracking-tight text-ink-soft">
-          {work.description.map((paragraph, i) => (
-            <p key={i} className="whitespace-pre-line">
-              {paragraph}
-            </p>
-          ))}
-        </div>
-      )}
+      {!work.images?.length &&
+        (() => {
+          const mid = Math.ceil(work.description.length / 2);
+          const ko = work.description.slice(0, mid);
+          const en = work.description.slice(mid);
+          return (
+            <div className="mt-10 space-y-8 break-keep text-pretty text-xs leading-relaxed tracking-tight">
+              <div className="space-y-3 text-ink-soft">
+                {ko.map((paragraph, i) => (
+                  <p key={i} className="whitespace-pre-line">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+              {en.length > 0 && (
+                <div className="space-y-3 text-en">
+                  {en.map((paragraph, i) => (
+                    <p key={i} className="whitespace-pre-line">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              )}
+            </div>
+          );
+        })()}
 
       {work.images && work.images.length > 0 && (
         <div className="mt-10 divide-y divide-line border-y border-line text-xs tracking-tight">
