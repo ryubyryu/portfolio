@@ -25,7 +25,7 @@ const career: TimelineItem[] = [
   {
     period: "2022–2026",
     title: "디지털 크리에이티브 에이전시〈디크리에잇〉카피라이터",
-    titleParts: ["디지털 크리에이티브 에이전시 〈디크리에잇〉", "카피 라이터"],
+    titleParts: ["디지털 크리에이티브 에이전시 〈디크리에잇〉", "카피라이터"],
   },
 ];
 
@@ -79,7 +79,11 @@ const awards: AwardItem[] = [
     url: "https://naward.or.kr/archive/winners/2022?w_id=4626",
   },
   { period: "2011", title: "TVCF 서울영상광고제 YCA 부문 대상" },
-  { period: "2011", title: "부산국제광고제(AD STARS) 일반인 부문 파이널리스트" },
+  {
+    period: "2011",
+    title: "부산국제마케팅광고제(MAD STARS) 일반인 부문 파이널리스트",
+    titleParts: ["부산국제마케팅광고제(MAD STARS) 일반인 부문", "파이널리스트"] as [string, string],
+  },
 ];
 
 function TitleWithBreaks({ item }: { item: TimelineItem }) {
@@ -160,7 +164,9 @@ export default function AboutPage() {
                   <TitleWithBreaks item={item} />
                 </a>
               ) : (
-                <span className="flex-1 text-ink-soft">{item.title}</span>
+                <span className="flex-1 text-ink-soft">
+                  <TitleWithBreaks item={item} />
+                </span>
               )}
             </li>
           ))}
