@@ -556,12 +556,12 @@ const fallbackWorks: Work[] = [
     summary:
       "1회의 포스터 참여가 1m²의 페인트가 되어, 코로나로 사람들의 발길이 끊긴 전통시장에 페인트를 기부하는 #포스터챌린지 캠페인. 온라인에서의 참여가 실제 오프라인으로 이어져 세월의 흔적으로 낡고 벗겨진 벽면에 아티스트의 그래픽을 페인팅하여, 시장을 전시장으로 만들다.",
     description: [
-      "노루페인트 #포스터챌린지, 포스터 한 장이 페인트 1㎡가 되는 기부 캠페인",
-      "'[ ] 가치를 올리다' 캠페인 아래 전통시장을 대상지로 잡았다. 2005년 환경개선 사업 이후 다시 관심에서 밀려난 망원동 월드컵시장이었다. 사이트에서 아티스트 콜라보 캐릭터와 페인트 컬러를 고르고 올리고 싶은 가치를 적으면 참여 1회가 페인트 1㎡로 환산됐고, 1만 건 넘게 쌓인 참여분이 노후 벽면과 바닥의 아트 페인팅으로 실체화됐다. 온라인 참여가 눈에 보이는 결과물로 되돌아오는 구조 자체가 이 캠페인의 설득력이었다.",
-      "옥외 설치물과 메이킹 필름 카피라이팅, 이벤트 사이트 스토리보드 기획과 웹 개발사 핸들링을 맡았다. 시장 상인, 옥외 설치 업체와의 현장 커뮤니케이션도 함께 진행했다.",
-      "NOROO Paint #PosterChallenge — one poster becomes one square meter of paint.",
-      "Under the brand platform \"Raising the Value of [ ],\" the campaign chose a traditional market as its ground: Mangwon-dong World Cup Market, renovated in 2005 and quietly forgotten since. On the site, visitors picked an artist-collaboration character and a paint color, wrote down the value they wanted to raise, and each entry converted into one square meter of donated paint. More than 10,000 entries later, that paint appeared on the market's worn walls and floors as artwork. The structure itself carried the argument — participation online came back as something you could stand in front of.",
-      "Copywriting for outdoor installations and the making-of film, storyboarding the event site, and directing the web development partner. Also handled on-site communication with market vendors and the installation crew.",
+      "노루페인트 #포스터챌린지,\n포스터 한 장이 페인트 1㎡가 되는 기부 캠페인",
+      "'[ ] 가치를 올리다' 캠페인 아래 전통시장을 대상지로 잡았다.\n2005년 환경개선 사업 이후 다시 관심에서 밀려난 망원동 월드컵시장이었다.\n사이트에서 아티스트 콜라보 캐릭터와 페인트 컬러를 고르고 올리고 싶은 가치를 적으면 참여 1회가 페인트 1㎡로 환산됐고,\n1만 건 넘게 쌓인 참여분이 노후 벽면과 바닥의 아트 페인팅으로 실체화됐다.\n온라인 참여가 눈에 보이는 결과물로 되돌아오는 구조 자체가 이 캠페인의 설득력이었다.",
+      "옥외 설치물과 메이킹 필름 카피라이팅,\n이벤트 사이트 스토리보드 기획과 웹 개발사 핸들링을 맡았다.\n시장 상인,\n옥외 설치 업체와의 현장 커뮤니케이션도 함께 진행했다.",
+      "NOROO Paint #PosterChallenge —\none poster becomes one square meter of paint.",
+      "Under the brand platform \"Raising the Value of [ ],\" the campaign chose a traditional market as its ground:\nMangwon-dong World Cup Market, renovated in 2005 and quietly forgotten since.\nOn the site, visitors picked an artist-collaboration character and a paint color, wrote down the value they wanted to raise, and each entry converted into one square meter of donated paint.\nMore than 10,000 entries later, that paint appeared on the market's worn walls and floors as artwork.\nThe structure itself carried the argument —\nparticipation online came back as something you could stand in front of.",
+      "Copywriting for outdoor installations and the making-of film, storyboarding the event site, and directing the web development partner.\nAlso handled on-site communication with market vendors and the installation crew.",
     ],
     stats: [
       { label: "Visits", value: "43K+" },
@@ -626,10 +626,10 @@ const fallbackWorks: Work[] = [
       "온라인 강좌 플랫폼 클래스101을 활용하여 다채로운 색감으로 사랑받는 작가 '누아'와 함께 그램 360 클래스로 제품의 특장점을 전달하다.",
     description: [
       "LG 그램 360과 클래스101이 함께한 온라인 클래스",
-      "스펙을 설명하는 브랜디드 컨텐츠 대신 클래스 자체를 제품 데모로 삼았다. 색감으로 알려진 작가 '누아'의 드로잉 수업 안에서 화면을 접고 펴는 동작과 펜 입력이 작업 흐름의 일부로 노출됐다.",
-      "클래스 작가 서칭과 제안, 제작팀 커뮤니케이션, 클래스 소개 및 이벤트 페이지 카피라이팅을 맡았다.",
+      "스펙을 설명하는 브랜디드 컨텐츠 대신 클래스 자체를 제품 데모로 삼았다.\n색감으로 알려진 작가 '누아'의 드로잉 수업 안에서 화면을 접고 펴는 동작과 펜 입력이 작업 흐름의 일부로 노출됐다.",
+      "클래스 작가 서칭과 제안,\n제작팀 커뮤니케이션,\n클래스 소개 및 이벤트 페이지 카피라이팅을 맡았다.",
       "An online class with LG gram 360 and CLASS101",
-      "Instead of branded content explaining specs, the class itself became the product demo. Inside the drawing lessons of Nua, an illustrator known for her use of color, folding the screen and drawing with the pen simply appeared as part of the workflow.",
+      "Instead of branded content explaining specs, the class itself became the product demo.\nInside the drawing lessons of Nua, an illustrator known for her use of color, folding the screen and drawing with the pen simply appeared as part of the workflow.",
       "Sourcing and proposing the class instructor, communication with the production team, and copywriting for the class introduction and event page.",
     ],
     gallery: [
@@ -672,10 +672,10 @@ const fallbackWorks: Work[] = [
       "NIKE 너만의 무늬 [    ] 우리의 무기. 2022년 카타르 월드컵 모멘텀의 나이키 캠페인 \"서로가 다르기에 우리는 더 강해진다\"는 메시지로 승리를 뜨겁게 응원하며 국가대표 선수들을 하이라이팅하다.",
     description: [
       "나이키 2022 카타르 월드컵 캠페인 컨텐츠 〈너만의 무늬 [ ] 우리의 무기〉",
-      "대표팀을 하나의 덩어리로 묶는 대신 선수 각자의 무늬를 남겨두는 쪽을 택했다. 서로 다르기 때문에 팀이 더 강해진다는 전제 위에서, 개별 선수의 플레이 특성이 그대로 컨텐츠의 재료가 됐다.",
+      "대표팀을 하나의 덩어리로 묶는 대신 선수 각자의 무늬를 남겨두는 쪽을 택했다.\n서로 다르기 때문에 팀이 더 강해진다는 전제 위에서,\n개별 선수의 플레이 특성이 그대로 컨텐츠의 재료가 됐다.",
       "영상 제작을 위한 아이데이션에 참여했다.",
       "Content for Nike's 2022 Qatar World Cup campaign 〈Your Own Pattern, Our Weapon〉",
-      "Rather than compressing the national team into a single body, the work kept each player's own pattern intact. Built on the premise that difference is what makes a team stronger, each player's style of play became the material of the content itself.",
+      "Rather than compressing the national team into a single body, the work kept each player's own pattern intact.\nBuilt on the premise that difference is what makes a team stronger, each player's style of play became the material of the content itself.",
       "Contributed to ideation for the film.",
     ],
     gallery: [
@@ -725,11 +725,11 @@ const fallbackWorks: Work[] = [
     summary:
       "러닝에 도전하는 초보 러너 류준열의 Runners Helping Runners. 그의 목소리로 시작을 망설이는 많은 러너들에게 동기 부여와 도움이 되는 정보를 전달하는 캠페인",
     description: [
-      "나이키 〈Runners Helping Runners〉, 초보 러너 류준열 편",
-      "러닝 캠페인의 화자를 잘 뛰는 사람이 아니라 이제 막 시작한 사람으로 잡았다. 류준열이 직접 겪은 시행착오를 정보의 재료로 쓰면서, 시작을 망설이는 러너와 같은 위치에서 말을 걸었다.",
+      "나이키 〈Runners Helping Runners〉,\n초보 러너 류준열 편",
+      "러닝 캠페인의 화자를 잘 뛰는 사람이 아니라 이제 막 시작한 사람으로 잡았다.\n류준열이 직접 겪은 시행착오를 정보의 재료로 쓰면서,\n시작을 망설이는 러너와 같은 위치에서 말을 걸었다.",
       "영상 제작을 위한 아이데이션에 참여했다.",
       "Nike 〈Runners Helping Runners〉, with first-time runner Ryu Jun-yeol",
-      "The narrator wasn't a strong runner but someone who had only just started. His own missteps became the information, spoken from the same position as anyone still hesitating to go outside.",
+      "The narrator wasn't a strong runner but someone who had only just started.\nHis own missteps became the information, spoken from the same position as anyone still hesitating to go outside.",
       "Contributed to ideation for the film.",
     ],
     gallery: [
@@ -784,10 +784,10 @@ const fallbackWorks: Work[] = [
       "NIKE Air Force 1 x T1. 각자의 게임 플레이 스타일처럼 개성 넘치게 나이키 에어포스1을 커스텀하는 T1 선수들의 모습을 담다.",
     description: [
       "나이키 에어포스 1 × T1 커스텀 필름",
-      "플레이 스타일이 곧 개성이라는 점을 커스텀이라는 형식으로 옮겼다. 선수들이 저마다 다른 방식으로 에어포스 1을 꾸며가는 과정과 그 안에서 나온 이야기에 초점을 맞췄다.",
+      "플레이 스타일이 곧 개성이라는 점을 커스텀이라는 형식으로 옮겼다.\n선수들이 저마다 다른 방식으로 에어포스 1을 꾸며가는 과정과 그 안에서 나온 이야기에 초점을 맞췄다.",
       "영상 제작을 위한 아이데이션에 참여했다.",
       "Nike Air Force 1 × T1 custom film",
-      "Playing style as personality, translated into the form of customization. The focus stayed on the process — each player decorating the Air Force 1 in their own way, and the stories that came out of it.",
+      "Playing style as personality, translated into the form of customization.\nThe focus stayed on the process —\neach player decorating the Air Force 1 in their own way, and the stories that came out of it.",
       "Contributed to ideation for the film.",
     ],
     gallery: [
@@ -825,10 +825,10 @@ const fallbackWorks: Work[] = [
       "카카오 기업 PR 캠페인 [1cm² 속 보이지 않는 노력]. 이미 모두의 일상이 된 카카오톡 앱, 그 뒤에서 보이지 않지만 지금 이 순간도 트래픽과 씨름하는 카카오 메시징 파트의 생생한 현장 이야기 - 365일 24시간 카톡을 지키는 그들의 노력을 담다.",
     description: [
       "카카오 기업 PR 캠페인 〈1cm² 속 보이지 않는 노력〉",
-      "새해 첫 0시, 예기치 못한 재해, 월드컵 득점 순간. 모두가 카카오톡을 여는 시점에 가장 바빠지는 트래픽 개발팀을 화자로 세웠다. 각 트래픽 이슈를 발생 날짜 기준으로 재구성해 현재와 과거를 오가는 다큐멘터리 구성을 잡고, 이해하기 어려운 트래픽 개념은 고속도로와 앰뷸런스에 빗대 시각화했다. 데이터센터 화재까지 감추지 않고 다시 꺼낸 태도가 9분이 넘는 러닝타임을 버티게 한 축이었다.",
-      "영상 제작을 위한 아이데이션에 참여하고, 제작사와의 커뮤니케이션을 담당했다.",
+      "새해 첫 0시,\n예기치 못한 재해,\n월드컵 득점 순간.\n모두가 카카오톡을 여는 시점에 가장 바빠지는 트래픽 개발팀을 화자로 세웠다.\n각 트래픽 이슈를 발생 날짜 기준으로 재구성해 현재와 과거를 오가는 다큐멘터리 구성을 잡고,\n이해하기 어려운 트래픽 개념은 고속도로와 앰뷸런스에 빗대 시각화했다.\n데이터센터 화재까지 감추지 않고 다시 꺼낸 태도가 9분이 넘는 러닝타임을 버티게 한 축이었다.",
+      "영상 제작을 위한 아이데이션에 참여하고,\n제작사와의 커뮤니케이션을 담당했다.",
       "Kakao corporate PR campaign 〈Invisible Work Inside 1cm²〉",
-      "Midnight on New Year's Day, an unexpected disaster, the moment a World Cup goal goes in. The people who get busiest exactly when everyone opens KakaoTalk became the narrators. Each traffic incident was rebuilt by date into a documentary moving between present and past, and traffic itself — hard to picture — was visualized as an ambulance caught on a blocked highway. Not hiding the data center fire is what held a running time of over nine minutes.",
+      "Midnight on New Year's Day, an unexpected disaster, the moment a World Cup goal goes in.\nThe people who get busiest exactly when everyone opens KakaoTalk became the narrators.\nEach traffic incident was rebuilt by date into a documentary moving between present and past, and traffic itself —\nhard to picture —\nwas visualized as an ambulance caught on a blocked highway.\nNot hiding the data center fire is what held a running time of over nine minutes.",
       "Contributed to ideation for the film and handled communication with the production company.",
     ],
     stats: [
@@ -913,10 +913,10 @@ const fallbackWorks: Work[] = [
     ],
     description: [
       "나이키 〈Style Story〉 세븐틴 호시 편",
-      "\"내가 되고 싶은 나처럼 옷을 입는다\"는 호시의 문장을 필름의 출발점으로 삼았다. 그의 스타일과 철학을 스토리 필름으로 담아내고, 보메로 5를 활용한 세 가지 룩으로 스타일링에 대한 영감을 줬다.",
+      "\"내가 되고 싶은 나처럼 옷을 입는다\"는 호시의 문장을 필름의 출발점으로 삼았다.\n그의 스타일과 철학을 스토리 필름으로 담아내고,\n보메로 5를 활용한 세 가지 룩으로 스타일링에 대한 영감을 줬다.",
       "영상 제작을 위한 아이데이션에 참여했다.",
       "Nike 〈Style Story〉, with SEVENTEEN's HOSHI",
-      "The film began from his own line: I dress like the person I want to become. It captured his style and philosophy as a story film, and offered inspiration for styling through three looks built around the Vomero 5.",
+      "The film began from his own line:\nI dress like the person I want to become.\nIt captured his style and philosophy as a story film, and offered inspiration for styling through three looks built around the Vomero 5.",
       "Contributed to ideation for the film.",
     ],
   },
@@ -932,11 +932,11 @@ const fallbackWorks: Work[] = [
       "롯데리아에서 한 해 가장 사랑받은 버거를 재출시하며 캠페인 영상부터 나만의 캐릭터로 카드를 만드는 사이트까지 롯데리아를 매개체로 연말연시 고마운 사람들에게 땡스~한 마음을 서로 전할 수 있는 IMC 캠페인을 설계.",
     description: [
       "롯데리아 연말 IMC 캠페인 〈땡스버거〉",
-      "투표로 뽑은 올해의 버거 '전주 비빔 라이스 버거'를 연말에 재출시하면서, 제품 이슈를 안부라는 정서로 바꿔 걸었다. \"버거싶다 친구야\"라는 한 줄이 티저 포스터부터 매장 키오스크와 트레이지까지 캠페인 전체의 문법이 됐고, 사이트에서는 자신이나 받는 사람을 닮은 캐릭터를 커스터마이징해 카드를 보내게 했다. 온라인에서 만든 카드는 전국 매장에서 나눠준 실물 카드로도 이어져, 화면 안팎에서 같은 인사를 주고받을 수 있게 했다.",
-      "옥외 설치물과 캠페인 필름 카피라이팅, 이벤트 사이트 스토리보드 제작과 웹 개발사 핸들링을 맡았다. 매장 점장, 옥외 설치 업체와의 커뮤니케이션도 함께 진행했다.",
+      "투표로 뽑은 올해의 버거 '전주 비빔 라이스 버거'를 연말에 재출시하면서,\n제품 이슈를 안부라는 정서로 바꿔 걸었다.\n\"버거싶다 친구야\"라는 한 줄이 티저 포스터부터 매장 키오스크와 트레이지까지 캠페인 전체의 문법이 됐고,\n사이트에서는 자신이나 받는 사람을 닮은 캐릭터를 커스터마이징해 카드를 보내게 했다.\n온라인에서 만든 카드는 전국 매장에서 나눠준 실물 카드로도 이어져,\n화면 안팎에서 같은 인사를 주고받을 수 있게 했다.",
+      "옥외 설치물과 캠페인 필름 카피라이팅,\n이벤트 사이트 스토리보드 제작과 웹 개발사 핸들링을 맡았다.\n매장 점장,\n옥외 설치 업체와의 커뮤니케이션도 함께 진행했다.",
       "Lotteria year-end IMC campaign 〈Thanks Burger〉",
-      "The burger of the year, chosen by public vote, returned at the end of the year — and the product news was reframed as an exchange of greetings. A single line, 버거싶다 친구야, a play on the Korean for \"I miss you,\" became the grammar of everything from teaser posters to in-store kiosks and tray mats. On the site, people customized a character resembling themselves or the person receiving the card. Cards made online continued into physical cards handed out at stores nationwide, so the same greeting could travel on and off screen.",
-      "Copywriting for outdoor installations and the campaign film, storyboarding the event site, and directing the web development partner. Also handled communication with store managers and the installation crew.",
+      "The burger of the year, chosen by public vote, returned at the end of the year —\nand the product news was reframed as an exchange of greetings.\nA single line, 버거싶다 친구야, a play on the Korean for \"I miss you,\" became the grammar of everything from teaser posters to in-store kiosks and tray mats.\nOn the site, people customized a character resembling themselves or the person receiving the card.\nCards made online continued into physical cards handed out at stores nationwide, so the same greeting could travel on and off screen.",
+      "Copywriting for outdoor installations and the campaign film, storyboarding the event site, and directing the web development partner.\nAlso handled communication with store managers and the installation crew.",
     ],
     links: [
       { label: "고마운 사람에게 마음을 전하세요ㅣ롯데리아 땡스버거 @YOUTUBE", url: "https://www.youtube.com/watch?v=Vy_--uYhmwc" },
@@ -1021,10 +1021,10 @@ const fallbackWorks: Work[] = [
       "과감한 개성의 나이키 에어맥스Dn 스타일 컨텐츠. 케이팝 아티스트들의 스타일링을 책임지고 있는 스타일리스트 김영진과 모델 채종석의 룩을 통해 에어맥스 Dn만의 독보적인 스타일을 표현하다.",
     description: [
       "나이키 에어맥스 Dn 스타일 컨텐츠",
-      "제품 설명 대신 착장으로 답하는 방식을 택했다. 케이팝 아티스트들의 스타일링을 맡아온 김영진이 모델 채종석에게 룩을 입히며, 에어맥스 Dn 하나로 소화할 수 있는 코디의 스펙트럼을 넓게 보여줬다.",
+      "제품 설명 대신 착장으로 답하는 방식을 택했다.\n케이팝 아티스트들의 스타일링을 맡아온 김영진이 모델 채종석에게 룩을 입히며,\n에어맥스 Dn 하나로 소화할 수 있는 코디의 스펙트럼을 넓게 보여줬다.",
       "영상 제작을 위한 아이데이션에 참여했다.",
       "Nike Air Max Dn style content",
-      "Rather than explaining the product, the answer arrived as an outfit. Stylist Kim Young-jin, who has dressed K-pop artists for years, built looks on model Chae Jong-seok, showing how wide a range of styling a single pair of Air Max Dn can carry.",
+      "Rather than explaining the product, the answer arrived as an outfit.\nStylist Kim Young-jin, who has dressed K-pop artists for years, built looks on model Chae Jong-seok, showing how wide a range of styling a single pair of Air Max Dn can carry.",
       "Contributed to ideation for the film.",
     ],
     gallery: [
@@ -1076,11 +1076,11 @@ const fallbackWorks: Work[] = [
       "LG 그램을 더 많은 고객들이 체험해 볼 수 있도록 찾아가는 그램고 팝업 스토어 진행. 코레일과 협업하여 부산 KTX역 내에 팝업 스토어를 설치하여 한 달 간 운영. 애써 찾아와야 하는 팝업 스토어의 한계를 넘어 총 12만명에게 노트북 체험 기회 제공",
     description: [
       "LG 그램이 찾아가는 팝업 〈그램고〉 부산 편",
-      "팝업은 방문 의사가 있는 사람에게만 도달한다는 구조적 한계가 있다. 코레일과 협업해 부산역 안에 한 달간 매장을 열어, 열차를 기다리는 대기 시간을 체험 시간으로 바꿨다. 목적지로 찾아오게 하는 대신 이미 형성된 동선 위에 놓는 방식으로 12만 명이 LG 그램을 체험했다.",
-      "팝업 상세 운영안 기획과 제안, 옥외 설치물과 메이킹 필름 카피라이팅을 맡았다. 코레일유통, 팝업 진행사와의 커뮤니케이션도 함께 진행했다.",
+      "팝업은 방문 의사가 있는 사람에게만 도달한다는 구조적 한계가 있다.\n코레일과 협업해 부산역 안에 한 달간 매장을 열어,\n열차를 기다리는 대기 시간을 체험 시간으로 바꿨다.\n목적지로 찾아오게 하는 대신 이미 형성된 동선 위에 놓는 방식으로 12만 명이 LG 그램을 체험했다.",
+      "팝업 상세 운영안 기획과 제안,\n옥외 설치물과 메이킹 필름 카피라이팅을 맡았다.\n코레일유통,\n팝업 진행사와의 커뮤니케이션도 함께 진행했다.",
       "LG gram's traveling pop-up store 〈gramGO〉, Busan",
-      "A pop-up only reaches people who already intend to visit. Working with KORAIL, the store opened inside Busan Station for a month, turning the wait for a train into time spent with a laptop. Instead of asking people to come to a destination, it was placed on a path they were already walking — 120,000 people tried an LG gram.",
-      "Planning and proposing the detailed pop-up operation, and copywriting for outdoor installations and the making-of film. Also handled communication with KORAIL Retail and the pop-up operator.",
+      "A pop-up only reaches people who already intend to visit.\nWorking with KORAIL, the store opened inside Busan Station for a month, turning the wait for a train into time spent with a laptop.\nInstead of asking people to come to a destination, it was placed on a path they were already walking —\n120,000 people tried an LG gram.",
+      "Planning and proposing the detailed pop-up operation, and copywriting for outdoor installations and the making-of film.\nAlso handled communication with KORAIL Retail and the pop-up operator.",
     ],
     gallery: [
       {
@@ -1112,11 +1112,11 @@ const fallbackWorks: Work[] = [
       "gramGO AI 상상여행사, AI를 활용한 BTL 캠페인. 신제품 LG 그램 프로의 고성능을 체험시키기 위해 음악, 이미지, 대화형 3종의 생성형 AI를 해치와 함께 여행을 떠나듯 경험해보는 여행사 컨셉의 체험형 캠페인 진행",
     description: [
       "LG 그램 BTL 캠페인 〈그램고 AI 상상여행사〉",
-      "여름휴가 시즌에 맞춰 그램 프로의 AI 성능을 여행사라는 형식에 담았다. 서울시 캐릭터 해치와 소울프렌즈를 안내자로 두고, 취향에 맞는 여행지를 추천받아 티켓을 발급하고 가사를 입력해 목적지에 어울리는 음원을 만들고 포토부스 사진의 배경을 AI로 편집해 키링으로 가져가는 동선을 설계했다. 성능을 설명하는 대신 하루치 체험으로 번역한 셈이다.",
-      "팝업 상세 운영안 기획과 제안, 옥외 설치물과 메이킹 필름 카피라이팅을 맡았다. 서울시 관계자, 팝업 진행사와의 커뮤니케이션도 함께 진행했다.",
+      "여름휴가 시즌에 맞춰 그램 프로의 AI 성능을 여행사라는 형식에 담았다.\n서울시 캐릭터 해치와 소울프렌즈를 안내자로 두고,\n취향에 맞는 여행지를 추천받아 티켓을 발급하고 가사를 입력해 목적지에 어울리는 음원을 만들고 포토부스 사진의 배경을 AI로 편집해 키링으로 가져가는 동선을 설계했다.\n성능을 설명하는 대신 하루치 체험으로 번역한 셈이다.",
+      "팝업 상세 운영안 기획과 제안,\n옥외 설치물과 메이킹 필름 카피라이팅을 맡았다.\n서울시 관계자,\n팝업 진행사와의 커뮤니케이션도 함께 진행했다.",
       "LG gram BTL campaign 〈gramGO AI Imaginary Travel Agency〉",
-      "For the summer holiday season, the gram Pro's AI performance was housed inside the form of a travel agency. With Seoul's city characters Haechi and Soul Friends as guides, visitors were recommended a destination and issued a ticket, wrote lyrics to generate a song suited to that city, and edited a photo booth image with AI to take home as a keyring. Performance wasn't explained; it was translated into a day of travel.",
-      "Planning and proposing the detailed pop-up operation, and copywriting for outdoor installations and the making-of film. Also handled communication with the Seoul Metropolitan Government and the pop-up operator.",
+      "For the summer holiday season, the gram Pro's AI performance was housed inside the form of a travel agency.\nWith Seoul's city characters Haechi and Soul Friends as guides, visitors were recommended a destination and issued a ticket, wrote lyrics to generate a song suited to that city, and edited a photo booth image with AI to take home as a keyring.\nPerformance wasn't explained;\nit was translated into a day of travel.",
+      "Planning and proposing the detailed pop-up operation, and copywriting for outdoor installations and the making-of film.\nAlso handled communication with the Seoul Metropolitan Government and the pop-up operator.",
     ],
     gallery: [
       {
@@ -1180,11 +1180,11 @@ const fallbackWorks: Work[] = [
       "LG 그램 AI를 활용하는 나만의 VI법을 소개하는 그램VI법 컨텐츠 제작. 대학생과 직장인들을 타겟으로 총 8편 에피소드로 구성. LG 그램 Pro의 핵심 AI 기능들을 다양한 방법으로 소개한다.",
     description: [
       "LG 그램 AI 활용법 컨텐츠 시리즈 〈그램VI법〉",
-      "기능 소개가 아니라 사용 맥락에서 출발했다. 대학생과 직장인이 반복해서 마주치는 상황을 여덟 편으로 나누고, 그램 프로의 AI 기능이 그 상황 안에서 어떻게 쓰이는지를 편마다 다른 방식으로 풀었다.",
-      "영상 제작을 위한 아이데이션과 카피라이팅, 신규 프로그램 개발사 커뮤니케이션을 맡았다. 그램 AI를 효과적으로 활용하기 위한 사용자 안내서도 기획하고 제작했다.",
+      "기능 소개가 아니라 사용 맥락에서 출발했다.\n대학생과 직장인이 반복해서 마주치는 상황을 여덟 편으로 나누고,\n그램 프로의 AI 기능이 그 상황 안에서 어떻게 쓰이는지를 편마다 다른 방식으로 풀었다.",
+      "영상 제작을 위한 아이데이션과 카피라이팅,\n신규 프로그램 개발사 커뮤니케이션을 맡았다.\n그램 AI를 효과적으로 활용하기 위한 사용자 안내서도 기획하고 제작했다.",
       "〈gram VI-beop〉, a content series on using LG gram's AI",
-      "The starting point was context, not a feature list. Eight episodes were built around situations students and office workers meet again and again, each showing the gram Pro's AI at work inside one of them, in a different way.",
-      "Ideation and copywriting for the films, and communication with the developer of the new gram program. Also planned and produced a user guide for making better use of gram AI.",
+      "The starting point was context, not a feature list.\nEight episodes were built around situations students and office workers meet again and again, each showing the gram Pro's AI at work inside one of them, in a different way.",
+      "Ideation and copywriting for the films, and communication with the developer of the new gram program.\nAlso planned and produced a user guide for making better use of gram AI.",
     ],
     gallery: [
       {
@@ -1284,10 +1284,10 @@ const fallbackWorks: Work[] = [
       "새롭게 출시한 LG 그램 Pro의 혁신적 성능을 숏폼형 클래스로 소개하는 'LG 그램VI법 클래스' 컨텐츠 제작. 구독자 20.7만의 테크 유튜버 '잇츠 오케이 민성'이 새로워진 LG 그램 Pro의 CPU 특징, 멀티태스킹 비법, 4K 영상 편집법을 누구나 이해하기 쉽도록 재미있게 소개하다.",
     description: [
       "〈그램VI법〉에서 이어진 숏폼 클래스",
-      "시리즈의 포맷을 강의로 바꿔 정보 밀도를 올렸다. 테크 유튜버 '잇츠 오케이 민성'이 그램 프로의 CPU 특성, 멀티태스킹, 4K 편집을 짧은 호흡으로 나눠 다루면서 사양표로는 전달되지 않는 체감 차이를 화면으로 보여줬다.",
-      "클래스 인플루언서 서칭과 제안, 영상 제작을 위한 아이데이션과 카피라이팅을 맡았다.",
+      "시리즈의 포맷을 강의로 바꿔 정보 밀도를 올렸다.\n테크 유튜버 '잇츠 오케이 민성'이 그램 프로의 CPU 특성,\n멀티태스킹,\n4K 편집을 짧은 호흡으로 나눠 다루면서 사양표로는 전달되지 않는 체감 차이를 화면으로 보여줬다.",
+      "클래스 인플루언서 서칭과 제안,\n영상 제작을 위한 아이데이션과 카피라이팅을 맡았다.",
       "A short-form class series continuing from 〈gram VI-beop〉",
-      "Shifting the format to lessons raised the density of information. Tech YouTuber \"It's OK Minseong\" took the gram Pro's CPU characteristics, multitasking, and 4K editing in short segments, showing on screen the difference a spec sheet can't carry.",
+      "Shifting the format to lessons raised the density of information.\nTech YouTuber \"It's OK Minseong\" took the gram Pro's CPU characteristics, multitasking, and 4K editing in short segments, showing on screen the difference a spec sheet can't carry.",
       "Sourcing and proposing the class influencer, plus ideation and copywriting for the films.",
     ],
     gallery: [
@@ -1359,10 +1359,10 @@ const fallbackWorks: Work[] = [
       "G-Shock 아이코닉 스타일 시리즈를 소개하는 콘텐츠 제작. 아이돌 그룹 엔플라잉의 리더이자, '선재 업고 튀어'에서 배우로 다양한 분야에 도전하며 바쁜 일정을 소화하는 이승협. G-Shock과 함께하는 그의 일상을 담아내며 오랜 시간 사랑받은 아이코닉 스타일처럼 시대를 뛰어넘어 사랑받는 아티스트가 되기 위해 노력하는 그만의 스토리로 도전 그리고 스타일에 대한 영감을 주다.",
     description: [
       "G-SHOCK 아이코닉 스타일 시리즈 컨텐츠",
-      "엔플라잉의 리더이면서 배우로 활동 반경을 넓히고 있는 이승협의 일상을 따라갔다. 오래도록 형태를 바꾸지 않고 사랑받아온 시계처럼, 그 역시 오래 기억되는 아티스트가 되기 위해 자기 자리를 지키고 있었다.",
+      "엔플라잉의 리더이면서 배우로 활동 반경을 넓히고 있는 이승협의 일상을 따라갔다.\n오래도록 형태를 바꾸지 않고 사랑받아온 시계처럼,\n그 역시 오래 기억되는 아티스트가 되기 위해 자기 자리를 지키고 있었다.",
       "영상 제작을 위한 아이데이션과 카피라이팅을 맡았다.",
       "G-SHOCK Iconic Styles series content",
-      "The film followed a day with Lee Seung-hyub, leader of N.Flying and now widening his range as an actor. Like a watch that has kept both its shape and its following for decades, he was holding his own ground, working to become an artist people remember for a long time.",
+      "The film followed a day with Lee Seung-hyub, leader of N.Flying and now widening his range as an actor.\nLike a watch that has kept both its shape and its following for decades, he was holding his own ground, working to become an artist people remember for a long time.",
       "Ideation and copywriting for the film.",
     ],
     gallery: [
@@ -1421,10 +1421,10 @@ const fallbackWorks: Work[] = [
       "아워홈 급식 블루리본 캠페인 '급이 다른 미식'. 급식이 미식의 기준을 넘을 수 있을까? 그 답을 증명하기 위한 아워홈 급식 연구소의 '급이 다른 미식' 캠페인 런칭. 급식 최초 블루리본 도전 과정을 담은 비하인드 영상부터 급식 셰프 5인의 메뉴 개발 과정 소개, 캠페인 사이트 운영과 리뷰 이벤트 진행.",
     description: [
       "아워홈 급식 블루리본 캠페인 〈급이 다른 미식〉",
-      "급식이 미식의 기준을 넘을 수 있을까. 아워홈 급식연구소의 급식 최초 블루리본 도전을 캠페인의 출발점으로 잡고, 그 과정을 비하인드 영상으로 기록했다. 셰프 5인이 블루리본 심사를 통과한 메뉴는 캠페인 사이트에 순차적으로 공개했고, 실제로 먹어본 고객들이 시식평을 남기는 온라인 이벤트로 이어갔다.",
-      "캠페인 사이트 스토리보드 기획과 웹 개발사 핸들링, 리뷰 이벤트 관리, 런칭 바이럴 컨텐츠 제작 전반을 맡았다.",
+      "급식이 미식의 기준을 넘을 수 있을까.\n아워홈 급식연구소의 급식 최초 블루리본 도전을 캠페인의 출발점으로 잡고,\n그 과정을 비하인드 영상으로 기록했다.\n셰프 5인이 블루리본 심사를 통과한 메뉴는 캠페인 사이트에 순차적으로 공개했고,\n실제로 먹어본 고객들이 시식평을 남기는 온라인 이벤트로 이어갔다.",
+      "캠페인 사이트 스토리보드 기획과 웹 개발사 핸들링,\n리뷰 이벤트 관리,\n런칭 바이럴 컨텐츠 제작 전반을 맡았다.",
       "OURHOME catering Blue Ribbon campaign 〈A Different Class of Taste〉",
-      "Can catering food cross the standard of fine dining? The campaign began from the OURHOME Food Research Center's Blue Ribbon attempt — a first for catering — and recorded the process on film. Menus that passed the five chefs' Blue Ribbon review were revealed on the campaign site one by one, leading into an online event where customers who tried the food left their own reviews.",
+      "Can catering food cross the standard of fine dining? The campaign began from the OURHOME Food Research Center's Blue Ribbon attempt —\na first for catering —\nand recorded the process on film.\nMenus that passed the five chefs' Blue Ribbon review were revealed on the campaign site one by one, leading into an online event where customers who tried the food left their own reviews.",
       "Storyboarding the campaign site and directing the web development partner, managing the review event, and overall production of the launch viral content.",
     ],
     gallery: [
@@ -1489,11 +1489,11 @@ const fallbackWorks: Work[] = [
       "CJ제일제당의 글로벌 K-푸드 브랜드 비비고와 세븐틴이 함께한 글로벌 캠페인. 비비고 글로벌 SNS 채널 @bibigo.global의 인스타그램 및 X 콘텐츠를 기획·제작했다.",
     description: [
       "비비고 × 세븐틴 글로벌 캠페인 소셜 컨텐츠",
-      "브랜드 필름과 마이크로사이트 bibigo HOUSE에서 나온 비주얼 에셋을 소셜의 호흡에 맞게 다시 편집했다. @bibigo.global 인스타그램과 X에서 캠페인 메시지가 채널마다 흩어지지 않도록 톤을 하나로 유지했다.",
-      "비주얼 에셋을 활용한 소셜 컨텐츠 기획과 제안, 국문 카피라이팅을 맡았다. 인스타그램과 X 계정 운영, 실시간 고객 반응 모니터링도 함께 진행했다.",
+      "브랜드 필름과 마이크로사이트 bibigo HOUSE에서 나온 비주얼 에셋을 소셜의 호흡에 맞게 다시 편집했다.\n@bibigo.global 인스타그램과 X에서 캠페인 메시지가 채널마다 흩어지지 않도록 톤을 하나로 유지했다.",
+      "비주얼 에셋을 활용한 소셜 컨텐츠 기획과 제안,\n국문 카피라이팅을 맡았다.\n인스타그램과 X 계정 운영,\n실시간 고객 반응 모니터링도 함께 진행했다.",
       "Social content for the bibigo × SEVENTEEN global campaign",
-      "Visual assets from the brand film and the bibigo HOUSE microsite were re-edited to the rhythm of social. Across @bibigo.global on Instagram and X, the campaign message was held in a single tone rather than scattering channel by channel.",
-      "Planning and proposing social content built on the campaign's visual assets, and Korean copywriting. Also ran the Instagram and X accounts and monitored audience response in real time.",
+      "Visual assets from the brand film and the bibigo HOUSE microsite were re-edited to the rhythm of social.\nAcross @bibigo.global on Instagram and X, the campaign message was held in a single tone rather than scattering channel by channel.",
+      "Planning and proposing social content built on the campaign's visual assets, and Korean copywriting.\nAlso ran the Instagram and X accounts and monitored audience response in real time.",
     ],
     links: [
       { label: "bibigo.global @INSTAGRAM", url: "https://www.instagram.com/bibigo.global/" },
@@ -1512,10 +1512,10 @@ const fallbackWorks: Work[] = [
       "CJ제일제당의 글로벌 K-푸드 브랜드 비비고와 세븐틴이 함께한 글로벌 캠페인의 후속 콘텐츠 〈비비고 규스토랑〉. 세븐틴 민규가 비비고 제품을 활용한 메뉴와 조리법을 소개하는 글로벌 SNS 콘텐츠를 기획·제작했다.",
     description: [
       "비비고 × 세븐틴 글로벌 캠페인 컨텐츠 〈비비고 규스토랑〉",
-      "캠페인이 이어지는 동안, 민규가 비비고 제품으로 직접 메뉴를 만드는 컨텐츠로 축을 하나 더 세웠다. CJ더마켓 라이브커머스 공개 일정에 맞춰 레시피와 비하인드, 밸런스 게임으로 포맷을 나눠, 글로벌 팬들이 여러 번 다시 보고 따라 해볼 만한 컨텐츠로 구성했다.",
+      "캠페인이 이어지는 동안,\n민규가 비비고 제품으로 직접 메뉴를 만드는 컨텐츠로 축을 하나 더 세웠다.\nCJ더마켓 라이브커머스 공개 일정에 맞춰 레시피와 비하인드,\n밸런스 게임으로 포맷을 나눠,\n글로벌 팬들이 여러 번 다시 보고 따라 해볼 만한 컨텐츠로 구성했다.",
       "영상 제작을 위한 카피라이팅과 신규 레시피 개발을 위한 푸드스타일리스트 커뮤니케이션을 맡았다.",
       "〈bibigo Gyustaurant〉, content from the bibigo × SEVENTEEN global campaign",
-      "While the campaign was running, a second axis was added: Mingyu cooking his own menu with bibigo products. Timed to the CJ TheMarket live commerce release, the content was divided into recipes, behind-the-scenes, and balance games — built to be watched more than once and cooked along with.",
+      "While the campaign was running, a second axis was added:\nMingyu cooking his own menu with bibigo products.\nTimed to the CJ TheMarket live commerce release, the content was divided into recipes, behind-the-scenes, and balance games —\nbuilt to be watched more than once and cooked along with.",
       "Copywriting for the films, and communication with the food stylist developing the new recipes.",
     ],
     gallery: [
